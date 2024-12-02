@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="pMNfIZKFtsR_DR64oXVLyD1M0DJ4djxj5BtnAlmEUGA" />
+<title>닌자트레이더(NinjaTrader) - 유니렌코(UniRenko) & 하이킨아시(HeikinAshi) 다운로드</title>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydownn="return false">
+<hr />
+<p><h3>닌자트레이더(NinjaTrader) - 유니렌코(UniRenko) & 하이킨아시(HeikinAshi) 다운로드</h3></p>
+<hr />
+<p>유니렌코(UniRenko) & 하이킨아시(HeikinAshi) 시스템은 알음알음으로 전해지던 매매차트인데<br />
+언제부터인가 아래 "Most Popular"에서 내려갈줄 모르고 있다</p>
+<p>유니렌코(UniRenko) 차트는 닌자트레이더(NinjaTrader)에서만 가능하다<br />
+작은 Whipsaw를 걸러주기 때문에 매매에 큰 무기가 된다</p>
+<p>설치는 "제어센터 -> 도구 -> 불러오기 -> NinjaScript 애드온"에서 다운받은 zip 파일을 불러오면 된다.</p>
+<p><a href="https://ninjatraderecosystem.com/user-app-share-results/?fwp_usa_search=열려라참깨">https://ninjatraderecosystem.com/user-app-share-results/?fwp_usa_search=열려라참깨</a></p>
+<p><img src="ninjatraderecosystem.com.jpeg" border="0"></p>
+</body>
+<script>
+// Open external links in new tabs and open internal links in current tabs
+var links = document.getElementsByTagName("a");
+var thisHref = window.location.hostname;
+for (var i=0; i<links.length; i++) {
+    templink = links[i].href;
+	a = getLocation(templink);
+	
+    if (a.hostname == thisHref){ // if the link is same with current page URL
+         links[i].removeAttribute("target");
+    }
+	
+	else {
+		links[i].target='_blank'; // if the link is same with current page URL
+	}
+}
+
+function getLocation(href) {
+    var location = document.createElement("a");
+    location.href = href;
+    if (location.host == "") {
+      location.href = location.href;
+    }
+    return location;
+};
+</script>
+</html>
