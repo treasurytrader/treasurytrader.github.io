@@ -1,5 +1,40 @@
 <html>
-	<body>
-		Hello! This is the first page!
-	</body>
+ <body>
+  Hello! This is the first page!
+  <hr />
+  <div style="position: absolute; right: 10px; bottom: 10px;">
+  <a href="https://t.me/treasurytrader">
+  <img src="telegram.png" width="60" height="60">
+  </a>
+  </div>
+ </body>
+
+<script>
+// Open external links in new tabs and open internal links in current tabs
+var links    = document.getElementsByTagName("a");
+var thisHref = window.location.hostname;
+
+for(var i = 0; i < links.length; i++) {
+
+   templink = links[i].href;
+   a        = getLocation(templink);
+ 
+   if (a.hostname == thisHref) { // if the link is same with current page URL
+      links[i].removeAttribute("target");
+   } else {
+      links[i].target='_blank'; // if the link is same with current page URL
+   }
+}
+
+function getLocation(href) {
+
+   var location      = document.createElement("a");
+       location.href = href;
+
+   if (location.host == "") {
+      location.href = location.href;
+   }
+   return location;
+};
+</script>
 </html>
