@@ -1,14 +1,25 @@
-<html>
- <body>
-  Hello! This is the first page!
-  <hr />
-  <div style="position: absolute; right: 10px; bottom: 10px;">
-  <a href="https://t.me/treasurytrader">
-  <img src="telegram.png" width="60" height="60">
-  </a>
-  </div>
- </body>
-
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>해외선물</title>
+<style>
+#live-chat {
+position: fixed;
+bottom: 20px;
+right: 20px;
+}
+</style>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydownn="return false">
+<br />
+<!-- 상단 -->
+<a href="선물매매에 앞서 고려해야 할 몇 가지.html">선물매매에 앞서 고려해야 할 몇 가지</a>
+<!-- 하단 -->
+<br />
+<div id="live-chat">
+<a href="https://t.me/treasurytrader"><img src="telegram.png" width="60" height="60"></a>
+</div>
 <script>
 // Open external links in new tabs and open internal links in current tabs
 var links    = document.getElementsByTagName("a");
@@ -37,4 +48,5 @@ function getLocation(href) {
    return location;
 };
 </script>
+</body>
 </html>
