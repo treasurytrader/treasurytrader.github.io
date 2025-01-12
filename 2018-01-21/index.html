@@ -63,36 +63,5 @@ right: 20px;
 채권이 인기가 없어 잘 안팔리면(가격이 당연 떨어질거고) 그럴땐 이자를 높게 줘야 매수하는 사람들이 생길테니 가격이 떨어질수록 지급하는 채권이자율은 높아진다고 기억하면 간단함<br>
 <!-- 하단 -->
 <p><hr /></p>
-<div id="live-chat">
-<a href="https://t.me/treasurytrader"><img src="../t_logo_2x.png" width="50" height="50"></a>
-</div>
-<script>
-// Open external links in new tabs and open internal links in current tabs
-var links    = document.getElementsByTagName("a");
-var thisHref = window.location.hostname;
-
-for(var i = 0; i < links.length; i++) {
-
-   templink = links[i].href;
-   a        = getLocation(templink);
- 
-   if (a.hostname == thisHref) { // if the link is same with current page URL
-      links[i].removeAttribute("target");
-   } else {
-      links[i].target='_blank'; // if the link is same with current page URL
-   }
-}
-
-function getLocation(href) {
-
-   var location      = document.createElement("a");
-       location.href = href;
-
-   if (location.host == "") {
-      location.href = location.href;
-   }
-   return location;
-};
-</script>
 </body>
 </html>
