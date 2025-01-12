@@ -73,36 +73,5 @@ right: 20px;
 원래 남들 안하는거 해야 돈버는거임<br>
 <!-- 하단 -->
 <p><hr /></p>
-<div id="live-chat">
-<a href="https://t.me/treasurytrader"><img src="../t_logo_2x.png" width="50" height="50"></a>
-</div>
-<script>
-// Open external links in new tabs and open internal links in current tabs
-var links    = document.getElementsByTagName("a");
-var thisHref = window.location.hostname;
-
-for(var i = 0; i < links.length; i++) {
-
-   templink = links[i].href;
-   a        = getLocation(templink);
- 
-   if (a.hostname == thisHref) { // if the link is same with current page URL
-      links[i].removeAttribute("target");
-   } else {
-      links[i].target='_blank'; // if the link is same with current page URL
-   }
-}
-
-function getLocation(href) {
-
-   var location      = document.createElement("a");
-       location.href = href;
-
-   if (location.host == "") {
-      location.href = location.href;
-   }
-   return location;
-};
-</script>
 </body>
 </html>
