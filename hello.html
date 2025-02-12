@@ -3,34 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <title>해외선물</title>
-<style>
-body {
-background-color: #e9e9e9;
-}
-pre {
-white-space: pre-wrap;      /* CSS3 */
-white-space: -moz-pre-wrap; /* Firefox */
-white-space: -o-pre-wrap;   /* Opera 7 */
-word-wrap: break-word;      /* Internet Explorer 5.5+ */
-}
-img {
-max-width: 100%;
-height: auto;
-display: block;
-}
-#live-chat {
-position: fixed;
-bottom: 20px;
-right: 20px;
-}
-</style>
+<link rel="stylesheet" href="style.css" />
 </head>
+<script type="text/javascript" src="top.js"></script>
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydownn="return false">
-<p>
-<h3><a href="/">해외선물</a></h3>
-<hr />
-</p>
+<p><h3><a href="/">해외선물</a></h3><hr /></p>
 <!-- 상단 -->
+채권선물 설정:<br />
+틱차트 : 89, 233, 이평선 : 34, 89<br />
+틱차트 : 444, 이평선 : 20<br />
+틱차트 : 2100, 5912, 이평선 : 10<br />
+유니렌코 : 1-1-4, 1-1-2, 이평선 20<br />
+보조지표 : 피봇 포인트, VWAP<br />
+MACD 사용할때 9, 27, 81<br />
+<p><hr /></p>
 <p><ul><li>
 <a href="2018-01-21/">국채가격과 이자율에 대한 이해</a>
 </li></ul></p>
@@ -92,36 +78,7 @@ right: 20px;
 </div>
 <!-- 하단 -->
 <p><hr /></p>
-<p>
-구하면 얻게 되고 버리면 잃게 된다.
-</p>
-<script>
-// Open external links in new tabs and open internal links in current tabs
-var links    = document.getElementsByTagName("a");
-var thisHref = window.location.hostname;
-
-for(var i = 0; i < links.length; i++) {
-
-   templink = links[i].href;
-   a        = getLocation(templink);
- 
-   if (a.hostname == thisHref) { // if the link is same with current page URL
-      links[i].removeAttribute("target");
-   } else {
-      links[i].target='_blank'; // if the link is same with current page URL
-   }
-}
-
-function getLocation(href) {
-
-   var location      = document.createElement("a");
-       location.href = href;
-
-   if (location.host == "") {
-      location.href = location.href;
-   }
-   return location;
-};
-</script>
+<p>구하면 얻게 되고 버리면 잃게 된다.</p>
 </body>
+<script type="text/javascript" src="bottom.js"></script>
 </html>
