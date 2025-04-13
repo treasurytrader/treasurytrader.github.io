@@ -7,9 +7,13 @@ for(var i = 0; i < links.length; i++) {
    templink = links[i].href;
    a        = getLocation(templink);
  
-   if (a.hostname == thisHref) { // if the link is same with current page URL
+   if (templink.includes(".pdf")) {
+      links[i].target='_blank';
+   }
+   else if (a.hostname == thisHref) { // if the link is same with current page URL
       links[i].removeAttribute("target");
-   } else {
+   }
+   else {
       links[i].target='_blank'; // if the link is same with current page URL
    }
 }
