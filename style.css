@@ -12,9 +12,5 @@ img {
 max-width: 100%;
 height: auto;
 display: block;
-}
-#live-chat {
-position: fixed;
-bottom: 20px;
-right: 20px;
+border: 0;
 }
