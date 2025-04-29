@@ -7,7 +7,7 @@ for(var i = 0; i < links.length; i++) {
    templink = links[i].href;
    a        = getLocation(templink);
  
-   if (templink.includes(".pdf")) {
+   if (templink.includes(".pdf") || templink.includes(".jpg") || templink.includes(".png")) {
       links[i].target='_blank';
    }
    else if (a.hostname == thisHref) { // if the link is same with current page URL
