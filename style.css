@@ -15,3 +15,6 @@ height: auto;
 display: block;
 border: 0;
 }
+li {
+line-height: 200%;
+}
