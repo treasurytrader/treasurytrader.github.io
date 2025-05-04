@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="pMNfIZKFtsR_DR64oXVLyD1M0DJ4djxj5BtnAlmEUGA" />
+<meta name="msvalidate.01" content="6D4ECD4C475A291D0A143857BDBC6511" />
+<meta content='해외선물 닌자트레이더' name='description'/>
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CMPKD2BD1M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CMPKD2BD1M');
+</script>
+<script type="text/javascript" src="head.js"></script>
+<title>해외선물 - 서로 다른 플랫폼간 데이터 전송/공유 도구</title>
+</head>
+<body>
+<!-- <img src="us_treasury_bond_trader.jpg"/> -->
+<p><h3><a href="/">해외선물</a> - 서로 다른 플랫폼간 데이터 전송/공유 도구</h3></p>
+<hr />
+<!-- 상단 -->
+<div>
+  <br />
+</div>
+<div>
+  <a href="Images/SharedVar-Diagram.png"><img src="Images/SharedVar-Diagram.png" /></a>
+</div>
+<div>
+  <br />
+</div>
+<div>
+  데이터베이스(DB)보다 쉽고 간단하고 빠르다
+</div>
+<div>
+  사용법은 홈페이지에 잘 설명되어 있다
+</div>
+<div>
+  무엇보다 공짜다!!!
+</div>
+<div>
+  <br />
+</div>
+<div>
+  한 가지 단점이라면 한글을 사용할 수 없다
+</div>
+<div>
+  (ASCII만 안전하게 사용할 수 있다)
+</div>
+<div>
+  DLL 버전(Ansi/Unicode) 호환성 때문인 듯
+</div>
+<div>해결방법은 BASE64 인코딩/디코딩을 하면 된다</div>
+<div>
+  <br />
+</div>
+<div>
+  다운로드는 구글 아이디로 로그인 후 가능하다
+</div>
+<div>
+  <br />
+</div>
+<div>
+  다운로드 :
+  <a href="https://fx1.net/sharedvar.php">https://fx1.net/sharedvar.php</a>
+</div>
+<div>
+  <br />
+</div>
+<div>
+  혹시라도 회사가 망해서 사라질 경우를 대비해서 구글 드라이브에도 올려 놓는다
+</div>
+<div>
+  여기에는 파이썬으로 작성된 테스트 소스도 포함되어 있다
+</div>
+<div>
+  (궂이 설치파일을 실행할 필요없이 서버파일 하나와 DLL 파일만 복사해서 사용해도 된다)
+</div>
+<div>
+  <br />
+</div>
+<div>
+  다운로드 :
+  <a href="https://drive.google.com/file/d/1vMbFI8xn8_nZQ6qpbRGHq5TurAK3TDYr/view?usp=drive_link">
+    SharedVar_1.2.3.zip
+  </a>
+</div>
+<div>
+  <br />
+</div>
+<div>
+  PS :
+</div>
+<div>
+  Base64 Encode/Decode MQL 버전 (메타트레이더)</div>
+<div>
+  <br />
+</div>
+<!--HTML generated using hilite.me-->
+<div style="overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+//+------------------------------------------------------------------+
+//| Base64Encode.                                                    |
+//+------------------------------------------------------------------+
+/**
+ * Encodes a string using Base64 encoding scheme.
+ * Example:
+ *      Base64Encode("https://twitter.com/");  // "aHR0cHM6Ly90d2l0dGVyLmNvbS8="
+ *      Base64Encode("Привет мир!");  // "0J/RgNC40LLQtdGCINC80LjRgCE="
+ */
+string Base64Encode(string text) {
+   uchar src[], dst[], key[] = {0};
+
+   //--- copy text to source array src[]
+   StringToCharArray(text, src, 0, -1, CP_UTF8);
+   ArrayResize(src, ArraySize(src) - 1);
+
+   //--- encode src[] with BASE64
+   int res = CryptEncode(CRYPT_BASE64, src, key, dst);
+
+   return (res &gt; 0) ? CharArrayToString(dst, 0, -1, CP_ACP) : "";
+}
+//+------------------------------------------------------------------+
+//| Base64Decode.                                                    |
+//+------------------------------------------------------------------+
+/**
+ * Decodes a Base64-encoded string into the original string.
+ * Example:
+ *      Base64Decode("aHR0cHM6Ly90d2l0dGVyLmNvbS8=");  // "https://twitter.com/"
+ *      Base64Decode("0J/RgNC40LLQtdGCINC80LjRgCE=");  // "Привет мир"
+ */
+string Base64Decode(string text) {
+   uchar src[], dst[], key[] = {0};
+
+   //--- copy text to source array src[]
+   StringToCharArray(text, src, 0, -1, CP_ACP);
+   ArrayResize(src, ArraySize(src) - 1);
+
+   //--- decode src[] with BASE64
+   int res = CryptDecode(CRYPT_BASE64, src, key, dst);
+
+   return (res &gt; 0) ? CharArrayToString(dst, 0, -1, CP_UTF8) : "";
+}
+//+------------------------------------------------------------------+
+//|                                                                  |
+//+------------------------------------------------------------------+
+</pre></div>
+<div>
+  <br />
+</div>
+<div>
+  Base64 Encode/Decode C# 버전 (닌자트레이더)</div>
+<div>
+  <br />
+</div>
+<!--HTML generated using hilite.me-->
+<div style="overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+public static string Base64Encode(string plainText) {
+   var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
+   return System.Convert.ToBase64String(plainTextBytes);
+}
+
+public static string Base64Decode(string base64EncodedData) {
+   var base64EncodedBytes = System.Convert.FromBase64String(base64EncodedData);
+   return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
+}
+</pre></div>
+<div>
+  <br />
+</div>
+<!-- 하단 -->
+<hr />
+<p>해외선물과 닌자트레이더</p>
+<div style="bottom: 20px; position: fixed; right: 20px;">
+<a href="https://t.me/treasurytrader"><img height="50" src="t_logo_2x.png" width="50" /></a>
+</div>
+<script type="text/javascript" src="bottom.js"></script>
+</body>
+</html>
