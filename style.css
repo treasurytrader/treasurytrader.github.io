@@ -11,7 +11,7 @@ word-wrap: break-word;      /* Internet Explorer 5.5+ */
 }
 img {
 /* max-width: 100%; */
-max-width: 600px;
+max-width: 640px;
 height: auto;
 display: block;
 border: 0;
