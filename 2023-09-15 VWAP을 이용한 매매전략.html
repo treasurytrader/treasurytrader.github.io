@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="pMNfIZKFtsR_DR64oXVLyD1M0DJ4djxj5BtnAlmEUGA" />
+<meta name="msvalidate.01" content="6D4ECD4C475A291D0A143857BDBC6511" />
+<meta content='해외선물 닌자트레이더' name='description'/>
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CMPKD2BD1M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CMPKD2BD1M');
+</script>
+<script type="text/javascript" src="head.js"></script>
+<title>해외선물 - VWAP을 이용한 매매전략</title>
+</head>
+<body>
+<!-- <img src="us_treasury_bond_trader.jpg"/> -->
+<p><h3><a href="/">해외선물</a> - VWAP을 이용한 매매전략</h3></p>
+<hr />
+<!-- 상단 -->
+<div>
+  VWAP은 일봉 이하에서 사용하는 지표로
+</div>
+<div>
+  차트 설정에 따라 약간의 차이는 나지만(무시하고) 같은 값을 제시한다고 봐도 된다
+</div>
+<div>
+  <br />
+</div>
+<div>100% 완전한 수준의 값을 계산하는 방법도 있지만</div><div>우리가 LME 같은 거래소도 아니고 그 차이가 무시해도 될 정도기 때문에</div>
+<div>
+  궂이 일반적인 환경에서는 별 필요가 없다
+</div>
+<div>
+  <br />
+</div>
+<table cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="text-align: center;">
+        <a href="Images/2023-09-15-2.png"><img src="Images/2023-09-15-2.png" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        각 차트의 VWAP 이격값이 모두 같다
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div>
+  <br />
+</div>
+<div>
+  차트 종류나 기간 설정에 영향을 받지 않고 같은 값을 제시하는 한다는 건
+</div>
+<div>
+  트레이더들이 모두 같은 기준으로 매매한다는 뜻으로 그만큼 신뢰도가 높을 수 밖에 없다
+</div>
+<div>
+  <br />
+</div>
+<div>
+  VWAP의 단점이라면 라인 하나가 전부라서 너무 썰렁하다는 것...
+</div>
+<div>
+  계산 방법이 단순무식하기 때문에 설정하는게 없다
+</div>
+<div>
+  그날 장 시작부터 장이 끝날때까지 거래량과 가격을 누적계산하는게 전부다
+</div>
+<div>
+  <br />
+</div>
+<table cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="text-align: center;">
+        <a href="Images/2023-09-15-1.png"><img src="Images/2023-09-15-1.png" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        흰색 라인이 VWAP ,&nbsp; 파랑/빨강 라인은 표준편차 밴드
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div>
+  <br />
+</div>
+<div>
+  기본적인 사용법은
+</div>
+<div>
+  VWAP 위에서는 위로 매매, 아래에서는 아래로 매매
+</div>
+<div>
+  <br />
+</div>
+<div>
+  표준편차 밴드는 VWAP에서 파생된 여러가지 중 그나마 시장에서 먹히는 방법이다</div>
+<div>
+  장외마켓에서 밴드 이탈은 (VWAP과 이격이 클때) 역매매도 가능하지만 (대부분의 경우 VWAP으로 돌아온다)
+</div>
+<div>
+  정규장에서 밴드 이탈은 오히려 큰 흐름이 나올 수 있으므로 유심히 봐야 된다
+</div>
+<div>
+  <br />
+</div>
+<div>
+  참고로 VWAP은 <a href="https://kr.investing.com/analysis/article-200445044">LME(런던금속거래소)에서 종가 결정</a>에 사용하고 있다
+</div>
+<div>
+  <br />
+</div>
+<div>
+  다운로드 :
+</div>
+<div>
+  <a href="https://forum.ninjatrader.com/forum/ninjatrader-8/platform-technical-support-aa/1131362-looking-for-the-vwap-indicator?p=1131386#post1131386">
+    Vwap8-(Volume-Weighted-Average-Price)
+  </a>
+</div>
+<div>
+  <br />
+</div>
+<div>
+  PS :
+  <br />
+  VWAP에 관한 볼만한 영상
+</div>
+<div>
+  <br />
+</div>
+<div>
+  <iframe allowfullscreen="" class="BLOG_video_class" height="338" src="https://www.youtube.com/embed/fyQYWLttyW0" width="600" youtube-src-id="fyQYWLttyW0">
+  </iframe>
+</div>
+<div>
+  <br />
+</div>
+<!-- 하단 -->
+<hr />
+<p>해외선물과 닌자트레이더 그리고 유니렌코</p>
+<div style="bottom: 20px; position: fixed; right: 20px;">
+<a href="https://t.me/treasurytrader"><img height="50" src="t_logo_2x.png" width="50" /></a>
+</div>
+<script type="text/javascript" src="bottom.js"></script>
+</body>
+</html>
