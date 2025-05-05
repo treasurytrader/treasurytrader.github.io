@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="pMNfIZKFtsR_DR64oXVLyD1M0DJ4djxj5BtnAlmEUGA" />
+<meta name="msvalidate.01" content="6D4ECD4C475A291D0A143857BDBC6511" />
+<meta content='해외선물 닌자트레이더' name='description'/>
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CMPKD2BD1M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CMPKD2BD1M');
+</script>
+<script type="text/javascript" src="head.js"></script>
+<title>해외선물 - 피봇 포인트 계산 수식</title>
+</head>
+<body>
+<!-- <img src="us_treasury_bond_trader.jpg"/> -->
+<p><h3><a href="/">해외선물</a> - 피봇 포인트 계산 수식</h3></p>
+<hr />
+<!-- 상단 -->
+<div>
+  <br />
+</div>
+<div>
+  <a href="Images/pivot-point.jpg"><img src="Images/pivot-point.jpg" /></a>
+</div>
+<div>
+  <br />
+</div>
+<div>
+  한국 HTS는 Res/Sup2 까지만 있고 Res/Sup3 이상은 없다
+</div>
+<div>
+  게다가 수식을 찾아보면 Res/Sup3 부터는 계산이 제각각이다
+</div>
+<div>
+  (반대로 생각하면 Res/Sup2 까지는 매우 신뢰도가 높다는 말이기도 하다)
+</div>
+<div>
+  <br />
+</div>
+<div>
+  닌자트레이더는 (트레이딩뷰 분류방식에 따르면) 클래식 계산법을 사용한다
+</div>
+<div>
+  닌자트레이더 계산식이 표준이다
+</div>
+<div>
+  아래 계산법을 참고하면 Res/Sup3 이상을 쉽게 계산할 수 있다
+</div>
+<h4>
+  Classic
+</h4>
+<div>
+<pre><code>    PP = (HIGHprev + LOWprev + CLOSEprev) / 3
+    R1 = 2 * PP - LOWprev
+    S1 = 2 * PP - HIGHprev
+    R2 = PP + (HIGHprev - LOWprev)
+    S2 = PP - (HIGHprev - LOWprev)
+    R3 = PP + 2 * (HIGHprev - LOWprev)
+    S3 = PP - 2 * (HIGHprev - LOWprev)
+    R4 = PP + 3 * (HIGHprev - LOWprev)
+    S4 = PP - 3 * (HIGHprev - LOWprev)</code></pre>
+</div>
+<div>
+  신뢰도가 높은 지표일수록 파생/변형되는 경우가 많고
+</div>
+<div>
+  특히 트레이딩뷰의 지표들은 표준에서 벗어나는 경향이 있으므로 참고시 유의할 것
+</div>
+<div>
+  <a href="https://www.tradingview.com/support/solutions/43000521824-pivot-points-standard/">
+    https://www.tradingview.com/support/solutions/43000521824-pivot-points-standard
+  </a>
+</div>
+<div>
+  <br />
+</div>
+<!-- 하단 -->
+<hr />
+<p>해외선물과 닌자트레이더</p>
+<div style="bottom: 20px; position: fixed; right: 20px;">
+<a href="https://t.me/treasurytrader"><img height="50" src="t_logo_2x.png" width="50" /></a>
+</div>
+<script type="text/javascript" src="bottom.js"></script>
+</body>
+</html>
