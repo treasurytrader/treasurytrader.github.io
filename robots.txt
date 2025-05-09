@@ -1,3 +1,5 @@
+# User-agent: *
+# Allow: /
 User-agent: Google-Extended
 Disallow: /
 User-agent: GPTBot
@@ -16,7 +18,5 @@ User-agent: anthropic-ai
 Disallow: /
 User-Agent: PerplexityBot
 Disallow: /
-#User-agent: *
-#Allow: /
 
 sitemap: https://treasurytrader.github.io/sitemap.xml
