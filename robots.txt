@@ -16,7 +16,7 @@ User-agent: anthropic-ai
 Disallow: /
 User-Agent: PerplexityBot
 Disallow: /
-User-agent: *
-Allow: /
+#User-agent: *
+#Allow: /
 
 sitemap: https://treasurytrader.github.io/sitemap.xml
