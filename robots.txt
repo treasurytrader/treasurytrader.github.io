@@ -10,12 +10,6 @@ User-agent: BingAI
 Disallow: /
 User-agent: FacebookBot
 Disallow: /
-User-agent: OmgiliBot
-Disallow: /
-User-agent: anthropic-ai
-Disallow: /
-User-Agent: PerplexityBot
-Disallow: /
 User-agent: *
 Allow: /
 
