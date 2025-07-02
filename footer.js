@@ -16,7 +16,7 @@ $(document).ready(function(){
    const p1 = document.createElement('p');
    p1.appendChild(h3);
 
-   const div1 = document.getElementById('top');
+   const div1 = document.getElementById('header');
    div1.appendChild(p1);
 })();
 
