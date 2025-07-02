@@ -1,3 +1,13 @@
+(function() {
+    const my_js  = document.createElement('script');
+    my_js.type   = 'text/javascript';
+    my_js.async  = true;
+    my_js.src    = 'https://code.jquery.com/jquery-3.7.1.min.js';
+    // my_js.onload = function () {if(typeof my_example_init == "function"){my_example_init();} };
+    my_js.onload = function () {};
+    document.getElementsByTagName('head')[0].appendChild(my_js);
+})();
+
 var meta = document.createElement('meta');
 meta.name = "description";
 meta.content = "해외선물과 닌자트레이더에 관한 것들";
