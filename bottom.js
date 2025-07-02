@@ -20,7 +20,10 @@ const div1 = document.getElementById('top');
 div1.appendChild(p1);
 
 // <p>해외선물과 닌자트레이더에 관한 것들<!-- <a href="https://hits.sh/treasurytrader.github.io/"> --><img alt="Hits" src="https://hits.sh/treasurytrader.github.io.svg?style=flat-square" align="right" /><!-- </a> --></p>
-
+$(document).ready(function(){
+    $("#bottom").load("bottom.html");
+});
+/*
 const p2 = document.createElement('p');
 p2.append('해외선물과 닌자트레이더에 관한 것들');
 
@@ -54,6 +57,7 @@ div.appendChild(link);
 const div2 = document.getElementById('bottom');
 div2.appendChild(p2);
 div2.appendChild(div);
+*/
 /*
 // 오른쪽 클릭 방지
 document.oncontextmenu = function() {
