@@ -154,6 +154,14 @@ public static string Base64Decode(string base64EncodedData) {
 <!-- 하단 -->
 <hr />
 <div id = "bottom"></div>
-<script src="bottom.js"></script>
+<script src="jquery-3.7.1.min.js"></script> 
+
+<script type="text/javascript">   
+
+$(document).ready( function() { 
+$("#bottom").load("bottom.html");  // 원하는 파일 경로를 삽입하면 된다
+}); 
+
+</script>
 </body>
 </html>
