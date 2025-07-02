@@ -1,4 +1,5 @@
-(function() {
+/*
+//(function() {
    const js1  = document.createElement('script');
    js1.type   = 'text/javascript';
    js1.async  = true;
@@ -6,8 +7,8 @@
    // js1.onload = function () {if(typeof my_example_init == "function"){my_example_init();} };
    js1.onload = function () {};
    document.getElementsByTagName('head')[0].appendChild(js1);
-})();
-
+//})();
+*/
 (function() {
    const meta = document.createElement('meta');
    meta.name = "description";
