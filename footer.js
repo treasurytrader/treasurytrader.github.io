@@ -1,3 +1,19 @@
+/*
+const a1 = document.createElement('a');
+a1.setAttribute("href", "index.html");
+a1.append("해외선물");
+
+const h3 = document.createElement('h3');
+h3.appendChild(a1);
+h3.append(" - " + document.title);
+
+const p1 = document.createElement('p');
+p1.appendChild(h3);
+
+const div1 = document.getElementById('top');
+div1.appendChild(p1);
+*/
+
 $(document).ready(function(){
     $("#header").load("header.html");
     $("#footer").load("footer.html");
