@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css" />
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
 <script src="head.js"></script>
 </head>
 <body>
@@ -154,14 +155,6 @@ public static string Base64Decode(string base64EncodedData) {
 <!-- 하단 -->
 <hr />
 <div id = "bottom"></div>
-<script src="jquery-3.7.1.min.js"></script> 
-
-<script type="text/javascript">   
-
-$(document).ready( function() { 
-$("#bottom").load("bottom.html");  // 원하는 파일 경로를 삽입하면 된다
-}); 
-
-</script>
+<script src="bottom.js"></script>
 </body>
 </html>
