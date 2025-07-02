@@ -20,15 +20,6 @@ const div1 = document.getElementById('top');
 div1.appendChild(p1);
 
 // <p>해외선물과 닌자트레이더에 관한 것들<!-- <a href="https://hits.sh/treasurytrader.github.io/"> --><img alt="Hits" src="https://hits.sh/treasurytrader.github.io.svg?style=flat-square" align="right" /><!-- </a> --></p>
-async function fetchHtmlAsText(url) {
-    return await (await fetch(url)).text();
-}
-
-async function importPage(target) {
-    document.querySelector('#' + target).innerHTML = await fetchHtmlAsText(target + '.html');
-}
-
-importPage("bottom");
 
 const p2 = document.createElement('p');
 p2.append('해외선물과 닌자트레이더에 관한 것들');
