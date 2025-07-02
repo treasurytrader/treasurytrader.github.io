@@ -4,6 +4,7 @@ $(document).ready(function(){
 });
 
 // <p><h3><a href="/">해외선물</a> - 서로 다른 플랫폼간 데이터 전송/공유 도구</h3></p>
+/*
 (function() {
    const a1 = document.createElement('a');
    a1.setAttribute("href", "index.html");
@@ -19,7 +20,7 @@ $(document).ready(function(){
    const div1 = document.getElementById('header');
    div1.appendChild(p1);
 })();
-
+*/
 /*
 // 오른쪽 클릭 방지
 document.oncontextmenu = function() {
