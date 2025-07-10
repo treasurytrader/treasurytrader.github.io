@@ -1,5 +1,12 @@
 (function() {
    const meta = document.createElement('meta');
+   meta.name = "robots";
+   meta.content = "noindex,nofollow";
+   document.getElementsByTagName('head')[0].appendChild(meta);
+})();
+
+(function() {
+   const meta = document.createElement('meta');
    meta.name = "description";
    meta.content = "해외선물과 닌자트레이더에 관한 것들";
    document.getElementsByTagName('head')[0].appendChild(meta);
