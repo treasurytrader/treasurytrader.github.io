@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css" />
+<script src="jquery.js"></script>
+<script src="header.js"></script>
+</head>
+<body>
+<div id="header"></div>
+<!-- 상단 -->
+<p>
+<div>포스트에 소스 코드 삽입 샘플</div>
+<!-- 소스 코드 -->
+<div style="overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+&lt;div style="overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"&gt;
+&lt;pre style="margin: 0; line-height: 125%"&gt;
+print hello world!
+&lt;/pre&gt;&lt;/div&gt;
+</pre></div>
+</p>
+<p>
+<div>이미지 크기 자동 조정. 포스트에 반드시 원본 사이즈로 설정해야 한다</div>
+<!-- 소스 코드 -->
+<div style="overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+테마 -&gt; 맞춤설정 -&gt; 고급 -&gt; CSS 추가
+
+.post-body img {
+max-width: 100%;
+max-height: auto;
+display: block;
+margin: auto;
+}
+</pre></div>
+</p>
+<p>
+<div>HTML1 : 복사 방해 밎 링크 새창에서 열기. HTML 하단에 위치한다</div>
+<!-- 소스 코드 -->
+<div style="overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+&lt;script&gt;
+/*
+// 오른쪽 클릭 방지
+document.oncontextmenu = function() {
+    return false;
+}
+
+// 드래그 방지
+var omitformtags = ["input", "textarea", "select"]
+omitformtags = omitformtags.join("|")
+
+function disableselect(e) {
+    if (omitformtags.indexOf(e.target.tagName.toLowerCase()) == -1)
+        return false
+}
+
+function reEnable() {
+    return true
+}
+
+if (typeof document.onselectstart != "undefined")
+    document.onselectstart = new Function("return false")
+else {
+    document.onmousedown = disableselect
+    document.onmouseup = reEnable
+}
+*/
+// Open external links in new tabs and open internal links in current tabs
+var links    = document.getElementsByTagName("a");
+var thisHref = window.location.hostname;
+
+for(var i = 0; i &lt; links.length; i++) {
+
+   templink = links[i].href;
+   a        = getLocation(templink);
+ 
+   if (a.hostname == thisHref) { // if the link is same with current page URL
+      links[i].removeAttribute("target");
+   } else {
+      links[i].target='_blank'; // if the link is same with current page URL
+   }
+}
+
+function getLocation(href) {
+
+   var location      = document.createElement("a");
+       location.href = href;
+
+   if (location.host == "") {
+      location.href = location.href;
+   }
+   return location;
+};
+&lt;/script&gt;
+</pre></div>
+</p>
+<p>
+<div>HTML2 : 우측 하단에 고정되는 텔레그램 링크. body 하단에 위치한다</div>
+<!-- 소스 코드 -->
+<div style="overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+&lt;div style="bottom: 20px; position: fixed; right: 20px;"&gt;
+&lt;a href="https://t.me/treasurytrader"&gt;
+&lt;img height="50" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiN0A77YfL4lItIdQLORXdoKWgultJpj1hAjJDK9bThlSUbCbaTO09st1qjWlUq6xAUhDyEtS0uhUhBNZWC7LOJKAzhIuXlajVHuxSDjttXuEgH2B6__1DIZOuWloBTFRF0e5oo_HcaAyQnWFbWnbvI95ZyzOIivG4W58OAf48E2CcRdk/s1600/t_logo_2x.png" width="50" /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+</pre></div>
+</p>
+<p>
+<div>HTML1 추가 : 구글 블로그(blogger.com) 하단 페이지 카운터</div>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpl3060txeUEcHBRh20Bfpujca_9_uos2WaZ_9VhWd_ywJOzuvioBeIGHRN02SoAjexCKCp3uXoE5rveA6bVIkSUGlnSI3A84VVgbaHxQi4CgDgxeTMmizA4ZdJhXjxuKIs6zbUKoGxhzoIlYxDhBE7ItELDhv2gsyaaqM8UlWnNGCA5cMHzGHLrRfLVmf/s1600/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202025-05-27%20041215.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="402" data-original-width="819" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpl3060txeUEcHBRh20Bfpujca_9_uos2WaZ_9VhWd_ywJOzuvioBeIGHRN02SoAjexCKCp3uXoE5rveA6bVIkSUGlnSI3A84VVgbaHxQi4CgDgxeTMmizA4ZdJhXjxuKIs6zbUKoGxhzoIlYxDhBE7ItELDhv2gsyaaqM8UlWnNGCA5cMHzGHLrRfLVmf/s1600/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202025-05-27%20041215.png"/></a></div>
+<div>1. "테마 -&gt; 맞춤설정 -&gt; 고급 -&gt; CSS 추가"에 스타일 내용 추가</div>
+<div>(&lt;style&gt; 태그는 포함하지 않는다)</div>
+<div>2. 레이아웃 -&gt; 가젯 추가 -&gt; HTML/자바스크립트" 하단에 추가하고 자바스크립트를 복사해 넣는다</div>
+<div>(&lt;script&gt; 태그가 포함되어야 한다)</div>
+<div></div>
+<div>3. 블로그 "설정 -&gt; 기본 페이지의 최대 게시물 수"와 자바스크립트의 "perPage = 7"이 같아야 한다</div>
+<br />
+<!-- 소스 코드 -->
+<div style="overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+&lt;style type='text/css'&gt;
+#Attribution1 {
+  display:none
+}
+#blog-pager {
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align:center;
+  overflow:hidden;
+}
+.blog-pager {
+  background:none;
+}
+.displaypageNum a,.showpage a,.pagecurrent {
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 8px;
+  margin-right:5px;
+  color:#555;
+  background:#e7e7e7;
+  border:1px solid #ccc;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+}
+.displaypageNum a:hover,.showpage a:hover,.pagecurrent {
+  background:#edf4ff;
+  text-decoration:none;
+  color:#555;
+}
+#blog-pager .pagecurrent {
+  font-weight:bold;
+  color:#777;
+  background:#fff
+}
+.showpageOf {
+  background:#e7e7e7;
+  color:#555;
+  font-size:13px;
+  font-weight:bold;
+  margin-right:5px;
+  border:1px solid #ccc;
+  padding:6px 8px;
+  -webkit-border-radius:3px;
+}
+#blog-pager .pages {
+  border:1px solid #ccc;
+}
+&lt;/style&gt;
+
+//-------------------------------------------------------------------------------------
+
+&lt;!-- Page Counter - Edit Number Of Post To Show On Each Page --&gt;
+&lt;script type='text/javascript'&gt;
+/*&lt;![CDATA[*/
+var perPage = 7;
+var numPages = 4;
+var firstText = '&lt;&lt;';
+var lastText = '&gt;&gt;';
+var prevText = '&lt;i class="fa fa-chevron-left"&gt;&lt;&lt;/i&gt;';
+var nextText = '&lt;i class="fa fa-chevron-right"&gt;&gt;&lt;/i&gt;';
+var urlactivepage = location.href;
+var home_page = "/";
+/*]]&gt;*/
+
+/*&lt;![CDATA[*/
+if (typeof firstText == "undefined") firstText = "First";
+if (typeof lastText == "undefined") lastText = "Last";
+var noPage;
+var currentPage;
+var currentPageNo;
+var postLabel;
+pagecurrentg();
+
+function looppagecurrentg(pageInfo) {
+  var html = '';
+  pageNumber = parseInt(numPages / 2);
+  if (pageNumber == numPages - pageNumber) {
+    numPages = pageNumber * 2 + 1
+  }
+  pageStart = currentPageNo - pageNumber;
+  if (pageStart &lt; 1) pageStart = 1;
+  lastPageNo = parseInt(pageInfo / perPage) + 1;
+  if (lastPageNo - 1 == pageInfo / perPage) lastPageNo = lastPageNo - 1;
+  pageEnd = pageStart + numPages - 1;
+  if (pageEnd &gt; lastPageNo) pageEnd = lastPageNo;
+  html += "&lt;span class='showpageOf'&gt;Page " + currentPageNo + '/' + lastPageNo + "&lt;/span&gt;";
+  var prevNumber = parseInt(currentPageNo) - 1;
+
+  //Iccsi was here, doing magic     
+  if (currentPageNo &gt; 1) {
+    if (currentPage == "page") {
+      html += '&lt;span class="showpage firstpage"&gt;&lt;a href="' + home_page + '"&gt;' + firstText + '&lt;/a&gt;&lt;/span&gt;'
+    } else {
+      html += '&lt;span class="displaypageNum firstpage"&gt;&lt;a href="/search/label/' + postLabel + '?&max-results=' + perPage + '"&gt;' + firstText + '&lt;/a&gt;&lt;/span&gt;'
+    }
+  }
+
+  if (currentPageNo &gt; 2) {
+    if (currentPageNo == 3) {
+      if (currentPage == "page") {
+        html += '&lt;span class="showpage"&gt;&lt;a href="' + home_page + '"&gt;' + prevText + '&lt;/a&gt;&lt;/span&gt;'
+      } else {
+        html += '&lt;span class="displaypageNum"&gt;&lt;a href="/search/label/' + postLabel + '?&max-results=' + perPage + '"&gt;' + prevText + '&lt;/a&gt;&lt;/span&gt;'
+      }
+    } else {
+      if (currentPage == "page") {
+        html += '&lt;span class="displaypageNum"&gt;&lt;a href="#" onclick="redirectpage(' + prevNumber + ');return false"&gt;' + prevText + '&lt;/a&gt;&lt;/span&gt;'
+      } else {
+        html += '&lt;span class="displaypageNum"&gt;&lt;a href="#" onclick="redirectlabel(' + prevNumber + ');return false"&gt;' + prevText + '&lt;/a&gt;&lt;/span&gt;'
+      }
+    }
+  }
+  if (pageStart &gt; 1) {
+    if (currentPage == "page") {
+      html += '&lt;span class="displaypageNum"&gt;&lt;a href="' + home_page + '"&gt;1&lt;/a&gt;&lt;/span&gt;'
+    } else {
+      html += '&lt;span class="displaypageNum"&gt;&lt;a href="/search/label/' + postLabel + '?&max-results=' + perPage + '"&gt;1&lt;/a&gt;&lt;/span&gt;'
+    }
+  }
+  if (pageStart &gt; 2) {
+    html += ' ... '
+  }
+  for (var jj = pageStart; jj &lt;= pageEnd; jj++) {
+    if (currentPageNo == jj) {
+      html += '&lt;span class="pagecurrent"&gt;' + jj + '&lt;/span&gt;'
+    } else if (jj == 1) {
+      if (currentPage == "page") {
+        html += '&lt;span class="displaypageNum"&gt;&lt;a href="' + home_page + '"&gt;1&lt;/a&gt;&lt;/span&gt;'
+      } else {
+        html += '&lt;span class="displaypageNum"&gt;&lt;a href="/search/label/' + postLabel + '?&max-results=' + perPage + '"&gt;1&lt;/a&gt;&lt;/span&gt;'
+      }
+    } else {
+      if (currentPage == "page") {
+        html += '&lt;span class="displaypageNum"&gt;&lt;a href="#" onclick="redirectpage(' + jj + ');return false"&gt;' + jj + '&lt;/a&gt;&lt;/span&gt;'
+      } else {
+        html += '&lt;span class="displaypageNum"&gt;&lt;a href="#" onclick="redirectlabel(' + jj + ');return false"&gt;' + jj + '&lt;/a&gt;&lt;/span&gt;'
+      }
+    }
+  }
+  if (pageEnd &lt; lastPageNo - 1) {
+    html += '...'
+  }
+  if (pageEnd &lt; lastPageNo) {
+    if (currentPage == "page") {
+      html += '&lt;span class="displaypageNum"&gt;&lt;a href="#" onclick="redirectpage(' + lastPageNo + ');return false"&gt;' + lastPageNo + '&lt;/a&gt;&lt;/span&gt;'
+    } else {
+      html += '&lt;span class="displaypageNum"&gt;&lt;a href="#" onclick="redirectlabel(' + lastPageNo + ');return false"&gt;' + lastPageNo + '&lt;/a&gt;&lt;/span&gt;'
+    }
+  }
+
+  var nextnumber = parseInt(currentPageNo) + 1;
+  if (currentPageNo &lt; (lastPageNo - 1)) {
+    if (currentPage == "page") {
+      html += '&lt;span class="displaypageNum"&gt;&lt;a href="#" onclick="redirectpage(' + nextnumber + ');return false"&gt;' + nextText + '&lt;/a&gt;&lt;/span&gt;'
+    } else {
+      html += '&lt;span class="displaypageNum"&gt;&lt;a href="#" onclick="redirectlabel(' + nextnumber + ');return false"&gt;' + nextText + '&lt;/a&gt;&lt;/span&gt;'
+    }
+  }
+
+  if (currentPageNo &lt; lastPageNo) {
+    //Iccsi was here, doing magic
+    if (currentPage == "page") {
+      html += '&lt;span class="displaypageNum lastpage"&gt;&lt;a href="#" onclick="redirectpage(' + lastPageNo + ');return false"&gt;' + lastText + '&lt;/a&gt;&lt;/span&gt;'
+    } else {
+      html += '&lt;span class="displaypageNum lastpage"&gt;&lt;a href="#" onclick="redirectlabel(' + lastPageNo + ');return false"&gt;' + lastText + '&lt;/a&gt;&lt;/span&gt;'
+    }
+  }
+
+  var pageArea = document.getElementsByName("pageArea");
+  var blogPager = document.getElementById("blog-pager");
+  for (var p = 0; p &lt; pageArea.length; p++) {
+    pageArea[p].innerHTML = html
+  }
+  if (pageArea && pageArea.length &gt; 0) {
+    html = ''
+  }
+  if (blogPager) {
+    blogPager.innerHTML = html
+  }
+}
+
+function totalcountdata(root) {
+  var feed = root.feed;
+  var totaldata = parseInt(feed.openSearch$totalResults.$t, 10);
+  looppagecurrentg(totaldata)
+}
+
+function pagecurrentg() {
+  var thisUrl = urlactivepage;
+  if (thisUrl.indexOf("/search/label/") != -1) {
+    if (thisUrl.indexOf("?updated-max") != -1) {
+      postLabel = thisUrl.substring(thisUrl.indexOf("/search/label/") + 14, thisUrl.indexOf("?updated-max"))
+    } else {
+      postLabel = thisUrl.substring(thisUrl.indexOf("/search/label/") + 14, thisUrl.indexOf("?&max"))
+    }
+  }
+  if (thisUrl.indexOf(".html") == -1) {
+    if (thisUrl.indexOf("/search/label/") == -1) {
+      currentPage = "page";
+      if (urlactivepage.indexOf("#PageNo=") != -1) {
+        currentPageNo = urlactivepage.substring(urlactivepage.indexOf("#PageNo=") + 8, urlactivepage.length)
+      } else {
+        currentPageNo = 1
+      }
+      if (thisUrl.indexOf("q=") == -1) {
+        document.write("&lt;script src=\"" + home_page + "feeds/posts/summary?max-results=1&alt=json-in-script&callback=totalcountdata\"&gt;&lt;\/script&gt;")
+      } else {
+        document.write("&lt;script src=\"" + home_page + "feeds/posts/summary?q=" + thisUrl.split("?")[1].split("q=")[1].split("&")[0] + "&alt=json-in-script&callback=totalcountdata\"&gt;&lt;\/script&gt;")
+      }
+    } else {
+      currentPage = "label";
+      if (thisUrl.indexOf("&max-results=") == -1) {
+        perPage = 20
+      }
+      if (urlactivepage.indexOf("#PageNo=") != -1) {
+        currentPageNo = urlactivepage.substring(urlactivepage.indexOf("#PageNo=") + 8, urlactivepage.length)
+      } else {
+        currentPageNo = 1
+      }
+      document.write('&lt;script src="' + home_page + 'feeds/posts/summary/-/' + postLabel + '?alt=json-in-script&callback=totalcountdata&max-results=1" &gt;&lt;\/script&gt;')
+    }
+  }
+}
+
+function redirectpage(numberpage) {
+  jsonstart = (numberpage - 1) * perPage;
+  noPage = numberpage;
+  var nameBody = document.getElementsByTagName('head')[0];
+  var newInclude = document.createElement('script');
+  newInclude.type = 'text/javascript';
+  if (urlactivepage.indexOf("?q=") == -1) {
+    newInclude.setAttribute("src", home_page + "feeds/posts/summary?start-index=" + jsonstart + "&max-results=1&alt=json-in-script&callback=finddatepost");
+  } else {
+    newInclude.setAttribute("src", home_page + "feeds/posts/summary?start-index=" + jsonstart + "&alt=json-in-script&q=" + urlactivepage.split("?")[1].split("q=")[1].split("&")[0] + "&callback=finddatepost");
+  }
+  nameBody.appendChild(newInclude);
+}
+
+function redirectlabel(numberpage) {
+  jsonstart = (numberpage - 1) * perPage;
+  noPage = numberpage;
+  var nameBody = document.getElementsByTagName('head')[0];
+  var newInclude = document.createElement('script');
+  newInclude.type = 'text/javascript';
+  newInclude.setAttribute("src", home_page + "feeds/posts/summary/-/" + postLabel + "?start-index=" + jsonstart + "&max-results=1&alt=json-in-script&callback=finddatepost");
+  nameBody.appendChild(newInclude)
+}
+
+function finddatepost(root) {
+  post = root.feed.entry[0];
+  var timestamp1 = post.published.$t.substring(0, 19) + post.published.$t.substring(23, 29);
+  var timestamp = encodeURIComponent(timestamp1);
+  if (currentPage == "page") {
+    if (urlactivepage.indexOf("?q=") == -1) {
+      var pAddress = "/search?updated-max=" + timestamp + "&max-results=" + perPage + "#PageNo=" + noPage
+    } else {
+      var pAddress = "/search?updated-max=" + timestamp + "&q=" + urlactivepage.split("?")[1].split("q=")[1].split("&")[0] + "&max-results=" + perPage + "#PageNo=" + noPage
+    }
+  } else {
+    var pAddress = "/search/label/" + postLabel + "?updated-max=" + timestamp + "&max-results=" + perPage + "#PageNo=" + noPage
+  }
+  location.href = pAddress
+}
+/*]]&gt;*/
+&lt;/script&gt;
+</pre></div>
+</p>
+<!-- 하단 -->
+<div id="footer"></div>
+<script src="footer.js"></script>
+</body>
+</html>
