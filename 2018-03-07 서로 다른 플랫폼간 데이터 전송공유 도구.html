@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css" />
+<script src="jquery.js"></script>
+<script src="header.js"></script>
+</head>
+<body>
+<div id="header"></div>
+<!-- 상단 -->
+<img src="Images/SharedVar-Diagram.png" />
+<br />
+데이터베이스(DB)보다 단순하고 빠르다<br />
+한 가지 단점이라면 한글을 사용할 수 없다<br />
+(ASCII만 안전하게 사용할 수 있다)<br />
+DLL 버전(Ansi/Unicode) 호환성 때문인 듯<br />
+해결방법은 BASE64 인코딩/디코딩을 하면 된다<br />
+<br />
+다운로드 :<br />
+<a href="https://github.com/rbooja/rbooja.github.io/blob/main/Libraries/SharedVar_1.2.3.zip">https://github.com/rbooja/rbooja.github.io/blob/main/Libraries/SharedVar_1.2.3.zip</a><br />
+<br />
+여기에는 파이썬 테스트 코드도 포함되어 있다<br />
+(궂이 설치파일을 실행할 필요없이 서버파일 하나와 DLL 파일만 복사해서 사용해도 된다)<br />
+<br />
+원본 출처 (구글 아이디로 로그인 후 다운로드)<br />
+<a href="https://fx1.net/sharedvar.php">https://fx1.net/sharedvar.php</a><br />
+<br />
+PS :<br />
+Base64 Encode/Decode MQL 버전 (메타트레이더)<br />
+<br />
+<!--HTML generated using hilite.me-->
+<div style="overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+//+------------------------------------------------------------------+
+//| Base64Encode.                                                    |
+//+------------------------------------------------------------------+
+/**
+ * Encodes a string using Base64 encoding scheme.
+ * Example:
+ *      Base64Encode("https://twitter.com/");  // "aHR0cHM6Ly90d2l0dGVyLmNvbS8="
+ *      Base64Encode("Привет мир!");  // "0J/RgNC40LLQtdGCINC80LjRgCE="
+ */
+string Base64Encode(string text) {
+   uchar src[], dst[], key[] = {0};
+
+   //--- copy text to source array src[]
+   StringToCharArray(text, src, 0, -1, CP_UTF8);
+   ArrayResize(src, ArraySize(src) - 1);
+
+   //--- encode src[] with BASE64
+   int res = CryptEncode(CRYPT_BASE64, src, key, dst);
+
+   return (res &gt; 0) ? CharArrayToString(dst, 0, -1, CP_ACP) : "";
+}
+//+------------------------------------------------------------------+
+//| Base64Decode.                                                    |
+//+------------------------------------------------------------------+
+/**
+ * Decodes a Base64-encoded string into the original string.
+ * Example:
+ *      Base64Decode("aHR0cHM6Ly90d2l0dGVyLmNvbS8=");  // "https://twitter.com/"
+ *      Base64Decode("0J/RgNC40LLQtdGCINC80LjRgCE=");  // "Привет мир"
+ */
+string Base64Decode(string text) {
+   uchar src[], dst[], key[] = {0};
+
+   //--- copy text to source array src[]
+   StringToCharArray(text, src, 0, -1, CP_ACP);
+   ArrayResize(src, ArraySize(src) - 1);
+
+   //--- decode src[] with BASE64
+   int res = CryptDecode(CRYPT_BASE64, src, key, dst);
+
+   return (res &gt; 0) ? CharArrayToString(dst, 0, -1, CP_UTF8) : "";
+}
+//+------------------------------------------------------------------+
+//|                                                                  |
+//+------------------------------------------------------------------+
+</pre></div>
+<br />
+Base64 Encode/Decode C# 버전 (닌자트레이더)<br />
+<br />
+<!--HTML generated using hilite.me-->
+<div style="overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+public static string Base64Encode(string plainText) {
+   var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
+   return System.Convert.ToBase64String(plainTextBytes);
+}
+
+public static string Base64Decode(string base64EncodedData) {
+   var base64EncodedBytes = System.Convert.FromBase64String(base64EncodedData);
+   return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
+}
+</pre></div>
+<br />
+<!-- 하단 -->
+<div id="footer"></div>
+<script src="footer.js"></script>
+</body>
+</html>
