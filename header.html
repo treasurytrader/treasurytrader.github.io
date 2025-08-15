@@ -1,0 +1,20 @@
+<header>
+  <p><h3 id="title"><!-- <a href="/">Index</a> --></h3></p>
+  <hr />
+</header>
+<script>
+(function() {
+   const h3 = document.getElementById('title');
+   if ("" == document.title) {
+     h3.append("Index");
+   }
+   else {
+     const a1 = document.createElement('a');
+     a1.href = "/";
+     a1.style = "color:royalblue";
+     a1.append("Index");
+     h3.appendChild(a1);
+     h3.append(" - " + document.title);
+   }
+})();
+</script>
