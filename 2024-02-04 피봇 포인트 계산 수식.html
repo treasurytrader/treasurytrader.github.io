@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css" />
+<script src="jquery.js"></script>
+<script src="header.js"></script>
+</head>
+<body>
+<div id="header"></div>
+<!-- 상단 -->
+<img src="Images/pivot-point.jpg" />
+<br />
+한국 HTS는 Res/Sup2 까지만 있고 Res/Sup3 이상은 없다<br />
+게다가 수식을 찾아보면 Res/Sup3 부터는 계산이 제각각이다<br />
+(반대로 생각하면 Res/Sup2 까지는 매우 신뢰도가 높다는 말이기도 하다)<br />
+<br />
+닌자트레이더는 (트레이딩뷰 분류방식에 따르면) 클래식 계산법을 사용한다<br />
+닌자트레이더 계산식이 표준이다<br />
+아래 계산법을 참고하면 Res/Sup3 이상을 쉽게 계산할 수 있다<br />
+<h4>Classic</h4>
+<pre><code>    PP = (HIGHprev + LOWprev + CLOSEprev) / 3
+    R1 = 2 * PP - LOWprev
+    S1 = 2 * PP - HIGHprev
+    R2 = PP + (HIGHprev - LOWprev)
+    S2 = PP - (HIGHprev - LOWprev)
+    R3 = PP + 2 * (HIGHprev - LOWprev)
+    S3 = PP - 2 * (HIGHprev - LOWprev)
+    R4 = PP + 3 * (HIGHprev - LOWprev)
+    S4 = PP - 3 * (HIGHprev - LOWprev)</code></pre>
+신뢰도가 높은 지표일수록 파생/변형되는 경우가 많고<br />
+특히 트레이딩뷰의 지표들은 표준에서 벗어나는 경향이 있으므로 참고시 유의할 것<br />
+<a href="https://www.tradingview.com/support/solutions/43000521824-pivot-points-standard/">https://www.tradingview.com/support/solutions/43000521824-pivot-points-standard</a><br />
+<br />
+<!-- 하단 -->
+<div id="footer"></div>
+<script src="footer.js"></script>
+</body>
+</html>
