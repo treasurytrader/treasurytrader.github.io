@@ -1,0 +1,67 @@
+<footer>
+  <hr />
+  <p><a href="hello.html">Treasury Trader</a><!-- <a href="https://hits.sh/treasurytrader.github.io/"><img alt="Hits" src="https://hits.sh/treasurytrader.github.io.svg?style=flat-square" align="right" /></a> -->
+  </p>
+  <div style="bottom: 20px; position: fixed; right: 20px;">
+    <a href="https://t.me/treasurytrader"><img height="50" src="t_logo_2x.png" width="50" /></a>
+  </div>
+</footer>
+<script>
+// Open external links in new tabs and open internal links in current tabs
+var links    = document.getElementsByTagName("a");
+var thisHref = window.location.hostname;
+
+for(var i = 0; i < links.length; i++) {
+
+   templink = links[i].href;
+   a        = getLocation(templink);
+ 
+   if (templink.includes(".pdf") || templink.includes(".jpg") || templink.includes(".png")) {
+      links[i].target='_blank';
+   }
+   else if (a.hostname == thisHref) { // if the link is same with current page URL
+      links[i].removeAttribute("target");
+   }
+   else {
+      links[i].target='_blank'; // if the link is same with current page URL
+   }
+}
+
+function getLocation(href) {
+
+   var location      = document.createElement("a");
+       location.href = href;
+
+   if (location.host == "") {
+      location.href = location.href;
+   }
+   return location;
+};
+
+/*
+// 오른쪽 클릭 방지
+document.oncontextmenu = function() {
+    return false;
+}
+
+// 드래그 방지
+var omitformtags = ["input", "textarea", "select"]
+omitformtags = omitformtags.join("|")
+
+function disableselect(e) {
+    if (omitformtags.indexOf(e.target.tagName.toLowerCase()) == -1)
+        return false
+}
+
+function reEnable() {
+    return true
+}
+
+if (typeof document.onselectstart != "undefined")
+    document.onselectstart = new Function("return false")
+else {
+    document.onmousedown = disableselect
+    document.onmouseup = reEnable
+}
+*/
+</script>
