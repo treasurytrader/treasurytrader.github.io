@@ -1,0 +1,40 @@
+html {
+  background-color:#e9e9e9;
+}
+body {
+  font-family:'Apple SD Gothic Neo','Malgun Gothic','맑은 고딕',arial,sans-serif;
+}
+img {
+  max-width:100%;
+  max-height:auto;
+  display:block;
+  border:0;
+}
+li {
+  line-height:150%;
+}
+pre {
+  white-space:pre-wrap;
+}
+a {
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  color: inherit;        /* 링크의 색상 제거 */
+}
+a:visited {       /* 방문한 링크 스타일 */
+  color: inherit; /* 부모 요소로부터 상속받은 색상을 유지 */
+}
+a:hover {
+  text-decoration: underline;  /* 마우스를 올리면 밑줄 생성 */
+  /* color: #000000;              글자색을 검은색으로 */
+}
+a:active {
+  font-weight: bold;       /* 글자를 굵게 */
+  /* color: #00FF00; 클릭 시 글자색을 초록색으로 */
+}
+/* blogger.com 이미지 크기 자동 조정. 포스트에 반드시 원본 사이즈로 설정해야 한다 */
+.post-body img {
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+  margin: auto;
+}
