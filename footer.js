@@ -6,7 +6,7 @@
 
       const a1 = document.createElement('a');
 
-	  a1.href = 'index.html';
+	  a1.href = '/';
       a1.style = 'color:royalblue';
       a1.append('Index');
 
