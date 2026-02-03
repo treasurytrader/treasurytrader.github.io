@@ -1,0 +1,122 @@
+DRYSDALE
+T R A D I N G
+
+G R O U P
+
+VWAP WAVE
+Core Setup Guide
+
+© 2025 Drysdale Trading Group LLC
+All Rights Reserved.
+
+VWAP WAVE
+Principles
+Trading isn’t an exact science—precision isn’t the goal. We aim for
+well-reasoned decision-making, not perfection.
+The market tends to persist in its current behavior rather than
+abruptly changing direction. Instead of predicting shifts, we align
+with prevailing market conditions. Trade based on what you see, not
+what you hope.
+When price holds or re-enters the VWAP value area, it often
+gravitates toward the VWAP. If it moves beyond that level, the next
+likely target is the opposite end’s value band.
+When price remains within or returns to VWAP value area, the VWAP
+serves as a key magnet. If it fails to break through and accept,
+expect a move toward the most recent extreme value band.
+Trading within the VWAP value area is often choppy. Adapt your
+approach to avoid unnecessary losses from false moves.
+When price breaks out of VWAP value area, it typically seeks to
+explore new levels in the breakout direction, often targeting a prior
+value zone.
+Not all trades are equal. The highest-quality setups emerge near
+fresh contextual shifts—this is where the best opportunities lie.
+Open Sauce
+
+The VWAP WAVE strategy provides a structured way to interpret
+market behavior, but not every scenario can be perfectly
+understood. Embrace uncertainty where necessary.
+
+DRYSDALE
+T R A D I N G
+
+VWAP Wave Setup 1
+Price Discovery Continuation
+
+G R O U P
+
+Setup Criteria
+Price breaks out of VWAP value area
+Must show price “acceptance,” time or distance
+outside of value
+Entry is on backtest pullback of VWAP deviation band
+Enter on first sign of strenth after backtest
+Stop goes a few points above/below backtest candle
+You can also enter on break out of value, but be
+prepared for a rejection, rather than waiting for
+acceptance
+Note: let the trade breath, often times they will setup
+to the tick, but many times they will also retest again
+
+DRYSDALE
+T R A D I N G
+
+VWAP Wave Setup 2
+Fade Value Area Extremes
+
+G R O U P
+
+Setup Criteria
+Price is spending time inside of VWAP value area
+Must show price “acceptance,” time or distance inside
+of value
+Entry is on first sign of weakness or rejection on test of
+VWAP deviation band *area*
+You can also get in on touch, or scale in at proximity
+Stop goes a few points above/below testing candle
+wick
+Note: These setups can have tighter stops, a strong
+break or even grind through the VWAP band is a sign to
+get out
+
+DRYSDALE
+T R A D I N G
+
+VWAP Wave Setup 3
+Return to Value
+
+G R O U P
+
+Setup Criteria
+Price breaks back into VWAP value area after spending
+some time and distance outside in price discovery
+Entry is on backtest pullback of VWAP deviation band
+after price breaks into value and shows acceptance
+You can also enter on break into value, but be
+prepared for a rejection, rather than waiting for
+acceptance
+Stop goes a few points above/below testing candle
+wick
+Note: Often times these will not backtest, so the only
+setup would have been on break into value area
+
+DRYSDALE
+T R A D I N G
+
+VWAP Wave Setup 4
+WVWAP Bounce
+
+G R O U P
+
+Setup Criteria
+Higher Volatility days are better, with price going in
+and out of value
+Entry is on test of VWAP after price breaks into value
+After test of VWAP, enter on strength in direction
+away from VWAP
+Stop goes a few points above/below testing candle
+wick
+Note: VWAP can be a choppy spot where big players
+are getting in and out, expect traps and games here,
+like a VWAP break and reclaim (another setup)
+
+
