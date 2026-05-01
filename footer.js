@@ -6,7 +6,7 @@
    if (!isMain) {
       // 메인이 아닐 때: 링크 생성 및 추가
       const a1 = document.createElement('a');
-      a1.href = '../index.html';
+      a1.href = '/';
       a1.style = 'color:royalblue';
       a1.textContent = 'Index';
 
