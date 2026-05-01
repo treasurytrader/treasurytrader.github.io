@@ -18,36 +18,34 @@
    }
 })();
 
-// Open external links in new tabs and open internal links in current tabs
-var links    = document.getElementsByTagName("a");
-var thisHref = window.location.hostname;
+// 1. 설정 및 변수 선언 (const 활용)
+const links = document.querySelectorAll("a"); // 최신 방식인 querySelectorAll 사용
+const currentHostname = window.location.hostname;
+const fileExtensions = [".pdf", ".jpg", ".png", ".webp"];
 
-for(var i = 0; i < links.length; i++) {
+// 2. 링크 처리
+links.forEach(link => {
+    const href = link.href.toLowerCase();
+    
+    try {
+        const linkUrl = new URL(link.href); // 내장 URL 객체로 호스트 추출 (getLocation 대체)
+        const isFile = fileExtensions.some(ext => href.includes(ext));
+        const isExternal = linkUrl.hostname !== currentHostname;
 
-   templink = links[i].href;
-   a        = getLocation(templink);
- 
-   if (templink.includes(".pdf") || templink.includes(".jpg") || templink.includes(".png") || templink.includes(".webp")) {
-      links[i].target='_blank';
-   }
-   else if (a.hostname == thisHref) { // if the link is same with current page URL
-      links[i].removeAttribute("target");
-   }
-   else {
-      links[i].target='_blank'; // if the link is same with current page URL
-   }
-}
-
-function getLocation(href) {
-
-   var location      = document.createElement("a");
-       location.href = href;
-
-   if (location.host == "") {
-      location.href = location.href;
-   }
-   return location;
-};
+        // 파일이거나 외부 링크인 경우 새 탭으로
+        if (isFile || isExternal) {
+            link.target = '_blank';
+            // 보안 및 성능을 위해 rel 속성 추가 권장
+            link.rel = 'noopener noreferrer';
+        } 
+        // 내부 링크인 경우 target 제거
+        else {
+            link.removeAttribute("target");
+        }
+    } catch (e) {
+        // 유효하지 않은 href(ex: javascript:void(0)) 처리 방지
+    }
+});
 
 /*
 // 오른쪽 클릭 방지
