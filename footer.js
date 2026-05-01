@@ -1,24 +1,22 @@
 (function() {
-
    const h3 = document.getElementById('title');
+   // 현재 경로가 '/' 이거나 'index.html'을 포함하고 있는지 확인
+   const isMain = window.location.pathname === '/' || window.location.pathname.includes('index.html');
 
-   if (window.location.pathname.includes('-')) {
-
+   if (!isMain) {
+      // 메인이 아닐 때: 링크 생성 및 추가
       const a1 = document.createElement('a');
-
-	  a1.href = '../index.html';
+      a1.href = '../index.html';
       a1.style = 'color:royalblue';
-      a1.append('Index');
+      a1.textContent = 'Index';
 
-	  h3.prepend(' - ');
-	  h3.prepend(a1);
-   }
-   else {
-      h3.innerHTML = ''; // 내용 모두 삭제
-      h3.append('Index');
+      h3.prepend(' - ');
+      h3.prepend(a1);
+   } else {
+      // 메인일 때: 내용 초기화 후 Index 텍스트만 삽입
+      h3.innerHTML = 'Index';
    }
 })();
-
 
 // Open external links in new tabs and open internal links in current tabs
 var links    = document.getElementsByTagName("a");
