@@ -1,3 +1,8 @@
+---
+layout: default
+title: VWAP WAVE 가이드
+---
+
 # VWAP WAVE 핵심 설정 가이드 (Core Setup Guide)
 제작: Drysdale Trading Group
 
