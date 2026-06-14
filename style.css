@@ -60,3 +60,7 @@ details .content {
 details[open] .content {
   opacity: 1;
 }
+
+.csshtml {
+    scroll-behavior: smooth;
+}
