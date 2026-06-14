@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <!-- 모바일 글자 크기 해결 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 마크다운 파일의 정보가 자동으로 들어가는 OG 태그 -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+</head>
+<body>
+    <!-- 마크다운 본문 내용이 여기에 들어갑니다 -->
+    {{ content }}
+</body>
+</html>
