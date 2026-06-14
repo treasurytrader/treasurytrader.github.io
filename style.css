@@ -61,6 +61,15 @@ details[open] .content {
   opacity: 1;
 }
 
-.csshtml {
+/* css/style.css 파일 내용 */
+html {
     scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
