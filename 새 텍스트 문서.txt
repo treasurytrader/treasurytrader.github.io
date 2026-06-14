@@ -1,0 +1,76 @@
+1. 일반 마크다운 (이것만 알아도 글쓰기 가능)
+
+# 타이틀 (Heading 1)
+## 소제목 (Heading 2)
+
+글을 작성하다가 **강조할 내용**은 별표 2개로 감쌉니다.
+* [네이버](https://naver.com)처럼 링크를 걸 수도 있고,
+* `![이미지](주소)`로 이미지를 넣습니다.
+
+2. 깃허브 확장 문법 (GFM) (매우 자주 씀)코드 블록에 언어 이름을 적으면 문법 강조(하이라이트)가 되고, 체크리스트나 테이블을 쉽게 만듭니다.
+
+```python
+print("Hello World")
+```
+
+- [x] 오픈 그래프 태그 설정하기
+- [ ] assets 폴더에 이미지 넣기
+
+| 제목 | 작성일 |
+| :--- | :--- |
+| 첫 글 | 2026-06-15 |
+
+3. Kramdown 문법 (이미지 정렬 등 특수 상황에만 구글링해서 사용)일반 마크다운 뒤에 중괄호{}를 붙여 기능을 확장하는 형태로, 필요할 때만 치트키처럼 씁니다.
+
+![내 사진](/assets/images/me.jpg){: width="50%" class="align-right"}
+
+//-----------------
+
+my-jekyll-blog/           (프로젝트 루트 폴더)
+├── _posts/               (마크다운 글 저장소)
+├── _layouts/             (HTML 틀 저장소)
+└── assets/               (⭐️ 정적 자원 저장소)
+    ├── css/
+    │   └── style.css     (웹사이트 디자인 레이아웃 파일)
+    ├── images/
+    │   ├── profile.jpg   (내 프로필 사진)
+    │   └── preview.png   (텔레그램 프리뷰용 OG 이미지)
+    └── js/
+        └── main.js       (기능 구현을 위한 자바스크립트 파일)
+
+Jekyll은 기본 마크다운 파서로 Kramdown을 사용합니다.
+Kramdown은 마크다운 문법 바로 뒤에 {:.클래스명}을 붙여 CSS 클래스를 부여할 수 있는 강력한 기능을 제공합니다.
+1) 블로그 스타일시트(CSS) 파일에 클래스 추가블로그의 기본 CSS 파일(예: assets/css/style.css)에 아래 코드를 한 번만 등록해 둡니다.
+
+
+/* 우측 정렬 클래스 */
+.align-right {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    max-width: 50%; /* 모바일에서 찌그러지지 않게 조절 */
+}
+
+/* 좌측 정렬 클래스 */
+.align-left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    max-width: 50%;
+}
+
+/* 정렬 해제 클래스 (다음 문단이 겹치지 않게 초기화할 때 사용) */
+.clear-both {
+    clear: both;
+}
+
+![우측 이미지](/assets/images/pic.jpg){:.align-right}
+이 텍스트는 이미지의 왼쪽에 배치됩니다. Kramdown 문법을 사용하면 HTML 태그를 직접 쓰지 않고도 깔끔하게 마크다운 스타일을 유지할 수 있어 Jekyll에서 가장 권장하는 방식입니다.
+
+![좌측 이미지](/assets/images/pic2.jpg){:.align-left}
+이 텍스트는 이미지의 오른쪽에 배치됩니다.
+
+이제 좌우 정렬을 끝내고 아래부터는 정상적으로 줄바꿈을 하고 싶다면 아래 clear 태그를 한 줄 넣어줍니다.
+
+{:.clear-both}
+여기서부터는 이미지의 영향을 받지 않고 화면 전체 너비로 텍스트가 출력됩니다.
