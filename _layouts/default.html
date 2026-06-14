@@ -2,17 +2,28 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <!-- 모바일 글자 크기 해결 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- 마크다운 파일의 정보가 자동으로 들어가는 OG 태그 -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description" content="{{ page.description }}">
-    <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+    <title>{{ page.title }}</title>
+    <!-- 여기에 나만의 오픈그래프나 CSS 연결 -->
 </head>
 <body>
-    <!-- 마크다운 본문 내용이 여기에 들어갑니다 -->
+<header>
+<a name="top"></a>
+<p><h3 id="title"></h3></p>
+<hr />
+</header>
+<div id="header"></div>
+<!-- 상단 -->
+    <!-- 마크다운 내용이 이 자리에 합쳐집니다 -->
     {{ content }}
+<!-- 하단 -->
+<div id="footer"></div>
+<footer>
+<hr />
+<div style="bottom: 20px; position: fixed; right: 20px;">
+  <a href="https://t.me/treasurytrader"><img height="50" src="images/t_logo_2x.png" width="50" /></a>
+</div>
+</footer>
+<script src="footer.js"></script>
 </body>
 </html>
