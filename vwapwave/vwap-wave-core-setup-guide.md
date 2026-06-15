@@ -1,6 +1,6 @@
 ---
 layout: default
-tile: VWAP WAVE 핵심 설정 가이드 (Core Setup Guide)
+title: VWAP WAVE 핵심 설정 가이드 (Core Setup Guide)
 ---
 <style>pre, code{white-space:pre-wrap!important;word-break:break-all}</style>
 <pre>
