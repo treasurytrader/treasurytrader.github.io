@@ -68,6 +68,7 @@
 })();
 
 // '탑 버튼' 자바스크립트 자동화
+/*
 (function() {
    const btn = document.createElement('div');
    btn.innerHTML = '▲ TOP';
@@ -79,6 +80,26 @@
    };
    
    document.body.appendChild(btn);
+})();
+*/
+// 기존 자바스크립트 파일 최하단에 추가
+(function() {
+   // 현재 경로가 '/' 이거나 'index.html'을 포함하고 있는지 확인 (기존 변수 활용 가능)
+   const isMain = window.location.pathname === '/' || window.location.pathname.includes('index.html');
+
+   // 메인이 아닐 때만 TOP 버튼 생성 및 추가
+   if (!isMain) {
+      const btn = document.createElement('div');
+      btn.innerHTML = '▲ TOP';
+      btn.style = 'position:fixed; bottom:20px; right:20px; background:#333; color:#fff; padding:10px 15px; cursor:pointer; border-radius:5px; font-size:14px; z-index:9999; font-family:sans-serif;';
+      
+      // 클릭하면 최상단으로 부드럽게 이동
+      btn.onclick = function() {
+         window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+      
+      document.body.appendChild(btn);
+   }
 })();
 
 // 1. 설정 및 변수 선언 (const 활용)
