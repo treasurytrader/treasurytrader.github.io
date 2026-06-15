@@ -13,8 +13,10 @@ img {
 li {
   line-height:150%;
 }
-pre {
-  white-space:pre-wrap;
+/* 마크다운 변환 후 생성되는 코드 블록에 줄 바꿈 강제 적용 */
+pre, code {
+  white-space: pre-wrap !important;
+  word-break: break-all; /* 단어가 길어도 강제 줄 바꿈 */
 }
 a {
   text-decoration:none; /* 링크의 밑줄 제거 */
