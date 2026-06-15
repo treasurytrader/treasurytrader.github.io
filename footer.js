@@ -67,6 +67,20 @@
    }
 })();
 
+// '탑 버튼' 자바스크립트 자동화
+(function() {
+   const btn = document.createElement('div');
+   btn.innerHTML = '▲ TOP';
+   btn.style = 'position:fixed; bottom:20px; right:20px; background:#333; color:#fff; padding:10px 15px; cursor:pointer; border-radius:5px; font-size:14px; z-index:9999;';
+   
+   // 클릭하면 최상단으로 부드럽게 이동
+   btn.onclick = function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+   };
+   
+   document.body.appendChild(btn);
+})();
+
 // 1. 설정 및 변수 선언 (const 활용)
 const links = document.querySelectorAll("a"); // 최신 방식인 querySelectorAll 사용
 const currentHostname = window.location.hostname;
