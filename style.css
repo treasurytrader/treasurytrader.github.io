@@ -1,23 +1,29 @@
 html {
   background-color:#e9e9e9;
+  scroll-behavior: smooth;
 }
+
 body {
   font-family:'Apple SD Gothic Neo','Malgun Gothic','맑은 고딕',arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 20px;
 }
+
+
 img {
   max-width:100%;
   max-height:auto;
   display:block;
   border:0;
 }
+
 li {
   line-height:150%;
 }
-/* 마크다운 변환 후 생성되는 코드 블록에 줄 바꿈 강제 적용 */
-pre, code {
-  white-space: pre-wrap !important;
-  word-break: break-all; /* 단어가 길어도 강제 줄 바꿈 */
-}
+
 a {
   text-decoration:none; /* 링크의 밑줄 제거 */
   color:inherit;        /* 링크의 색상 제거 */
@@ -33,6 +39,7 @@ a:active {
   font-weight:bold;
   color:royalblue;
 }
+
 /* blogger.com 이미지 크기 자동 조정. 포스트에 반드시 원본 사이즈로 설정해야 한다 */
 .post-body img {
 max-width:100%;
@@ -53,25 +60,17 @@ summary:hover {
 details {
   interpolate-size: allow-keywords; /* CSS 내에서 높이 자동 계산 애니메이션 */
 }
-
 details .content {
   transition: opacity 2.0s, display 2.0s allow-discrete;
   opacity: 0;
 }
-
 details[open] .content {
   opacity: 1;
 }
 
-/* css/style.css 파일 내용 */
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-size: 16px;
-    line-height: 1.6;
-    /* max-width: 800px; */
-    margin: 0 auto;
-    padding: 20px;
+/* 백틱(```text) 블록의 자동 줄 바꿈을 글로벌 설정으로 고정 */
+.highlighter-rouge pre.highlight, 
+pre, code {
+  white-space: pre-wrap !important;
+  word-break: break-all !important;
 }
