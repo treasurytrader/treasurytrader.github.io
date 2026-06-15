@@ -73,4 +73,8 @@ details[open] .content {
 pre, code {
   white-space: pre-wrap !important;
   word-break: break-all !important;
+
+  /* 부모인 body의 크기와 행간을 자연스럽게 물려받음 */
+  font-size: inherit;
+  line-height: inherit;
 }
