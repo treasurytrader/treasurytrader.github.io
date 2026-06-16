@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Inside Bar Trading Strategy
+title: 인사이드바 매매 전략 (Inside Bar Trading Strategy)
 ---
-### Inside Bar Trading Strategy
+### 인사이드바 매매 전략 (Inside Bar Trading Strategy)
 
 #### The Inside Bar Pattern (Break Out or Reversal Pattern)
 

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Support and Resistance Levels Trading Strategy
+title: 지지와 저항 구간 매매 전략 (Support and Resistance Levels Trading Strategy)
 ---
-### Support and Resistance Levels Trading Strategy
+### 지지와 저항 구간 매매 전략 (Support and Resistance Levels Trading Strategy)
 
 #### What is support and resistance?
 

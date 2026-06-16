@@ -1,8 +1,8 @@
 ---
 layout: default
-title: What Is Price Action? – Price Action Trading Introduction
+title: 프라이스 액션 매매 소개 (Price Action Trading Introduction)
 ---
-### What Is Price Action? – Price Action Trading Introduction
+### 프라이스 액션 매매 소개 (Price Action Trading Introduction)
 
 #### What is Price Action? – Price Action Trading Explained
 

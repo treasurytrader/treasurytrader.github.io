@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Why You Should Trade Price Action Instead of News
+title: 뉴스 대신 프라이스 액션을 매매해야 하는 이유 (Why You Should Trade Price Action Instead of News)
 ---
-### Why You Should Trade Price Action Instead of News
+### 뉴스 대신 프라이스 액션을 매매해야 하는 이유 (Why You Should Trade Price Action Instead of News)
 
 뉴스에서부터 경제 리포트, 그리고 Hedge fund(헤지펀드)나 은행과 같은 거대 플레이어에 이르기까지 시장에 영향을 미치고 시장을 움직이게 만드는 모든 요소는 가격 차트 위의 가공되지 않은 순수한 Price action을 통해 반영됩니다. 따라서 시장의 Price action 외부에 존재하는 모든 변수를 분석하려는 시도는 불필요할 뿐만 아니라 시간 낭비이며, 매매 과정 전반을 필요 이상으로 훨씬 더 복잡하게 만드는 행동입니다.
 

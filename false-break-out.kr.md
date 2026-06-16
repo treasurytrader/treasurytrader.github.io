@@ -1,8 +1,8 @@
 ---
 layout: default
-title: False Breakout Trading Strategy
+title: 속임수 돌파 매매 전략 (False Breakout Trading Strategy)
 ---
-#### False Breakout Trading Strategy
+#### 속임수 돌파 매매 전략 (False Breakout Trading Strategy)
 
 #### False Breakout Patterns
 

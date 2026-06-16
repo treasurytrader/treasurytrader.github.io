@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Price Action Breakout Strategies
+title: 프라이스 액션 돌파 전략 (Price Action Breakout Strategies)
 ---
-### Price Action Breakout Strategies
+### 프라이스 액션 돌파 전략 (Price Action Breakout Strategies)
 
 Price action breakout strategy는 종종 시장에서 강력한 움직임을 이끌어내는 파워풀한 매매 signal입니다. Breakout strategy는 Trending market에서 형성되거나 Counter-trend signal로 나타날 수 있으며, Price action breakout strategy의 가장 결정적인 특징은 Breakout(돌파)이 상방이든 하방이든 한 방향으로의 강한 움직임을 유발한다는 점입니다.
 

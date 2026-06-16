@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Pin Bar Trading Strategy
+title: 핀바 매매 전략 (Pin Bar Trading Strategy)
 ---
-### Pin Bar Trading Strategy
+### 핀바 매매 전략 (Pin Bar Trading Strategy)
 
 #### The Pin Bar Pattern (Reversal or Continuation)
 

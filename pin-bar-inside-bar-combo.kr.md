@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Pin Bar and Inside Bar Combo Trading Strategy
+title: 핀바 & 인사이드바 콤보 매매 전략 (Pin Bar and Inside Bar Combo Trading Strategy)
 ---
-### Pin Bar and Inside Bar Combo Trading Strategy
+### 핀바 & 인사이드바 콤보 매매 전략 (Pin Bar and Inside Bar Combo Trading Strategy)
 
 #### Pin bar and Inside bar Combo Patterns
 

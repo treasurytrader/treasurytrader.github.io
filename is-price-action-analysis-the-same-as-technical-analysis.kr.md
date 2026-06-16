@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Is Price Action Analysis The Same As Technical Analysis?
+title: 프라이스 액션 분석과 기술적 분석은 같은가? (Is Price Action Analysis The Same As Technical Analysis?)
 ---
-### Is Price Action Analysis The Same As Technical Analysis?
+### 프라이스 액션 분석과 기술적 분석은 같은가? (Is Price Action Analysis The Same As Technical Analysis?)
 
 Price action 분석은 Technical analysis(기술적 분석)와 같은 것일까요? 정답은 ‘그렇기도 하고 아니기도 하다’입니다. 위키피디아에 따르면 Technical analysis는 “과거의 시장 데이터, 주로 가격과 거래량 연구를 통해 가격 방향을 예측하는 자산 분석 방법론”으로 정의됩니다. 하지만 Technical analysis는 본질적으로 Fundamental(펀더멘털)이나 뉴스 데이터가 아닌 모든 것을 포함하기 때문에, 대개 수많은 ‘기술적 연구(technical studies)’를 포함하고 있으며 실제로도 그렇습니다.
 

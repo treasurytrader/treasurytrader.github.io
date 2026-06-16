@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Fakey Trading Strategy (Inside Bar False Break Out)
+title: 페이키 매매 전략 (인사이드바 속임수 돌파) (Fakey Trading Strategy)
 ---
-### Fakey Trading Strategy (Inside Bar False Break Out)
+### 페이키 매매 전략 (인사이드바 속임수 돌파) (Fakey Trading Strategy)
 
 #### The Fakey Pattern (Inside Bar False Break Out)
 

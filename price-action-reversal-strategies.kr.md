@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Price Action Reversal Strategies
+title: 프라이스 액션 반전 전략 (Price Action Reversal Strategies)
 ---
-### Price Action Reversal Strategies
+### 프라이스 액션 반전 전략 (Price Action Reversal Strategies)
 
 Price action trading strategy를 활용하는 가장 강력한 방법 중 하나는 시장에서 Reversal(반전) signal로 사용하는 것입니다. Price action signal은 종종 Trader에게 임박한 가격 반전(방향 전환)을 미리 알려주는 역할을 합니다. 이러한 Price action reversal strategy는 Trending market, Range-bound market뿐만 아니라 Counter-trend(역추세) 상황에서도 정확한 진입(entry) 기회를 자주 제공하며, 대개 훌륭한 손익비(risk to reward potential)를 가져다줍니다.
 

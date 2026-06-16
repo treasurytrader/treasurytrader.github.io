@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Introduction to Price Charts
+title: 가격 차트의 이해 (Introduction to Price Charts)
 ---
-### Introduction to Price Charts
+### 가격 차트의 이해 (Introduction to Price Charts)
 
 Price chart(가격 차트)는 일정 기간 동안 특정 시장의 가격을 보여줍니다. 모든 차트 플랫폼에서 다양한 타임프레임(time frames)을 자유롭게 변경할 수 있습니다. 차트 타임프레임은 1분봉 차트부터 월봉, 연봉 차트까지 광범위합니다.
 
