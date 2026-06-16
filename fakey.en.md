@@ -2,13 +2,13 @@
 layout: default
 title: Fakey Trading Strategy (Inside Bar False Break Out)
 ---
-## Fakey Trading Strategy (Inside Bar False Break Out)
+### Fakey Trading Strategy (Inside Bar False Break Out)
 
-### The Fakey Pattern (Inside Bar False Break Out)
+#### The Fakey Pattern (Inside Bar False Break Out)
 
 The Fakey pattern can be best be described as a “false-breakout from an inside bar pattern”. The Fakey pattern always starts with an inside bar pattern. When price initially breaks out from the inside bar pattern but then quickly reverses, creating a false-break, and closes back within the range of the mother bar or inside bar, we have a fakey pattern.
 
-So, think of it like this: ** Inside Bar + False-Breakout = Fakey pattern**.
+So, think of it like this: Inside Bar + False-Breakout = Fakey pattern.
 
 A Fakey pattern can have a pin bar as the false-break bar or not. The false-break bar might also be a two-bar pattern where the first bar closes outside the inside bar / mother bar range and then the subsequent bar completes the false-break by closing back within the range of the mother bar and (or) inside bar.
 
@@ -20,7 +20,7 @@ Let’s take a look at some examples of different types of Fakey patterns to cla
 
 Note, in the above diagram of different Fakey patterns, there’s always an inside bar setup first, followed by the false-breakout of the inside bar. Fakey’s can vary slightly from the examples you see above, but the four examples above represent the most common types of Fakey trading strategies that you will encounter on the charts.
 
-### How to trade with Fakey Patterns
+#### How to trade with Fakey Patterns
 
 Fakey patterns can be traded in trending markets, range-bound markets or even against the trend form key chart levels. There are a lot of false-breakouts in the Forex market, so learning to trade with the Fakey pattern is very important since it can help you take advantage of and profit from these false breakouts, rather than falling victim to them as so many traders do.
 
@@ -33,7 +33,7 @@ The most common entries for a Fakey signal include the following:
 
 Let’s take a look at several different examples of trading Fakey signals in various market conditions:
 
-### Trading Fakey’s in a Trending Market
+#### Trading Fakey’s in a Trending Market
 
 The chart below shows us a good example of a Fakey buy signal with a pin bar as the false-break bar, in a trending market. Note in this signal that there were actually three inside bars within the mother bar structure. This is relatively common, and sometimes you will even see four inside bars within a mother bar before the false-break or ‘Fakey’ bar occurs.
 
@@ -43,7 +43,7 @@ The next chart shows us another good example of trading a Fakey pattern in a tre
 
 > ![](priceaction/fakeywithoutpinbar.png)
 
-### Trading Fakey’s against the Trend from Key Chart Levels
+#### Trading Fakey’s against the Trend from Key Chart Levels
 
 Next, we are looking at an example of a counter-trend Fakey. That means it’s a Fakey that implies price might move against the recent / near-term daily chart momentum / trend. In this case, it was a bullish Fakey buy signal that formed at a key support level, following a move lower. Since this Fakey signal was so nice and obvious (well-defined) and it had the confluence of the key support level under it, it was a counter-trend Fakey worth taking:
 
@@ -53,7 +53,7 @@ Here’s another example of a counter-trend Fakey pattern. This time it was a be
 
 > ![](priceaction/fakeyatkeyresistance.png)
 
-### Tips on Trading the Fakey Pattern:
+#### Tips on Trading the Fakey Pattern:
 
 * The above Fakey examples do not include ‘every’ permutation of Fakey you will encounter, rather they are some of the more common ones. Just remember that if you have an inside bar pattern, followed by a false-breakout of that inside bar pattern, you probably have a Fakey pattern.
 * The above point, does not mean that you should trade ‘every’ pattern that has the Fakey requirements discussed above. Whether or not you should take a particular Fakey depends on not only its formation, but also where it forms in the market, i.e., whether or not it has confluence and ‘makes sense’ within the underlying market picture / dynamics. As you gain training and education, experience and screen time price action trading, you’ll develop a better understanding of which Fakey’s (or other price action patterns) are worth trading and which are worth passing on.

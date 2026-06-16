@@ -2,8 +2,7 @@
 layout: default
 title: 5 Coisas sobre Day trader que ninguém vai te contar
 ---
-```text
-5 Coisas sobre Day trader que ninguém vai te contar
+### 5 Coisas sobre Day trader que ninguém vai te contar
 
 Tenho quase dois anos que conheci o Day Trader “Forex” e listei 5 coisas que se a pessoa não se identificar infelizmente esse mercado não é pra você!
 
@@ -20,7 +19,7 @@ Tenho quase dois anos que conheci o Day Trader “Forex” e listei 5 coisas que
 Se você se identifica com pelo menos umas 3 dessas tópicos, parabéns esse mercado possa ser que seja pra você.
 
 Entendo porque muitas pessoas não dão certo no trader, isso envolve muito mais sobre você do que o mercado. Quando as pessoa chega nessa fase do trader, onde ele mostra que você realmente é, aí é que muitas pessoas desistem, pois acha que não consegue mudar o seu mindset para se adaptar a esse mercado, é onde muitos desistem pois acabam desistindo de si mesmo!
-```
+
 <!--
 Original source:
 https://www.reddit.com/r/Daytrading/comments/1u643nw/5_coisas_sobre_day_trader_que_ningu%C3%A9m_vai_te/

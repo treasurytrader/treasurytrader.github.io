@@ -2,10 +2,9 @@
 layout: default
 title: 클래식 프라이스 액션 (Classic Price Action)
 ---
-```text
-클래식 프라이스 액션 (Classic Price Action)
+### 클래식 프라이스 액션 (Classic Price Action)
 
-1. 핵심 철학 (The Philosophy)
+#### 1. 핵심 철학 (The Philosophy)
 
 지표 배제:
 모든 보조지표는 가격의 후행성 잔상일 뿐이다. 가격(Price) 그 자체가 가장 빠른 지표다.
@@ -16,9 +15,9 @@ title: 클래식 프라이스 액션 (Classic Price Action)
 확인 후 대응:
 가격을 예측하지 않는다. 중요 구역에서 발생하는 '힘의 역전'을 확인하고 대응한다.
 
-2. 3대 구성 요소 (The Pillars)
+#### 2. 3대 구성 요소 (The Pillars)
 
-① 지지와 저항 (Support & Resistance)
+① 지지와 저항 (Support & Resistance):
 가장 강력한 통계적 근거를 제공하는 수평적 기준점.
 
 과거의 흔적:
@@ -30,7 +29,7 @@ title: 클래식 프라이스 액션 (Classic Price Action)
 라운드 피겨:
 의미 있는 마디 가격(예: $100, $2000 등)은 자연스러운 저항과 지지의 역할을 한다.
 
-② 시장 구조 (Market Structure)
+② 시장 구조 (Market Structure):
 고점과 저점의 관계를 통해 현재 시장의 방향성 정의.
 
 강세 구조 (Bullish):
@@ -42,7 +41,7 @@ title: 클래식 프라이스 액션 (Classic Price Action)
 구조 파괴 (Break of Structure):
 이전의 고점이나 저점을 지키지 못하고 깨지는 순간이 추세 전환의 유일한 전조다.
 
-③ 캔들 시그널 (Price Action Signals)
+③ 캔들 시그널 (Price Action Signals):
 중요 가격대에서 '누가 이겼는가'를 보여주는 최종 신호.
 
 핀바 (Pin Bar):
@@ -54,7 +53,7 @@ title: 클래식 프라이스 액션 (Classic Price Action)
 인사이드 바 (Inside Bar):
 큰 캔들 안에서의 정체는 힘의 응축이며, 돌파 시 강한 변동성을 동반한다.
 
-3. 거래량의 역할 (The Role of Volume)
+#### 3. 거래량의 역할 (The Role of Volume)
 가격이 원인이라면 거래량은 그 원인의 신뢰도 검증.
 
 진성 돌파:
@@ -63,7 +62,7 @@ title: 클래식 프라이스 액션 (Classic Price Action)
 가짜 돌파 (Trap):
 가격은 선을 넘었으나 거래량이 없다면, 속임수(False Breakout)일 수 있다.
 
-4. 실전 매매 프로세스 (The Execution)
+#### 4. 실전 매매 프로세스 (The Execution)
 
 ① 맵핑(Mapping):
 일봉/주봉 차트에서 뚜렷한 수평 지지/저항선을 긋는다.
@@ -80,8 +79,7 @@ title: 클래식 프라이스 액션 (Classic Price Action)
 ⑤ 청산(Exit):
 다음 중요 지지/저항선 직전에서 수익을 실현하고, 손절은 신호 캔들의 끝에 설정한다.
 
-5. 결론
+#### 5. 결론
 
 클래식 프라이스 액션은 주관적인 서사(Storytelling)를 배제한다.
 오직 "중요한 자리에서, 충분한 거래량과 함께, 가격이 어떻게 반응하는가"라는 팩트에만 집중하는 가장 건조하고 강력한 매매기법이다.
-```

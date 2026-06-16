@@ -2,9 +2,9 @@
 layout: default
 title: Introduction to Japanese Candlestick Patterns
 ---
-## Introduction to Japanese Candlestick Patterns
+### Introduction to Japanese Candlestick Patterns
 
-### What is a Japanese candlestick pattern?
+#### What is a Japanese candlestick pattern?
 
 A candlestick shows the open, high, low and close of the market for a particular period of time. If you’re looking at a daily chart time frame for example, each candlestick will reflect the open, high, low and close for that days’ worth of price action.
 
@@ -20,7 +20,7 @@ The colored section of the candlestick is called the “real body” or body. No
 
 The thin lines poking above and below the body display the high/low range and are called shadows, tails or wicks…all three names apply to the same thing. The top of the upper shadow is the “high”. The bottom of the lower shadow is the “low”.
 
-### What is a candlestick pattern?
+#### What is a candlestick pattern?
 
 A candlestick pattern is a one or sometimes multi-bar price action pattern shown graphically on a candlestick chart that price action traders use to predict market movement. The recognition of the patter is somewhat subjective, as such it requires training by an experienced / professional price action trader as well as one’s own experience via screen time, to develop skill in identifying and trading candlestick patterns.
 
@@ -28,15 +28,15 @@ There are numerous different candlestick patterns, and many are just slight vari
 
 Here are some of our favorite price action trading candlestick strategies:
 
-* Pin bar candlestick pattern – A pin bar candlestick pattern is a one bar pattern that shows rejection of a price level or area. The pattern has a small real body and a long shadow or ‘tail’ on only one side, indicating rejection of that price area. Pin bars can be traded as reversal signals either within a trend or against a trend. Here’s what a pin bar looks like:
+- Pin bar candlestick pattern – A pin bar candlestick pattern is a one bar pattern that shows rejection of a price level or area. The pattern has a small real body and a long shadow or ‘tail’ on only one side, indicating rejection of that price area. Pin bars can be traded as reversal signals either within a trend or against a trend. Here’s what a pin bar looks like:
 
 > ![](priceaction/pinbarcandlestick.png)
 
-* Inside bar candlestick pattern – An inside bar candlestick pattern is at least a two bar pattern (can have multiple inside bars) that shows indecision or stalling in a market. An inside bar trading strategy typically works best in a trending market as a price action breakout strategy but can also be used as a reversal strategy sometimes from key chart levels. Here’s an example of inside bars:
+- Inside bar candlestick pattern – An inside bar candlestick pattern is at least a two bar pattern (can have multiple inside bars) that shows indecision or stalling in a market. An inside bar trading strategy typically works best in a trending market as a price action breakout strategy but can also be used as a reversal strategy sometimes from key chart levels. Here’s an example of inside bars:
 
 > ![](priceaction/insidebarcandlestick.png)
 
-* Fakey candlestick pattern – A fakey candlestick pattern is typically a three or four bar pattern that shows a false break of an inside bar pattern. The fakey pattern shows a ‘fake out’ has occurred in the market and the price is likely to then continue in the direction opposite the false break. Below, we see an example of what the fakey pattern looks like:
+- Fakey candlestick pattern – A fakey candlestick pattern is typically a three or four bar pattern that shows a false break of an inside bar pattern. The fakey pattern shows a ‘fake out’ has occurred in the market and the price is likely to then continue in the direction opposite the false break. Below, we see an example of what the fakey pattern looks like:
 
 > ![](priceaction/fakeycandlestick.png)
 
@@ -50,7 +50,7 @@ Here’s an example of a typical candlestick chart. Note the pin bar candlestick
 
 > ![](priceaction/candlestickchart2.png)
 
-### Advantage of candlestick charts
+#### Advantage of candlestick charts
 
 The primary advantage of a candlestick price action chart is that it provides a more impactful or perhaps ‘dramatic’ visual display of price movement over time, than what you will see on a standard bar chart or line chart. Due to the fact that each candle’s real body is colored in according to its close being bullish or bearish, the dynamics between price bars is significantly easier to read, and many traders would argue more ‘fun’ as well.
 
