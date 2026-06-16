@@ -21,3 +21,4 @@ title: 데이 트레이더에 대해 아무도 말해주지 않는 5가지
 
 많은 사람이 트레이딩에 실패하는 이유는 시장보다 자신과 훨씬 더 깊은 관련이 있다. 트레이딩이 자신의 진짜 모습을 드러내는 단계에 이르면 많은 사람이 포기한다. 이 시장에 적응하기 위해 자신의 마인드셋을 바꿀 수 없다고 생각하기 때문이다. 결국 자기 자신을 포기하기 때문에 트레이딩도 포기하게 되는 것이다.
 ```
+[원문: 5 Coisas sobre Day trader que ninguém vai te contar](5-coisas-sobre-day-trader-que-ninguém-vai-te-contar)
