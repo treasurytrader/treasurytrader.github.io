@@ -2,7 +2,6 @@
 layout: default
 title: The 5 Stages Of A Trader’s Development
 ---
-<style>code{white-space:pre-wrap!important;word-break:break-all}</style>
 ```text
 The 5 Stages Of A Trader’s Development
 

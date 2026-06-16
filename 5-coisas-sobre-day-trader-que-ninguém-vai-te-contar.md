@@ -2,7 +2,6 @@
 layout: default
 title: 5 Coisas sobre Day trader que ninguém vai te contar
 ---
-<style>code{white-space:pre-wrap!important;word-break:break-all}</style>
 ```text
 5 Coisas sobre Day trader que ninguém vai te contar
 

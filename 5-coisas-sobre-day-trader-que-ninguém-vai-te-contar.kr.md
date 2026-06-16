@@ -2,10 +2,6 @@
 layout: default
 title: 데이 트레이더에 대해 아무도 말해주지 않는 5가지
 ---
-<style>code{white-space:pre-wrap!important;word-break:break-all}</style>
-
-> ![밥통](images/밥통.png)
-
 ```text
 데이 트레이더에 대해 아무도 말해주지 않는 5가지
 

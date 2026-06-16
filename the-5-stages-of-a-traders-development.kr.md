@@ -2,7 +2,6 @@
 layout: default
 title: 트레이더의 발전 5단계 (The 5 Stages Of A Trader’s Development)
 ---
-<style>code{white-space:pre-wrap!important;word-break:break-all}</style>
 ```text
 트레이더의 발전 5단계 (The 5 Stages Of A Trader’s Development)
 

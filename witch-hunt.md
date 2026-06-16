@@ -2,10 +2,6 @@
 layout: default
 title: 마녀사냥의 사법 비즈니스적 본질과 미디어·구조적 약탈 메커니즘 분석
 ---
-<style>code{white-space:pre-wrap!important;word-break:break-all}</style>
-
-> ![마녀](images/d5pieii8bqeg1.png)
-
 ```text
 마녀사냥의 사법 비즈니스적 본질과 미디어·구조적 약탈 메커니즘 분석
 
