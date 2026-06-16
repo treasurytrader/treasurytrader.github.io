@@ -69,10 +69,10 @@ details[open] .content {
 }
 
 /* 백틱(```text) 블록의 자동 줄 바꿈을 글로벌 설정으로 고정 */
-.highlighter-rouge pre.highlight, 
 pre {
   font-family: inherit;
 }
+.highlighter-rouge pre.highlight, 
 pre, code {
   white-space: pre-wrap !important;
   word-break: break-all !important;
