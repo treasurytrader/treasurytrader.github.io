@@ -87,3 +87,5 @@ Price action signal을 활용한 매매는 단순히 signal 자체만을 보는 
 - 이번 Price action trading 튜토리얼이 도움이 되셨기를 바랍니다. 이제 여러분은 Price action이 무엇인지, 그리고 이를 활용해 어떻게 매매하는지에 대한 탄탄한 기초 지식을 갖추게 되었습니다.
 
 - 여기서 다룬 내용보다 훨씬 더 많은 지식이 존재하므로, 앞으로 Price action trading에 대한 이해와 지식을 더욱 넓혀 나가시기를 바랍니다.
+
+[원문: What Is Price Action? – Price Action Trading Introduction](what-is-price-action.en)
