@@ -91,7 +91,4 @@ title: 트레이더의 발전 5단계 (The 5 Stages Of A Trader’s Development)
 
 서명: 무명(Anonymous)
 ```
-<!--
-Original source:
-https://www.reddit.com/r/Daytrading/comments/19896xy/the_5_stages_of_a_traders_development/
--->
+[원문: The 5 Stages Of A Trader’s Development](the-5-stages-of-a-traders-development)
