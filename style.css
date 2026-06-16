@@ -11,18 +11,18 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
-
+/*
 @media (max-width: 768px) {
   body {
     padding-left: 0;
     padding-right: 0;
   }
 }
-
+*/
 img {
   max-width:100%;
-  /* max-height:auto; */
-  height: auto; /* max-height 대신 height를 auto로 설정 */
+  max-height:auto;
+  /* height: auto; max-height 대신 height를 auto로 설정 */
   display:block;
   border:0;
 }
