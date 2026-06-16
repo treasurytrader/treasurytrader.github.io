@@ -2,7 +2,7 @@
 layout: default
 title: 캔들스틱 패턴의 이해 (Introduction to Japanese Candlestick Patterns)
 ---
-### 캔들스틱 패턴의 이해 (Introduction to Japanese Candlestick Patterns)캔들스틱 패턴의 이해 (Introduction to Japanese Candlestick Patterns)
+### 캔들스틱 패턴의 이해 (Introduction to Japanese Candlestick Patterns)
 
 #### What is a Japanese candlestick pattern?
 
