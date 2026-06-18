@@ -1,0 +1,207 @@
+//@version=5
+indicator("Universal Renko Bars by SiddWolf", overlay=true, max_boxes_count=500)
+
+// --- CALCULATION METHOD ---
+calcMethod = input.string("ATR Based", "Calculation Method", options=["ATR Based", "Percentage", "Auto"], group="Calculation", tooltip= "This determines how the fundamental 'Tick Size' is calculated.\n\n❖ ATR Based: The tick size is based on the Average True Range (ATR), a measure of volatility. Bricks will automatically become larger in volatile markets and smaller in quiet markets.\n\n❖ Percentage: The tick size is a fixed percentage of the instrument's current price.\n\n❖ Auto: The script automatically calculates a reasonable tick size based on the instrument's current price.")
+atrMultiplier = input.float(0.15, "ATR 14 Multiplier", minval=0.05, step=0.05, group="Calculation", tooltip= "The ATR value is multiplied by this number to determine the final tick size. \n\n→ Only used when 'Calculation Method' is set to 'ATR Based'.")
+percentSize = input.float(0.5, "Percent Size (%)", minval=0.1, step=0.1, group="Calculation", tooltip= "Sets the tick size as a percentage of the current price.\n\n→ Only used when 'Calculation Method' is set to 'Percentage'.")
+autoSensitivity = input.float(1.0, "Auto Sensitivity", minval=0.1, maxval=5.0, step=0.2, group="Calculation", tooltip= "Fine-tunes the 'Auto' calculation method.\n\n▶ Values > 1.0: Increases the calculated tick size, creating larger, less sensitive bricks (Thicker).\n\n▶ Values < 1.0: Decreases the calculated tick size, creating smaller, more sensitive bricks (Thinner).\n\n→ Only used when 'Calculation Method' is set to 'Auto'.")
+
+// --- INPUT PARAMETERS ---
+tickTrend = input.int(2, "Tick Trend", minval=1, group="Parameters", tooltip= "This defines the 'continuation' size for a Renko brick.\n\nIt's the number of 'Ticks' the price must move in the SAME direction as the previous brick to print a new one.\n\n→ EXAMPLE: If the last brick was Bullish (green) and closed at $100, and the Tick Size is $1, the price must reach $102 (Close + 2 Ticks) to print another green brick.")
+tickReversal = input.int(4, "Tick Reversal", minval=1, group="Parameters", tooltip= "This defines the 'reversal' size for a Renko brick.\n\nIt's the number of 'Ticks' the price must move in the OPPOSITE direction to reverse the trend and print a new, different-colored brick.\n\n→ EXAMPLE: If the last brick was Bullish (green) and closed at $100, and the Tick Size is $1, the price must fall to $96 (Close - 4 Ticks) to print a new Bearish (red) brick.\n\n💡 TIP: This value is typically larger than 'Tick Trend' to filter out market noise.")
+openOffset = input.int(0, "Open Offset", minval=0, group="Parameters", tooltip= "This controls the visual overlap of the Renko bricks.\n\n■ Value of 0: The new brick opens exactly where the last one closed (no overlap).\n\n■ Value > 0: Creates the classic overlapping brick appearance. A value of '2' creates a 50% overlap if your 'Tick Reversal' is 4.")
+
+// --- VISUAL SETTINGS ---
+isTransparent = input.bool(true, 'Make Candles Transparent', group="Visuals")
+
+showConfirmed = input.bool(true, "Show Confirmed Renko", group="Visuals", inline="line1", tooltip="Toggles the visibility of the solid-colored, historical Renko bricks that are finalized and will not change.")
+bullColor = input.color(#26A69A, "", group="Visuals", inline="line1")
+bearColor = input.color(#EF5350, "", group="Visuals", inline="line1")
+
+showUnconfirmed = input.bool(true, "Show Unconfirmed Renko", group="Visuals", inline="line2", tooltip="Toggles the visibility of the LIVE, developing Renko brick.\n\nThis semi-transparent box represents the current, unconfirmed state of the Renko bar. It is drawn based on every real-time tick and shows you exactly how close the price is to forming the next brick.\n\n⚠️ This box is NOT permanent. It will disappear and be replaced by a 'Confirmed' Renko brick once the price hits the Max or Min level.")
+unconfirmedBullColor = input.color(color.new(#26A69A, 75), "", group="Visuals", inline="line2")
+unconfirmedBearColor = input.color(color.new(#EF5350, 75), "", group="Visuals", inline="line2")
+
+showLevels = input.bool(true, "Show Max/Min Levels", group="Visuals", inline="line3", tooltip="Toggles the visibility of the horizontal lines that indicate the price levels required to print the next brick.\n\n■ Max Level (Green): The price needed for a bullish continuation or a bearish reversal.\n\n■ Min Level (Red): The price needed for a bearish continuation or a bullish reversal.")
+maxColor = input.color(color.new(color.green, 50), "", group="Visuals", inline="line3")
+minColor = input.color(color.new(color.red, 50), "", group="Visuals", inline="line3")
+showInfo = input.bool(true, "Show Info Label", group="Visuals")
+
+// --- ALERT SETTINGS ---
+alert_group_title = "Alert Configuration"
+
+alert_bull_rev_msg = "Confirmed Bullish Reversal"
+alert_bear_rev_msg = "Confirmed Bearish Reversal"
+alert_bull_cont_msg = "Bullish Trend Continuation"
+alert_bear_cont_msg = "Bearish Trend Continuation"
+alert_unconf_bull_rev_msg = "POTENTIAL Bullish Reversal (Live Price Crossed Level)"
+alert_unconf_bear_rev_msg = "POTENTIAL Bearish Reversal (Live Price Crossed Level)"
+
+alertOnConfirmedReversal = input.bool(true, "1. Confirmed Trend Reversal", group = alert_group_title, tooltip = "Triggers when a finalized Renko brick closes, reversing the trend's direction.\n\n● Bullish Reversal: A green brick forms after a red one.\n● Bearish Reversal: A red brick forms after a green one.")
+alertOnConfirmedBullReversalMsg = input.string(alert_bull_rev_msg, "  ↳ Bullish Message", group = alert_group_title)
+alertOnConfirmedBearReversalMsg = input.string(alert_bear_rev_msg, "  ↳ Bearish Message", group = alert_group_title)
+
+alertOnUnconfirmedReversal = input.bool(false, "2. Unconfirmed Trend Reversal (Live)", group = alert_group_title, tooltip = "Triggers THE MOMENT the live price crosses the reversal threshold, BEFORE the brick is confirmed.\n\nThis is an early, aggressive signal that a reversal may be in progress. It can fire and the price can still pull back without confirming the brick.")
+alertOnUnconfirmedBullReversalMsg = input.string(alert_unconf_bull_rev_msg, "  ↳ Bullish Message", group = alert_group_title)
+alertOnUnconfirmedBearReversalMsg = input.string(alert_unconf_bear_rev_msg, "  ↳ Bearish Message", group = alert_group_title)
+
+alertOnContinuation = input.bool(false, "3. Confirmed Trend Continuation", group = alert_group_title, tooltip = "Triggers when a finalized Renko brick closes in the SAME direction as the previous trend, confirming the trend's strength.")
+alertOnContinuationBullMsg = input.string(alert_bull_cont_msg, "  ↳ Bullish Message", group = alert_group_title)
+alertOnContinuationBearMsg = input.string(alert_bear_cont_msg, "  ↳ Bearish Message", group = alert_group_title)
+
+alertOnAnyBrick = input.bool(false, "4. Any New Confirmed Brick", group = alert_group_title, tooltip = "A general alert that triggers whenever ANY new brick is finalized, regardless of direction (both reversals and continuations will trigger this).")
+alertOnAnyBrickMsg = input.string("New Renko Brick Confirmed", "  ↳ Message", group = alert_group_title)
+
+// --- STATE VARIABLES & ARRAYS ---
+var float barOpen = na, var float barClose = na
+var float barMax = na, var float barMin = na
+var int barDirection = 0, var int barStartIndex = 0
+var bool initialized = false, var int barCount = 0
+var string lastSymbol = "", var string lastTimeframe = ""
+var int barsSinceConfirmation = 0
+var box unconfirmedLiveBox = na
+var array<box> confirmedBoxArray = array.new<box>()
+var int prevBarDirection = 0
+var bool unconfirmedAlertFired = false
+
+// --- INDICATORS & FUNCTIONS ---
+rsi_val = ta.rsi(close, 14)
+mfi_val = ta.mfi(hlc3, 14)
+cci_val = ta.cci(hlc3, 20)
+
+getEffectiveTickSize(priceRef) =>
+    tickSize = 0.0
+    if calcMethod == "Auto"
+        p = math.max(priceRef, 1e-8)
+        basePercent = p >= 10000 ? 0.002 : p >= 1000 ? 0.0025 : p >= 100 ? 0.003 : p >= 10 ? 0.004 : p >= 1 ? 0.005 : p >= 0.1 ? 0.008 : p >= 0.01 ? 0.012 : 0.02
+        tickSize := p * basePercent * autoSensitivity
+    else if calcMethod == "ATR Based"
+        atrValue = ta.atr(14)
+        tickSize := na(atrValue) ? priceRef * 0.001 : atrValue * atrMultiplier
+    else
+        tickSize := priceRef * percentSize / 100
+    math.max(tickSize, syminfo.mintick)
+
+effectiveTickSize = getEffectiveTickSize(close)
+
+// --- SCRIPT RESET LOGIC ---
+if ticker.standard(syminfo.tickerid) != lastSymbol or timeframe.period != lastTimeframe or na(barOpen) or barstate.isfirst
+    for b in confirmedBoxArray
+        box.delete(b)
+    if not na(unconfirmedLiveBox)
+        box.delete(unconfirmedLiveBox)
+    array.clear(confirmedBoxArray)
+    initialized := false
+    barOpen := close, barClose := close, barDirection := 0
+    barMax := close + (tickTrend * effectiveTickSize), barMin := close - (tickTrend * effectiveTickSize)
+    barStartIndex := bar_index, barCount := 0, barsSinceConfirmation := 0
+    unconfirmedLiveBox := na
+    lastSymbol := ticker.standard(syminfo.tickerid), lastTimeframe := timeframe.period
+    prevBarDirection := 0, unconfirmedAlertFired := false
+    initialized := true
+
+// --- MAIN CALCULATION LOGIC ---
+if initialized and not na(close)
+    maxExceeded = close > barMax
+    minExceeded = close < barMin
+    
+    // --- A. BAR IS CONFIRMED ---
+    if maxExceeded or minExceeded
+        int newDirection = maxExceeded ? 1 : -1
+        bool isBullReversal = newDirection > 0 and prevBarDirection < 0
+        bool isBearReversal = newDirection < 0 and prevBarDirection > 0
+        bool isBullContinuation = newDirection > 0 and prevBarDirection > 0
+        bool isBearContinuation = newDirection < 0 and prevBarDirection < 0
+
+        string tickerPrefix = syminfo.tickerid + ": "
+
+        if alertOnConfirmedReversal
+            if isBullReversal
+                alert(tickerPrefix + alertOnConfirmedBullReversalMsg, alert.freq_once_per_bar_close)
+            if isBearReversal
+                alert(tickerPrefix + alertOnConfirmedBearReversalMsg, alert.freq_once_per_bar_close)
+        
+        if alertOnContinuation
+            if isBullContinuation
+                alert(tickerPrefix + alertOnContinuationBullMsg, alert.freq_once_per_bar_close)
+            if isBearContinuation
+                alert(tickerPrefix + alertOnContinuationBearMsg, alert.freq_once_per_bar_close)
+
+        if alertOnAnyBrick
+            alert(tickerPrefix + alertOnAnyBrickMsg, alert.freq_once_per_bar_close)
+
+        prevBarDirection := newDirection
+        unconfirmedAlertFired := false
+
+        barsSinceConfirmation := 0
+        if not na(unconfirmedLiveBox)
+            box.delete(unconfirmedLiveBox)
+            unconfirmedLiveBox := na
+            
+        thisClose = maxExceeded ? barMax : barMin
+        boxColor = thisClose > barOpen ? bullColor : bearColor
+
+        if showConfirmed
+            confirmedBox = box.new(barStartIndex, math.max(barOpen, thisClose), bar_index, math.min(barOpen, thisClose), border_color=boxColor, bgcolor=boxColor)
+            array.push(confirmedBoxArray, confirmedBox)
+
+        if array.size(confirmedBoxArray) > 250
+            box.delete(array.shift(confirmedBoxArray))
+
+        barCount += 1
+        barDirection := newDirection
+        currentTickSize = getEffectiveTickSize(thisClose)
+        barOpen := thisClose - (openOffset * currentTickSize * barDirection)
+        barClose := thisClose
+        barMax := barDirection > 0 ? thisClose + (tickTrend * currentTickSize) : thisClose + (tickReversal * currentTickSize)
+        barMin := barDirection < 0 ? thisClose - (tickTrend * currentTickSize) : thisClose - (tickReversal * currentTickSize)
+        barStartIndex := bar_index
+
+    // --- B. BAR IS LIVE / UNCONFIRMED ---
+    else
+        bool unconfirmedBullReversal = barDirection < 0 and close > barMax and not unconfirmedAlertFired
+        bool unconfirmedBearReversal = barDirection > 0 and close < barMin and not unconfirmedAlertFired
+
+        if alertOnUnconfirmedReversal and (unconfirmedBullReversal or unconfirmedBearReversal)
+            unconfirmedAlertFired := true
+            string tickerPrefix = syminfo.tickerid + ": "
+            string msg = unconfirmedBullReversal ? alertOnUnconfirmedBullReversalMsg : alertOnUnconfirmedBearReversalMsg
+            alert(tickerPrefix + msg, alert.freq_once_per_bar)
+        
+        barsSinceConfirmation += 1
+        barClose := close
+
+        if showUnconfirmed and barstate.islast
+            boxColor = barClose > barOpen ? unconfirmedBullColor : unconfirmedBearColor
+            
+            if na(unconfirmedLiveBox)
+                unconfirmedLiveBox := box.new(barStartIndex, math.max(barOpen, barClose), bar_index + 1, math.min(barOpen, barClose), border_color=color.new(boxColor, 20), bgcolor=boxColor, extend=extend.none)
+            else
+                box.set_left(unconfirmedLiveBox, barStartIndex)
+                box.set_top(unconfirmedLiveBox, math.max(barOpen, barClose))
+                box.set_right(unconfirmedLiveBox, bar_index + 1)
+                box.set_bottom(unconfirmedLiveBox, math.min(barOpen, barClose))
+                box.set_border_color(unconfirmedLiveBox, color.new(boxColor, 20))
+                box.set_bgcolor(unconfirmedLiveBox, boxColor)
+        else if not na(unconfirmedLiveBox) 
+            box.delete(unconfirmedLiveBox)
+            unconfirmedLiveBox := na
+            
+// --- PLOTS AND LABELS ---
+plot(showLevels ? barMax : na, "Brick Top Level", color=maxColor, style=plot.style_stepline)
+plot(showLevels ? barMin : na, "Brick Bottom Level", color=minColor, style=plot.style_stepline)
+
+barcolor(isTransparent ? color.new(color.black, 100) : na) 
+
+var label infoLabel = na
+if showInfo and barstate.islast
+    labelText = "🧱 Bricks: " + str.tostring(barCount) + "\n" + "⏳ Live: " + str.tostring(barsSinceConfirmation) + " bars\n" + "🌲 Tick Size: " + str.tostring(math.round(effectiveTickSize, 2))
+    tooltipText = "--- Renko Brick Info ---" + "\n🧱 Total Renko Bricks: " + str.tostring(barCount) + "\n" + "⏳ Live (Unconfirmed): " + str.tostring(barsSinceConfirmation) + " bars\n" + "🌲 Tick Size: " + str.tostring(effectiveTickSize) + "\n\n" + "--- Market Internals ---\n" + "✳️ RSI (14): " + str.tostring(rsi_val, "0.0") + "\n" + "✳️ MFI (14): " + str.tostring(mfi_val, "0.0") + "\n" + "✳️ CCI (20): " + str.tostring(cci_val, "0.0") + "\n\n✅ 𝗦𝗶𝗱𝗱𝗪𝗼𝗹𝗳 🐺"
+    
+    if na(infoLabel)
+        infoLabel := label.new(bar_index + 2, high, text=labelText, tooltip=tooltipText, style=label.style_label_left, size=size.normal, color=color.new(color.black, 40), textcolor=color.white)
+    else
+        label.set_xy(infoLabel, bar_index + 2, high)
+        label.set_text(infoLabel, labelText)
+        label.set_tooltip(infoLabel, tooltipText)
