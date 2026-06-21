@@ -33,7 +33,7 @@ title: Price Action 가이드북 전체 내용 핵심 요약 및 평가
   - 시장의 불확실성(Indecision)과 힘의 비축(Consolidation)을 의미하며, 강력한 돌파(Breakout) 주문으로 대응합니다.
 - Fakey (페이키)
   - Inside Bar 패턴이 형성된 후, 일시적인 속임수 돌파(False Breakout)가 일어났다가 급반전하는 패턴입니다.
-  - 거대 세력(Professional)이 대중(Amateur)들의 손절 물량을 받아 가기 위해 감행하는 Stop-hunting 과정을 역이용하는 최고 승률의 패턴입니다.
+  - 거대 세력(Professional)이 대중(Amateur)들의 손절 물량을 받아 가는 과정을 역이용하는 최고 승률의 패턴입니다.
 
 #### 4. 종합 평가 (Value of the Text)
 
