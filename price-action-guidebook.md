@@ -36,7 +36,7 @@ title: Price Action 가이드북 전체 내용 핵심 요약 및 평가
 
 - Fakey (페이키)
   - Inside Bar 패턴이 형성된 후, 일시적인 속임수 돌파(False Breakout)가 일어났다가 급반전하는 패턴입니다.
-  - 거대 세력(Professional)이 대중(Amateur)들의 손절 물량을 받아 가는 과정을 역이용하는 최고 승률의 패턴입니다.
+  - 프로(Professional)들이 아마추어(Amateur)들의 손절 물량을 받아 가는 과정을 역이용하는 최고 승률의 패턴입니다.
 
 #### 4. 종합 평가 (Value of the Text)
 
