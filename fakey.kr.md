@@ -2,61 +2,67 @@
 layout: default
 title: 페이키 매매 전략 (인사이드바 속임수 돌파) (Fakey Trading Strategy)
 ---
-### 페이키 매매 전략 (인사이드바 속임수 돌파) (Fakey Trading Strategy)
+### Fakey Trading Strategy (Inside Bar False Break Out)
+(페이키 매매 전략 – 인사이드 바 허위 돌파)
 
 #### The Fakey Pattern (Inside Bar False Break Out)
+(페이키 패턴의 정의)
 
-Fakey pattern은 “Inside bar pattern으로부터의 False-breakout(속임수 돌파)”으로 가장 잘 설명할 수 있습니다. Fakey pattern은 항상 Inside bar pattern으로부터 시작됩니다. 가격이 처음에는 Inside bar pattern을 깨고 돌파(breakout)하는 듯하다가 이내 빠르게 반전하여 False-break(속임수)를 만들고, Mother bar 또는 Inside bar의 범위 안으로 다시 들어와 마감될 때 Fakey pattern이 성립됩니다.
+페이키(Fakey) 패턴은 "인사이드 바 패턴에서의 허위 돌파(false-breakout)"로 가장 잘 설명할 수 있습니다. 페이키 패턴은 언제나 인사이드 바 패턴으로 시작합니다. 가격이 처음에 인사이드 바 패턴을 깨고 돌파하는 듯하다가 빠르게 반전하여 허위 돌파(속임수)를 만들고, 마더 바(Mother bar) 또는 인사이드 바의 범위 안으로 다시 들어와 종가를 형성할 때 페이키 패턴이 성립됩니다.
 
-따라서 이렇게 기억하시면 됩니다: Inside Bar + False-Breakout = Fakey pattern.
+쉽게 요약하면 다음과 같습니다: **인사이드 바 + 허위 돌파 = 페이키 패턴**
 
-Fakey pattern은 False-break를 일으키는 bar가 Pin bar의 형태일 수도 있고 아닐 수도 있습니다. 또한 False-break를 일으키는 bar가 두 개의 bar로 구성된 2-bar 패턴일 수도 있습니다. 이 경우 첫 번째 bar는 Inside bar / Mother bar의 범위 밖에서 마감되고, 곧이어 다음 bar가 Mother bar 및 (또는) Inside bar의 범위 안으로 다시 들어와 마감되면서 False-break를 완성하게 됩니다.
+페이키 패턴은 허위 돌파를 만드는 봉이 핀 바(Pin bar) 형태를 띨 수도 있고, 그렇지 않을 수도 있습니다. 또한, 첫 번째 봉이 인사이드 바/마더 바 범위를 벗어나 마감한 뒤 그다음 봉이 다시 마더 바/인사이드 바 범위 안으로 들어와 마감하면서 허위 돌파를 완성하는 '2봉(Two-bar) 패턴'의 형태를 띠기도 합니다.
 
-Fakey는 매우 중요하고 강력한 Price action trading strategy입니다. 왜냐하면 시장의 ‘거대 세력(big boys)’들이 감행하는 Stop-hunting(손절물량 유도)을 식별하는 데 도움을 주며, 향후 가격이 어떻게 움직일지에 대한 매우 좋은 Clue(단서)를 제공하기 때문입니다. Fakey pattern을 매매하는 방법을 배우는 것은 모든 Price action trader가 진지하게 임해야 할 과제이며, 여러분의 Price action 매매 무기고(arsenal)에 반드시 갖추어야 할 치명적인 무기입니다.
+페이키는 프라이스 액션 매매에서 매우 중요하고 강력한 전략입니다. 왜냐하면 시장의 '거물들(대형 기관/세력)'이 개인들의 손절 물량을 털어내는 '스톱 헌팅(Stop-hunting)' 과정을 포착하도록 도와주며, 향후 가격이 어디로 움직일지에 대한 매우 확실한 단서를 제공하기 때문입니다. 페이키 패턴을 매매하는 법을 익히는 것은 모든 프라이스 액션 트레이더가 진지하게 임해야 할 과제이며, 당신의 매매 무기고에 반드시 갖춰야 할 핵심 화기입니다.
 
-이 Price action strategy의 이해를 돕기 위해 다양한 유형의 Fakey pattern 예시를 살펴보겠습니다.
+이 프라이스 액션 전략에 대한 명확한 이해를 돕기 위해 여러 가지 유형의 페이키 패턴 예시를 살펴보겠습니다.
 
 > ![](priceaction/fakey1.webp)
 
-위 다이어그램에 표시된 서로 다른 Fakey pattern들을 보면, 항상 Inside bar setup이 먼저 발생한 후 Inside bar의 False-breakout이 뒤따른다는 점에 주목하십시오. Fakey는 위 예시들과 미세하게 다를 수 있지만, 위의 네 가지 예시는 여러분이 차트에서 가장 흔하게 접하게 될 대표적인 Fakey trading strategy 유형들입니다.
+위 도표에 표시된 다양한 페이키 패턴들을 보면, 언제나 인사이드 바 셋업이 먼저 형성된 후 인사이드 바의 허위 돌파가 뒤따른다는 공통점이 있습니다. 페이키는 위 예시들과 미세하게 다를 수 있지만, 위 네 가지 예시가 차트에서 가장 흔하게 마주치게 될 대표적인 페이키 매매 전략 형태들입니다.
 
 #### How to trade with Fakey Patterns
+(페이키 패턴 매매법)
 
-Fakey pattern은 Trending market, Range-bound(박스권) 시장에서 매매할 수 있으며, 주요 차트 레벨에서 Counter-trend(역추세) 신호로도 활용할 수 있습니다. Forex(외환) 시장에는 수많은 False-breakout이 발생하므로, Fakey pattern 매매법을 익히는 것은 매우 중요합니다. 이를 통해 수많은 Trader들이 피해자가 되는 것과 달리, 여러분은 이러한 속임수 돌파를 역으로 이용해 이득(profit)을 취할 수 있습니다.
+페이키 패턴은 추세 시장, 박스권 시장은 물론 주요 차트 레벨을 활용한 역추세(추세 반대) 매매에서도 사용할 수 있습니다. 외환(Forex) 시장에는 수많은 허위 돌파가 존재하므로, 페이키 패턴 매매법을 익히는 것은 매우 중요합니다. 수많은 트레이더들처럼 허위 돌파의 희생양이 되는 대신, 이를 역이용하여 수익을 낼 기회로 바꿀 수 있기 때문입니다.
 
-Fakey signal의 가장 일반적인 진입(entries) 방식은 다음과 같습니다.
+페이키 시그널의 가장 일반적인 진입 방식은 다음과 같습니다:
 
-- 최초의 False-break가 발생한 후, 가격이 Inside bar 또는 Mother bar의 고가나 저가를 다시 깨고 복귀할 때 진입합니다. 이는 Stop order(역지정가 주문)나 Market order(시장가 주문)로 진행할 수 있습니다.
-- 만약 Fakey pattern에 Pin bar가 포함되어 있다면, Pin bar 진입 방식을 그대로 사용할 수 있습니다.
+* 최초의 허위 돌파가 발생한 후, 가격이 다시 인사이드 바나 마더 바의 고가 또는 저가를 돌파하며 원위치로 되돌아올 때 진입합니다. 이는 역지정가(On-stop) 주문이나 시장가(At market) 주문으로 진입할 수 있습니다.
+* 만약 페이키 패턴 내에 핀 바가 포함되어 있다면, 일반적인 핀 바 진입 기법을 그대로 적용하여 진입할 수 있습니다.
 
 > ![](priceaction/fakeyentries.png)
 
-다양한 시장 조건에서 Fakey signal을 활용해 매매하는 여러 예시를 살펴보겠습니다.
+다양한 시장 조건에서 페이키 시그널을 활용해 매매하는 여러 실제 사례를 살펴보겠습니다.
 
 #### Trading Fakey’s in a Trending Market
+(추세 시장에서의 페이키 매매)
 
-아래 차트는 Trending market에서 False-break bar로 Pin bar가 포함된 훌륭한 Fakey buy signal의 예시를 보여줍니다. 이 signal에서는 Mother bar 구조 내에 실제 세 개의 Inside bar가 존재했다는 점에 주목하십시오. 이는 비교적 흔하게 볼 수 있는 현상이며, 때로는 False-break 또는 ‘Fakey’ bar가 나타나기 전에 Mother bar 내부에 네 개의 Inside bar가 형성되는 것도 볼 수 있습니다.
+아래 차트는 추세 시장에서 핀 바가 허위 돌파 봉으로 작용하여 형성된 좋은 상승 페이키 매수 시그널의 예시를 보여줍니다. 이 시그널을 보면 마더 바 구조 안에 실제로 세 개의 인사이드 바가 갇혀 있었음을 알 수 있습니다. 이는 비교적 흔하게 나타나는 현상이며, 때로는 허위 돌파나 '페이키' 봉이 출현하기 전에 마더 바 안에 네 개의 인사이드 바가 형성되는 것을 보게 될 수도 있습니다.
 
 > ![](priceaction/fakeywithpinbartrend.webp)
 
-다음 차트는 Trending market에서 Fakey pattern을 매매하는 또 다른 좋은 예시를 보여줍니다. 이 Fakey pattern이 형성되기 전에 명확한 uptrend(상승 추세)가 유지되고 있었습니다. 특히 이번 Fakey는 2-bar false-break 형태였습니다. 즉, 하나의 bar로 속임수가 끝난 것이 아니라 연속된 두 개의 bar에 걸쳐 False-break가 발생했음을 의미합니다. 이는 시장을 분석하고 매매할 때 주의 깊게 살펴봐야 할 Fakey signal의 또 다른 흔한 형태입니다.
+다음 차트는 추세 시장에서 페이키 패턴을 매매하는 또 다른 좋은 예시를 보여줍니다. 이 페이키 패턴이 형성되기 전에 명확한 상승 추세가 유지되고 있었습니다. 특히 이 페이키는 '2봉 허위 돌파(2-bar false-break)' 형태로, 하나의 봉이 아닌 연속된 두 개의 봉을 통해 허위 돌파가 완성되었습니다. 이는 시장을 분석하고 매매할 때 예의주시해야 할 또 다른 일반적인 페이키 시그널 형태입니다.
 
 > ![](priceaction/fakeywithoutpinbar.png)
 
 #### Trading Fakey’s against the Trend from Key Chart Levels
+(주요 차트 레벨에서의 역추세 페이키 매매)
 
-다음으로 살펴볼 예시는 Counter-trend Fakey입니다. 즉, 최근 또는 단기적인 일봉 차트의 Momentum / Trend와 반대 방향으로 가격이 움직일 수 있음을 암시하는 Fakey입니다. 이 사례는 가격이 하락한 후 주요 Support(지지) 레벨에서 형성된 Bullish fakey buy signal입니다. 이 Fakey signal은 매우 훌륭하고 명확하게(잘 정의되어) 형성되었으며, 하단에 주요 Support 레벨이라는 Confluence(확인 요인)까지 갖추고 있었기 때문에 충분히 진입할 가치가 있는 Counter-trend Fakey였습니다.
+다음으로 살펴볼 사례는 역추세 페이키 매매입니다. 이는 가격이 최근 또는 단기 일봉 차트의 모멘텀/추세와 반대 방향으로 움직일 수 있음을 암시하는 페이키를 뜻합니다. 이 사례의 경우, 가격이 하락한 이후 주요 지지 레벨에서 상승 페이키 매수 시그널이 형성되었습니다. 이 페이키 시그널은 형태가 매우 깔끔하고 명확(잘 정의됨)했으며, 그 하단에 주요 지지 레벨이라는 중첩(Confluence) 근거까지 받쳐주고 있었기 때문에 충분히 진입해 볼 가치가 있는 역추세 페이키였습니다.
 
 > ![](priceaction/fakeyatkeysupport.png)
 
-Counter-trend Fakey pattern의 또 다른 예시입니다. 이번에는 주요 Resistance(저항) 레벨에서 형성된 Bearish fakey sell signal입니다. 이 Fakey가 형성되기 직전에 시장이 명확하게 상방으로 치닫고 있었음에 주목하십시오. 그 후 Fakey가 형성될 때 시장의 주요 Resistance 레벨 위로 False-break를 일으키며 상방 속임수를 주었고, 이는 하락 변동 가능성에 강력한 ‘무게(weight)’를 더해주었습니다. 이 Bearish fakey 이후 전개된 극적인 투매(sell-off)를 확인할 수 있습니다.
+역추세 페이키 패턴의 또 다른 예시입니다. 이번에는 주요 저항 레벨에서 형성된 하락 페이키 매도 시그널입니다. 이 페이키가 형성되기 직전에 시장이 명확하게 상방으로 치고 올라가고 있었던 점에 주목하십시오. 이후 페이키가 만들어질 때 시장의 주요 저항 레벨을 상방으로 허위 돌파하면서, 가격이 하락 전환할 확률에 강력한 '무게감'을 더해주었습니다. 이 하락 페이키 이후에 나타난 극적인 폭락세를 확인할 수 있습니다.
 
 > ![](priceaction/fakeyatkeyresistance.png)
 
-#### Tips on Trading the Fakey Pattern:
+#### Tips on Trading the Fakey Pattern
+(페이키 패턴 매매 팁)
 
-- 위에 제시된 Fakey 예시들이 여러분이 접하게 될 ‘모든’ 변형 구조를 포함하는 것은 아니며, 단지 가장 흔한 형태 중 일부일 뿐입니다. Inside bar pattern이 나타난 후, 해당 Inside bar pattern의 False-breakout이 뒤따른다면 높은 확률로 Fakey pattern이 성립된다는 점만 기억하십시오.
-- 앞서 언급한 점이 위에서 다룬 Fakey 조건만 충족하면 ‘모든’ 패턴을 다 매매해야 한다는 의미는 아닙니다. 특정 Fakey로 진입할지 여부는 패턴의 형태뿐만 아니라 시장의 어느 위치에서 형성되는가에 따라 달라집니다. 즉, 해당 신호가 Confluence를 가졌는지, 그리고 기저에 깔린 시장 상황 및 역학 관계(dynamics) 속에서 ‘맥락상 타당한지(makes sense)’ 따져보아야 합니다. Price action 매매 교육을 받고 차트를 보는 시간(screen time)과 경험이 쌓이게 되면, 어떤 Fakey(또는 다른 price action 패턴)가 진입할 가치가 있고 어떤 것을 패스해야 하는지 더 잘 이해하게 될 것입니다.
-- 초보자 단계에서는 일봉 차트(daily charts)의 Fakey signal만 고수하십시오. 일봉 차트 신호는 하위 타임프레임 차트보다 전반적으로 훨씬 높은 정확도와 신뢰도(accuracy / reliability)를 가집니다. 시간이 흘러 경험과 자신감이 쌓이면 그때 4시간봉과 1시간봉 타임프레임의 Fakey를 매매 전략에 편입하셔도 좋습니다.
+* 위에 제시된 페이키 예시들이 당신이 조우하게 될 '모든' 변형된 페이키 형태를 담고 있는 것은 아니며, 단지 더 자주 발생하는 몇 가지 표준 유형일 뿐입니다. 인사이드 바 패턴이 먼저 나오고, 뒤이어 그 인사이드 바 패턴의 허위 돌파가 발생했다면 그것은 페이키 패턴일 확률이 높다는 기본 원칙만 기억하십시오.
+* 그렇다고 해서 위의 페이키 요건을 충족하는 '모든' 패턴을 기계적으로 전부 매매해야 한다는 뜻은 아닙니다. 특정 페이키로 진입할지 여부는 패턴의 형태뿐만 아니라 **차트의 어느 위치에서 형성되었는가**에 따라 달라집니다. 즉, 기저에 깔린 시장 구조와 역학 관계 속에서 중첩(Confluence) 근거를 가졌는지, 그리고 진입할 만한 '합리적인 맥락'이 성립되는지가 중요합니다. 프라이스 액션 매매에 대한 교육과 훈련을 쌓고 경험과 차트 앞을 지킨 시간(Screen Time)이 누적되면, 어떤 페이키(또는 다른 프라이스 액션 패턴)가 매매할 가치가 있고 어떤 것을 걸러내야 하는지 판단하는 눈을 기르게 될 것입니다.
+* 초보자 단계에서는 **일봉(Daily) 차트**의 페이키 시그널만 고수하십시오. 일봉 차트 시그널은 하위 타임프레임 차트보다 전반적으로 훨씬 높은 정확도와 신뢰성을 가집니다. 추후 경험과 자신감이 쌓이면 4시간봉과 1시간봉 타임프레임의 페이키 매매를 포트폴리오에 추가해 나갈 수 있습니다.
 
 [원문: Fakey Trading Strategy (Inside Bar False Break Out)](fakey.en)

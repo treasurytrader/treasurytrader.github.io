@@ -2,58 +2,63 @@
 layout: default
 title: 캔들스틱 패턴의 이해 (Introduction to Japanese Candlestick Patterns)
 ---
-### 캔들스틱 패턴의 이해 (Introduction to Japanese Candlestick Patterns)
+### Introduction to Japanese Candlestick Patterns
+(일본식 캔들스틱 패턴 입문)
 
 #### What is a Japanese candlestick pattern?
+(일본식 캔들스틱 패턴이란 무엇인가?)
 
-Candlestick(캔들스틱)은 특정 기간 동안 시장의 Open(시가), High(고가), Low(저가), Close(종가)를 보여줍니다. 예를 들어 일봉 차트 타임프레임을 보고 있다면, 각 Candlestick은 해당 거래일 동안 발생한 Price action의 Open, High, Low, Close를 반영하게 됩니다.
+캔들스틱은 특정 기간 동안 시장의 시가, 고가, 저가, 종가를 보여줍니다. 예를 들어 일봉 차트를 보고 있다면, 각 캔들스틱은 해당 날짜 하루 동안 발생한 프라이스 액션의 시가, 고가, 저가, 종가를 반영합니다.
 
-Candlestick과 표준 Price bar의 가장 주된 차이점은, Candlestick은 캔들의 Open과 Close 사이에 색상이 칠해진 영역을 표시한다는 점입니다. 이를 통해 Trader는 당일 가격이 상승 마감(bullish)했는지 또는 하락 마감(bearish)했는지를 빠르게 확인할 수 있으며, 이는 모든 Price action trader에게 매우 중요한 정보입니다.
+캔들스틱과 표준 가격 바(Price Bar)의 가장 큰 차이점은, 캔들스틱의 경우 시가와 종가 사이의 구간에 색상이 입혀져 있다는 점입니다. 이를 통해 트레이더들은 당일 가격이 상승 마감(우세/상승)했는지 또는 하락 마감(열세/하락)했는지를 빠르게 파본할 수 있으며, 이는 프라이스 액션 트레이더에게 매우 중요한 정보입니다.
 
-이해를 돕기 위해 Bullish candlestick과 Bearish candlestick의 모습을 이미지로 살펴보겠습니다.
+더 명확한 이해를 돕기 위해 상승 캔들과 하락 캔들의 그림을 살펴보겠습니다.
 
-참고: 왼쪽의 Candlestick은 Close가 Open보다 높기 때문에 'Bullish candle(상승 캔들)'입니다. 오른쪽 캔들은 Close가 Open보다 낮기 때문에 'Bearish candle(하락 캔들)'입니다.
+참고: 왼쪽 캔들은 종가가 시가보다 높기 때문에 '상승 캔들(양봉)'입니다. 오른쪽 캔들은 종가가 시가보다 낮기 때문에 '하락 캔들(음봉)'입니다.
 
 > ![](priceaction/candlestick-anatomy1.gif)
 
-Candlestick에서 색상이 칠해진 영역을 “Real body(몸통)” 또는 간단히 body라고 부릅니다. 참고: Real body의 색상은 Trader마다 다를 수 있으며, 개인의 설정이나 선호도에 따라 달라집니다. Real body의 표준 색상 조합은 Bullish의 경우 흰색, Bearish의 경우 검은색이며, 저희가 보기에는 이것이 가장 깔끔하고 좋은 선택입니다.
+캔들스틱에서 색상이 채워진 구간을 '몸통(real body)' 또는 바디라고 부릅니다. 참고: 몸통의 색상은 트레이더의 설정이나 개인적 선호도에 따라 다를 수 있습니다. 몸통의 표준 색상 조합은 상승 시 흰색, 하락 시 검은색이며, 저희가 생각하기에 가장 깔끔하고 좋은 옵션입니다.
 
-Body의 위아래로 삐져나온 얇은 선들은 High/Low 범위를 나타내며, 이를 Shadow(그림자), Tail(꼬리), 또는 Wick(심지)라고 부릅니다. 세 가지 이름 모두 동일한 대상을 가리킵니다. Upper shadow(윗그림자)의 최상단은 “High”가 되고, Lower shadow(아랫그림자)의 최하단은 “Low”가 됩니다.
+몸통 위아래로 삐져나온 얇은 선들은 고가와 저가의 범위를 나타내며 '그림자(shadows)', '꼬리(tails)', 또는 '심지(wicks)'라고 부릅니다. 세 가지 명칭 모두 같은 것을 의미합니다. 윗꼬리의 최상단은 '고가(high)'가 되며, 아랫꼬리의 최하단은 '저가(low)'가 됩니다.
 
 #### What is a candlestick pattern?
+(캔들스틱 패턴이란 무엇인가?)
 
-Candlestick pattern은 Candlestick 차트 상에 시각적으로 표시되는 한 개 또는 여러 개의 bar로 구성된 Price action pattern으로, Price action trader들이 시장의 움직임을 예측하는 데 사용합니다. 패턴을 인지하는 것은 어느 정도 주관적이기 때문에, Candlestick pattern을 식별하고 매매하는 기술을 기르기 위해서는 숙련되거나 전문적인 Price action trader의 교육이 필요할 뿐만 아니라 차트를 직접 보는 시간(screen time)을 통한 자신만의 경험이 요구됩니다.
+캔들스틱 패턴은 프라이스 액션 트레이더들이 시장의 움직임을 예측하기 위해 사용하는 것으로, 캔들스틱 차트상에 시각적으로 표시되는 단일(1개) 또는 다중(여러 개) 캔들의 프라이스 액션 패턴입니다. 패턴을 인지하는 것은 어느 정도 주관적이기 때문에, 캔들스틱 패턴을 식별하고 매매하는 기술을 키우기 위해서는 숙련된 프로 프라이스 액션 트레이더의 교육과 차트 앞을 지킨 시간(Screen Time)을 통한 스스로의 경험이 필요합니다.
 
-수많은 다양한 Candlestick pattern이 존재하며, 그 중 상당수는 동일한 기본 원리에서 약간씩 변형된 것에 불과합니다. 따라서 priceaction.com에서는 본질적으로 거의 같은 30가지의 서로 다른 패턴을 전부 학습하려고 애쓰기보다, Trader가 실전에 활용할 수 있는 탄탄한 매매 signal 도구 상자가 되어줄 검증된 몇 가지 핵심 Candlestick pattern에 집중하는 것이 훨씬 더 합리적이라고 생각합니다.
+수많은 종류의 캔들스틱 패턴이 존재하지만, 상당수는 동일한 기본 원리에서 약간의 변형만 준 것에 불과합니다. 따라서 저희 priceaction.com에서는 본질적으로 동일한 30가지의 다양한 패턴을 억지로 배우려 하기보다, 트레이더가 실전에 바로 활용할 수 있는 견고한 매매 시그널 무기 가방이 되어줄 '수수께끼 같은 몇 가지' 검증된 캔들스틱 패턴에 집중하는 것이 훨씬 현명하다고 생각합니다.
 
-저희가 가장 선호하는 몇 가지 Price action trading candlestick strategy는 다음과 같습니다.
+다음은 저희가 가장 선호하는 프라이스 액션 매매 캔들스틱 전략들입니다.
 
-- Pin bar candlestick pattern – Pin bar candlestick pattern은 특정 가격 레벨이나 영역에 대한 Rejection(거부)을 보여주는 단일 bar 패턴입니다. 이 패턴은 작은 Real body를 가지고 있으며, 오직 한쪽 방향으로만 긴 Shadow(또는 꼬리 'tail')를 형성하여 해당 가격 영역에 대한 거부를 나타냅니다. Pin bar는 추세 지속 상황이나 역추세 상황 모두에서 Reversal(반전) signal로 매매할 수 있습니다. Pin bar의 형태는 다음과 같습니다.
+- 핀 바 캔들스틱 패턴 (Pin bar candlestick pattern) – 핀 바 캔들스틱 패턴은 특정 가격 레벨이나 구간에 대한 거부(rejection)를 보여주는 단일 캔들 패턴입니다. 이 패턴은 작은 몸통을 가지고 있으며 한쪽에만 긴 꼬리가 형성되어 있어, 해당 가격대에 대한 거부 의사를 나타냅니다. 핀 바는 추세 내부의 흐름이나 역추세 흐름 모두에서 반전 시그널로 매매할 수 있습니다. 핀 바의 형태는 다음과 같습니다.
 
 > ![](priceaction/pinbarcandlestick.png)
 
-- Inside bar candlestick pattern – Inside bar candlestick pattern은 시장의 Indecision(불확실성/망설임)이나 일시적인 정체(stalling)를 보여주는 최소 두 개 이상의 bar 패턴입니다(여러 개의 inside bar가 포함될 수도 있음). Inside bar trading strategy는 일반적으로 Trending market에서 Price action breakout strategy로 활용할 때 가장 효과적이지만, 때로는 주요 차트 레벨에서 Reversal strategy로 사용되기도 합니다. Inside bar의 예시는 다음과 같습니다.
+- 인사이드 바 캔들스틱 패턴 (Inside bar candlestick pattern) – 인사이드 바 캔들스틱 패턴은 시장의 추세 고민(indecision)이나 일시 정지(stalling)를 나타내는 최소 2개 이상의 캔들 패턴(인사이드 바가 여러 개 연속될 수도 있음)입니다. 인사이드 바 매매 전략은 대개 추세 시장에서 프라이스 액션 돌파 전략으로 가장 잘 작동하지만, 때로는 주요 차트 레벨에서 반전 전략으로 사용되기도 합니다. 인사이드 바의 예시는 다음과 같습니다.
 
 > ![](priceaction/insidebarcandlestick.png)
 
-- Fakey candlestick pattern – Fakey candlestick pattern은 일반적으로 3개 또는 4개의 bar로 구성되며, Inside bar pattern의 False break(속임수 돌파)를 보여줍니다. Fakey pattern은 시장에서 'Fake out(속임수)'이 발생했음을 나타내며, 이후 가격은 False break가 일어난 반대 방향으로 지속될 가능성이 높습니다. 아래에서 Fakey pattern이 어떤 형태를 띠고 있는지 예시를 확인할 수 있습니다.
+- 페이키 캔들스틱 패턴 (Fakey candlestick pattern) – 페이키 캔들스틱 패턴은 대개 3~4개의 캔들로 구성되며, 인사이드 바 패턴의 허위 돌파(false break)를 보여줍니다. 페이키 패턴은 시장에 '속임수(fake out)'가 발생했음을 나타내며, 이후 가격은 허위 돌파가 일어났던 방향과 반대 방향으로 움직임을 이어갈 가능성이 높습니다. 아래에서 페이키 패턴의 형태를 확인할 수 있습니다.
 
 > ![](priceaction/fakeycandlestick.png)
 
 ## What is a candlestick chart?
+(캔들스틱 차트란 무엇인가?)
 
-Candlestick chart(캔들스틱 차트)는 Bar chart(바 차트)의 표준 Price bar나 Line chart(선 차트)의 선 대신, Candlestick(캔들스틱)으로 채워진 가격 차트입니다.
+캔들스틱 차트는 일반적인 바 차트의 표준 가격 바나 선 차트의 선 대신, 양초 형태의 '캔들스틱(candlesticks)'들로 채워진 가격 차트를 말합니다.
 
-각 Candlestick은 해당 기간의 High(고가), Low(저가), Open(시가), Close(종가)를 보여줍니다. 이는 전통적인 Price bar가 담고 있는 정보와 동일하지만, Candlestick은 이 정보들을 훨씬 더 직관적으로 시각화하여 활용하기 쉽게 만들어 줍니다.
+각 캔들스틱은 해당 캔들이 나타내는 기간 동안의 고가, 저가, 시가, 종가를 보여줍니다. 이는 전통적인 바 차트에 반영된 정보와 동일하지만, 캔들스틱은 이 정보를 훨씬 더 직관적으로 시각화하고 매매에 활용하기 쉽게 만들어줍니다.
 
-다음은 전형적인 Candlestick chart의 예시입니다. 이 차트의 Support(지지) 레벨에서 형성된 Pin bar candlestick pattern과 그 이후에 이어진 거대한 상승 움직임에 주목하십시오.
+다음은 전형적인 캔들스틱 차트의 예시입니다. 이 차트의 지지 레벨(support)에서 형성된 핀 바 캔들스틱 패턴과, 그 직후에 나타난 거대한 상승 움직임에 주목하십시오.
 
 > ![](priceaction/candlestickchart2.png)
 
 #### Advantage of candlestick charts
+(캔들스틱 차트의 장점)
 
-Candlestick price action 차트의 가장 주된 장점은 표준 Bar chart나 Line chart에서 볼 수 있는 것보다, 시간 경과에 따른 가격 변동을 더욱 임팩트 있고 '드라마틱한' 시각적 화면으로 제공한다는 점입니다. 각 캔들의 Real body(몸통)가 상승(bullish) 또는 하락(bearish) 마감 여부에 따라 색상이 칠해지기 때문에, Price bar 간의 역동적인 움직임을 읽기가 훨씬 수월해집니다. 또한 많은 Trader들은 이 방식이 매매하는 데 있어서 더 '재미있다'고 말하기도 합니다.
+프라이스 액션 분석에서 캔들스틱 차트가 가지는 가장 주요한 장점은 표준 바 차트나 선 차트에서 볼 수 있는 것보다 시간에 따른 가격 움직임을 훨씬 더 강렬하고 직관적으로 시각화하여 보여준다는 점입니다. 종가의 상방(양봉) 또는 하방(음봉) 마감 여부에 따라 각 캔들의 몸통(real body)에 색상이 입혀지기 때문에, 가격 봉들 사이에 나타나는 힘의 역학 관계를 읽기가 훨씬 수월해집니다. 많은 트레이더들은 이 방식이 차트를 보는 '재미'도 더해준다고 말합니다.
 
-결과적으로 Trader가 표준 Bar chart를 사용할지 혹은 Candlestick chart를 사용할지는 개인의 선호와 주관에 달린 문제입니다. 하지만 시장 심리(market sentiment)를 더 잘 파악하고 느끼며, Price action trading signal을 더 쉽게 포착하기 위해서는 Candlestick chart를 사용해야 한다는 것이 저의 의견이자 성공한 대부분의 Price action trader들의 공통된 생각입니다.
+결과적으로 트레이더가 표준 바 차트를 쓸지 캔들스틱 차트를 쓸지는 개인의 취향과 판단의 영역입니다. 하지만 저를 포함해 성공한 대부분의 프라이스 액션 트레이더들은 시장 심리(sentiment)를 더 정확하게 파악하고 감각을 유지하기 위해서, 그리고 프라이스 액션 매매 시그널을 더 쉽게 포착하기 위해서 반드시 캔들스틱 차트를 사용해야 한다고 생각합니다.
 
 [원문: Introduction to Japanese Candlestick Patterns](candlesticks.en)

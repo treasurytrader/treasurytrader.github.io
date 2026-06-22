@@ -2,90 +2,90 @@
 layout: default
 title: 프라이스 액션 매매 소개 (Price Action Trading Introduction)
 ---
-### 프라이스 액션 매매 소개 (Price Action Trading Introduction)
+### What Is Price Action? – Price Action Trading Introduction
 
 #### What is Price Action? – Price Action Trading Explained
 
-Price action trading은 시간 경과에 따른 기본적인 가격 변동을 분석하여 금융 시장을 예측하는 매매 방법론입니다. 많은 개인 Trader(retail traders)뿐만 아니라 기관 투자자(institutional traders)와 Hedge fund manager들이 특정 자산이나 금융 시장의 향후 가격 방향을 예측하기 위해 이 방식을 자주 사용합니다.
+프라이스 액션(Price Action) 트레이딩은 시간에 따른 기본적인 가격의 움직임을 분석하여 금융 시장에서 거래를 수행하는 매매 방법론입니다. 많은 개인 트레이더뿐만 아니라 기관 트레이더와 헤지펀드 매니저들도 자산이나 금융 시장의 향후 가격 방향성을 예측하기 위해 이 방법을 자주 사용합니다.
 
-간단히 말해, Price action은 가격이 어떻게 변하는지, 즉 가격의 '움직임(action)'을 뜻합니다. Liquidity(유동성)와 Volatility(변동성)가 높은 시장에서 가장 쉽게 관찰되지만, 사실 자유 시장에서 사고파는 모든 자산은 Price action을 만들어냅니다.
+간단히 말해, 프라이스 액션은 가격이 어떻게 변하는지, 즉 가격의 '움직임(액션)' 그 자체를 의미합니다. 유동성과 변동성이 높은 시장에서 가장 쉽게 관찰되지만, 사실 자유 시장에서 거래되는 모든 자산은 프라이스 액션을 만들어냅니다.
 
-Price action trading은 시장의 움직임에 영향을 미치는 Fundamental(펀더멘털) 요소를 배제합니다. 그 대신 시장의 Price history, 즉 일정 기간 동안의 가격 변동을 주로 살펴봅니다. 따라서 Price action은 Technical analysis(기술적 분석)의 한 형태입니다. 하지만 일반적인 Technical analysis와 다른 점은, 가격 역사에서 파생된 '이차적(second-hand)' 지표에 의존하기보다 현재 시장 가격과 과거 또는 최근 가격 간의 상호 관계에 주된 초점을 맞춘다는 것입니다.
+프라이스 액션 트레이딩은 시장 움직임에 영향을 미치는 펀더멘털(기초 체력) 요인들을 배제합니다. 그 대신 시장의 과거 가격 기록, 즉 일정 기간 동안의 가격 움직임을 주로 살펴봅니다. 따라서 프라이스 액션은 기술적 분석의 한 형태입니다. 하지만 일반적인 기술적 분석과 차별화되는 점은, 가격 기록에서 파생된 '2차적인' 값에 의존하기보다 시장의 현재 가격과 과거 또는 최근 가격 간의 관계에 온전히 집중한다는 것입니다.
 
-다시 말해, Price action trading은 가격에서 파생된 이차적 Indicator(지표)를 포함하지 않기 때문에 가장 '순수한(pure)' 형태의 Technical analysis입니다. Price action trader들은 시장이 스스로 만들어내는 일차 데이터(first-hand data), 즉 시간 경과에 따른 가격 움직임에만 온전히 집중합니다.
+다시 말해, 프라이스 액션 트레이딩은 가격에서 파생된 2차 보조지표를 포함하지 않기 때문에 기술적 분석의 가장 '순수한' 형태라고 할 수 있습니다. 프라이스 액션 트레이더는 시장이 스스로 만들어내는 1차 데이터인 '시간에 따른 가격의 움직임'에만 관심을 둡니다.
 
-- Price action 분석을 통해 Trader는 시장의 가격 변동을 이해할 수 있으며, 현재의 Market structure(시장 구조)를 설명하는 시나리오를 구상할 수 있는 근거를 얻게 됩니다. 숙련된 Price action trader들은 시장에 대한 자신만의 고유한 직관적 이해와 '촉(gut feel)'을 수익성 높은 매매의 핵심 이유로 꼽곤 합니다.
+- 프라이스 액션 분석을 통해 트레이더는 시장의 가격 움직임을 이해할 수 있으며, 현재의 시장 구조를 설명하는 심리적 시나리오를 구상할 수 있는 근거를 얻게 됩니다. 숙련된 프라이스 액션 트레이더들은 시장에 대한 자신만의 독창적인 이해도와 '직관(촉)'을 수익성 있는 매매를 해내는 가장 핵심적인 이유로 꼽곤 합니다.
 
-Price action trader들은 시장의 과거 Price history를 활용하며, 대개 최근 3~6개월 동안의 Price action에 집중하고 그보다 더 오래된 가격 역사는 가볍게 참고합니다. 이러한 Price history에는 시장의 Swing high(고점)와 Swing low(저점)뿐만 아니라, Support(지지) 및 Resistance(저항) level이 포함됩니다.
+프라이스 액션 트레이더들은 시장 가격 움직임의 과거 기록을 활용합니다. 대개 최근 3~6개월 동안의 프라이스 액션에 집중하며, 더 먼 과거의 기록에는 비중을 적게 둡니다. 이러한 가격 기록에는 시장의 스윙 하이(전고점)와 스윙 로우(전저점)뿐만 아니라 지지와 저항 레벨이 포함됩니다.
 
-Trader는 시장의 Price action을 활용해 시장 움직임의 이면에 숨겨진 인간의 심리적 사고 과정을 분석할 수 있습니다. 시장의 모든 참여자는 매매를 진행하면서 가격 차트에 Price action이라는 '단서(clues)'를 남기며, Trader들은 이 단서를 해석하여 시장의 다음 움직임을 예측하는 데 활용합니다.
+트레이더는 시장의 프라이스 액션을 활용하여 시장 움직임 이면에 숨겨진 인간의 사고 과정을 설명해 낼 수 있습니다. 시장의 모든 참여자는 거래를 하는 과정에서 가격 차트에 프라이스 액션이라는 '단서'를 남깁니다. 그리고 이러한 단서들을 해석함으로써 시장의 다음 움직임을 예측하는 데 활용할 수 있습니다.
 
 #### Price Action Trading – Keeping it Simple
 
-Price action trader들은 흔히 "KISS(Keep It Simple Stupid, 단순하게 만들어라)"라는 문구를 자주 사용합니다. 이는 많은 사람이 수많은 Technical indicator로 차트를 복잡하게 만들고, 시장을 전반적으로 과도하게 분석함으로써 매매를 스스로 어렵게 만든다는 사실을 지적하는 표현입니다.
+프라이스 액션 트레이더들은 흔히 "단순하게 해, 이 바보야(Keep It Simple Stupid)"라는 문구를 사용합니다. 이는 수많은 기술적 보조지표로 차트를 흐리게 만들고 시장을 과도하게 분석하여, 트레이딩을 불필요하게 복잡하게 만드는 사람들이 많다는 사실을 꼬집는 말입니다.
 
-- Price action trading은 단순한 가격 움직임만을 담은 차트를 기반으로 매매한다는 점에서, 때로 'Clean chart trading', 'Naked trading', 'Raw or natural trading'이라고 불리기도 합니다.
+- 프라이스 액션 트레이딩은 오직 가격만을 표시한 단순한 차트를 보고 거래한다는 점에서 '클린 차트 트레이딩(clean chart trading)', '네이키드 트레이딩(naked trading)', '생(生)트레이딩 또는 자연 트레이딩(raw or natural trading)'이라고 불리기도 합니다.
 
-이처럼 불필요한 요소를 모두 걷어낸 Price action trading의 단순한 접근 방식은 Trader의 차트에 그 어떤 Indicator도 띄우지 않으며, 매매 의사결정을 내릴 때 경제 이벤트나 뉴스도 활용하지 않음을 의미합니다. 오직 시장의 Price action에만 온전히 집중하며, Price action trader들 사이에서는 이 가격 움직임이 시장에 영향을 주고 움직이게 만드는 모든 변수(뉴스 이벤트, 경제 데이터 등)를 이미 반영하고 있다는 믿음이 존재합니다. 따라서 매일 시장에 영향을 미치는 수많은 변수를 일일이 해독하고 분류하려고 애쓰는 것보다, 단순히 시장을 분석하고 그 Price action을 바탕으로 매매하는 것이 훨씬 더 단순하고 효율적이라는 의미를 내포하고 있습니다.
+이처럼 군더더기를 모두 빼버린 단순한 접근 방식 덕분에, 프라이스 액션 트레이더의 차트에는 보조지표가 없으며 매매 결정을 내릴 때 경제 이벤트나 뉴스도 활용하지 않습니다. 오직 시장의 가격 움직임에만 초점을 맞춥니다. 프라이스 액션 트레이더들은 이 가격의 움직임이 시장에 영향을 미치고 시장을 움직이게 만드는 모든 변수(뉴스 이벤트, 경제 데이터 등)를 이미 반영하고 있다고 믿습니다. 따라서 매일 시장에 영향을 미치는 수많은 변수들을 일일이 해독하고 분류하려고 애쓰는 것보다, 그저 시장의 프라이스 액션만을 분석하고 거래하는 것이 훨씬 더 단순하고 효과적이라는 결론에 이르게 됩니다.
 
 #### Price Action Trading Strategies (Patterns)
 
-Price action pattern은 Price action ‘trigger’, ‘setup’ 또는 ‘signal’이라고도 불리며, Price action trading에서 가장 중요한 요소입니다. 왜냐하면 이 pattern들이 향후 가격이 어떻게 움직일지에 대한 강력한 clue(단서)를 Trader에게 제공하기 때문입니다.
+프라이스 액션 '트리거(triggers)', '셋업(setups)', '시그널(signals)'이라고도 불리는 프라이스 액션 패턴은 프라이스 액션 트레이딩에서 가장 중요한 요소입니다. 트레이더에게 향후 가격이 어떻게 움직일지에 대한 강력한 단서를 제공하는 것이 바로 이 패턴들이기 때문입니다.
 
-다음 다이어그램들은 시장 매매에 활용할 수 있는 몇 가지 간단한 Price action trading strategy의 예시를 보여줍니다.
+다음 도표들은 시장 거래에 활용할 수 있는 몇 가지 단순한 프라이스 액션 트레이딩 전략의 예시를 보여줍니다.
 
-- Inside bar pattern
+- 인사이드 바 패턴 (Inside bar pattern)
 
-Inside bar pattern은 두 개의 bar로 구성된 pattern으로, Inside bar와 그 이전의 bar인 “Mother bar”로 이루어집니다. Inside bar는 Mother bar의 고점(high)과 저점(low) 범위 내에 완전히 포함됩니다. 이 Price action strategy는 주로 Trending market(추세 시장)에서 Breakout(돌파) pattern으로 사용되지만, 주요 차트 레벨(key chart level)에서 형성될 경우 Reversal(반전) signal로 매매할 수도 있습니다.
+인사이드 바 패턴은 '인사이드 바(inside bar)'와 그 직전의 봉인 '마더 바(mother bar)'로 구성된 두 개의 캔들 패턴입니다. 인사이드 바의 고점과 저점 범위를 포함한 전체 몸통이 마더 바의 고가와 저가 범위 내에 완전히 갇혀 있는 형태를 띱니다. 이 프라이스 액션 전략은 주로 추세 시장에서 돌파(breakout) 패턴으로 사용되지만, 차트의 핵심 레벨에서 형성될 경우 반전(reversal) 시그널로 거래할 수도 있습니다.
 
 > ![](priceaction/insidebarcandlestick.png)
 
-- Pin bar pattern
+- 핀 바 패턴 (Pin bar pattern)
 
-Pin bar pattern은 단 하나의 Candlestick(캔들스틱)으로 구성되며, 가격의 Rejection(거부)과 시장의 Reversal(반전)을 나타냅니다. Pin bar signal은 Trending market이나 Range bound market(박스권 시장)에서 매우 효과적이며, 주요 Support(지지) 또는 Resistance(저항) level에서 Counter-trend(역추세) 매매로 활용할 수도 있습니다. Pin bar는 꼬리(tail)가 가리키는 방향과 반대로 가격이 움직일 수 있음을 암시합니다. Pin bar의 꼬리가 바로 가격의 거부와 반전을 나타내기 때문입니다.
+핀 바 패턴은 하나의 단일 캔들로 구성되며, 특정 가격대에 대한 거부(rejection)와 시장의 반전을 보여줍니다. 핀 바 시그널은 추세 시장이나 박스권(횡보) 시장에서 매우 효과적이며, 주요 지지 또는 저항 레벨에서 추세 반대 매매(역추세 매매)로 활용할 수도 있습니다. 핀 바의 꼬리가 가격 거부와 반전을 나타내기 때문에, 가격은 대개 핀 바의 꼬리가 가리키는 방향과 반대로 움직이는 경향이 있습니다.
 
 > ![](priceaction/pinbar1.webp)
 
-- Fakey pattern
+- 페이키 패턴 (Fakey pattern)
 
-Fakey pattern은 Inside bar pattern의 False breakout(속임수 돌파)으로 구성됩니다. 다시 말해, Inside bar pattern이 일시적으로 돌파(breakout)하는 듯하다가 이내 반전하여 Mother bar나 Inside bar의 범위 안으로 돌아와 마감되면 Fakey가 성립됩니다. 트레이더를 속인다(fake out)는 의미에서 “Fakey”라고 불리며, 시장이 한쪽 방향으로 돌파하는 것처럼 보이다가 반대 방향으로 되돌아와 그 반대 방향으로의 가격 변동을 유발합니다. Fakey는 추세 추종, 주요 레벨에서의 역추세 매매, 그리고 Trading range(박스권) 매매 모두에 훌륭한 패턴입니다.
+페이키 패턴은 인사이드 바 패턴의 허위 돌파(false breakout)로 구성됩니다. 즉, 인사이드 바 패턴이 한쪽 방향으로 잠시 돌파하는 듯하다가 이내 반전하여 마더 바나 인사이드 바의 범위 안에서 종가를 형성하면 페이키 패턴이 만들어집니다. 트레이더를 속인다(fake you out)는 의미에서 "페이키"라고 불리며, 시장이 한쪽으로 돌파하는 것처럼 보이다가 반대 방향으로 되돌아선 뒤 그 반대 방향으로 강한 가격 움직임을 유발합니다. 페이키 패턴은 추세 매매, 주요 레벨에서의 역추세 매매, 그리고 박스권 매매 모두에 탁월한 효과를 발휘합니다.
 
 > ![](priceaction/fakey1.webp)
 
 #### Trading with Price Action Patterns
 
-실제 차트 예시를 통해 Price action pattern을 활용한 매매 방법을 살펴보겠습니다.
+실제 차트에서 프라이스 액션 패턴을 활용해 매매하는 몇 가지 사례를 살펴보겠습니다.
 
-첫 번째 차트는 Bearish fakey sell signal pattern을 보여줍니다. 이 예시에서 추세는 이미 하락세였습니다. 차트 왼쪽 상단에서 시작해 오른쪽으로 이동할 수록 가격이 떨어지는 전체적인 하향 궤적을 확인할 수 있습니다. 따라서 이 Fakey sell signal은 일봉 차트(daily chart)의 전체적인 하락 추세(downtrend)와 일치하며, 이는 긍정적인 신호입니다. 일반적으로 추세에 맞추어 매매(trading with the trend)하면 Price action setup이 유리하게 작용할 확률이 높아집니다.
+첫 번째 차트는 하락 페이키 매도 시그널(bearish fakey sell signal) 패턴을 보여줍니다. 이 예시에서 차트 왼쪽 상단에서 시작해 오른쪽으로 이동할 수록 가격이 떨어지는 전체적인 하락 궤적을 통해 알 수 있듯이, 추세는 이미 하락세였습니다. 따라서 이 페이키 매도 시그널은 일봉 차트의 전체적인 하락 추세와 방향이 일치했으며, 이는 매우 긍정적인 요소입니다. 추세를 따라서 거래하는 것은 일반적으로 프라이스 액션 셋업이 당신에게 유리하게 작용할 확률을 높여줍니다.
 
 > ![](priceaction/padefchart1.webp)
 
-아래 차트는 상승하는 시장 상황에서 발생한 Bullish fakey pin bar combo setup의 예시를 보여줍니다. 통상적으로 시장이 강력한 단기적 편향(near-term bias)을 보일 때, 즉 최근 특정 방향으로 공격적으로 움직이고 있을 때, Price action trader는 그 단기 Momentum(모멘텀)과 일치하는 방향으로 매매하고자 합니다.
+아래 차트는 상승하는 시장 흐름 속에서 발생한 상승 페이키 핀 바 콤보(bullish fakey pin bar combo) 셋업의 예시를 보여줍니다. 보통 시장이 강한 단기 편향(near-term bias)을 보일 때, 즉 최근 특정 방향으로 공격적인 움직임을 이어갈 때, 프라이스 액션 트레이더는 그 단기 모멘텀의 방향과 일치하게 거래하기를 원합니다.
 
 > ![](priceaction/padefchart2.webp)
 
-다음 예시에서는 Inside bar trading pattern을 살펴보겠습니다. 이 차트는 일반적인 Inside bar signal과 Inside pin bar combo setup을 모두 보여줍니다. Inside pin bar combo는 단순히 Inside bar 자리에 Pin bar가 위치한 형태를 말합니다. 이러한 setup은 아래 차트에서 보는 것처럼 Trending market에서 매우 강력한 효과를 발휘합니다.
+다음 예시에서는 인사이드 바 매매 패턴을 살펴보겠습니다. 이 차트는 일반적인 인사이드 바 시그널과 인사이드 핀 바 콤보(inside pin bar combo) 셋업을 모두 보여줍니다. 인사이드 핀 바 콤보는 단순히 인사이드 바 자리에 핀 바 형태의 캔들이 들어선 패턴을 말합니다. 이러한 셋업은 아래 차트에서 보는 것과 같은 추세 시장에서 매우 강력한 효과를 발휘합니다.
 
 > ![](priceaction/padefchart3.png)
 
-마지막 차트는 Pin bar pattern의 예시를 보여줍니다. 이 두 Pin bar buy signal 이후에 나타난 거대한 상승 움직임에 주목하십시오. 또한, 이 Pin bar들이 차트 상에서 Pin bar로 보일 만한 다른 bar들에 비해 얼마나 긴 꼬리(tail)를 가지고 있는지 확인해 보시기 바랍니다. 이 두 예시처럼 보기 좋은 긴 꼬리를 가지고 주변의 Price action 밖으로 명확하게 돌출된(protruding) Pin bar는 매매하기에 매우 훌륭한 setup인 경우가 많습니다.
+마지막 차트는 핀 바 패턴의 예시들을 보여줍니다. 이 두 차례의 핀 바 매수 시그널 이후에 나타난 거대한 상승 움직임에 주목하십시오. 또한, 이 핀 바들이 차트상의 다른 캔들들과 비교했을 때 얼마나 긴 꼬리를 가지고 있는지 확인해 보시기 바랍니다. 이 두 예시처럼 보기 좋고 긴 꼬리를 가졌으며, 주변의 프라이스 액션 흐름 밖으로 확연하게 튀어나온(protruding) 핀 바는 대개 매매하기에 매우 훌륭한 셋업이 됩니다.
 
 > ![](priceaction/padefchart4.webp)
 
 #### Trading Price Action Patterns with Confluence
 
-Price action signal을 활용한 매매는 단순히 signal 자체만을 보는 것이 아니라, 그 signal이 차트의 '어느 위치'에서 형성되었는지가 매우 중요합니다. 모든 Pin bar나 Inside bar 등이 동일한 가치를 가지는 것은 아닙니다. 특정 Price action signal이 시장의 어디에서 형성되느냐에 따라 매매를 보류해야 할 수도 있고, 주저 없이 진입해야 할 수도 있습니다.
+프라이스 액션 시그널을 활용한 매매는 단순히 시그널 자체뿐만 아니라, 그 시그널이 차트의 '어느 위치'에서 형성되었는지도 매우 중요합니다. 모든 핀 바나 인사이드 바가 다 같은 가치를 지니는 것은 아닙니다. 특정 프라이스 액션 시그널이 시장의 어느 지점에서 만들어지느냐에 따라, 매매를 아예 패스해야 할 수도 있고 주저 없이 진입해야 할 수도 있습니다.
 
-가장 우수한 Price action signal은 시장의 'Confluent(합류/중첩)' 포인트에서 형성되는 신호들입니다. Confluence란 쉽게 말해 사람이나 사물이 '한데 모이는 것'을 의미합니다. Price action trading의 관점에서는 차트 상에서 최소한 몇 가지 요소가 Price action 진입(entry) signal과 일치하는 영역을 찾는 것을 뜻합니다. 이러한 현상이 발생할 때, 우리는 해당 Price action signal이 'Confluence를 가졌다'고 말합니다.
+가장 훌륭한 프라이스 액션 시그널은 시장의 '중첩(Confluent, 컨플루언스)' 지점에서 형성되는 시그널입니다. 컨플루언스란 쉽게 말해 사람이나 사물이 '한데 모이는 것'을 뜻합니다. 프라이스 액션 매매의 관점에서는 차트상에서 최소한 두 가지 이상의 기술적 근거가 프라이스 액션 진입 시그널과 나란히 일치하는 구간을 찾는 것을 의미합니다. 이러한 현상이 일어날 때, 우리는 해당 프라이스 액션 시그널이 '중첩(컨플루언스)을 가졌다'고 말합니다.
 
-아래 차트 예시에서 Confluence를 가진 Pin bar pattern의 좋은 사례를 확인할 수 있습니다. 여기서 Confluence란, 이 Pin bar가 상승 추세(up-trending) 시장의 방향과 일치하게 형성되었으며 동시에 그 상승 추세 내의 Support(지지) level에서 형성되었다는 점입니다. 즉, Trend(추세)와 Support level이라는 두 가지 요소의 Confluence가 존재하며, 이 요소들이 결합하여 signal을 뒷받침함으로써 이 Pin bar buy signal에 훨씬 더 많은 무게감을 실어줍니다. Price action signal을 뒷받침하는 Confluent 요사들이 많을수록, 이는 더욱 높은 확률(higher-probability)을 가진 signal로 간주됩니다.
+아래 차트 예시는 중첩을 가진 핀 바 패턴의 좋은 사례를 보여줍니다. 여기서 중첩이란, 핀 바가 상승 추세 시장의 방향과 일치하게 형성되었을 뿐만 아니라 그 상승 추세 내의 지지 레벨(support level)에서 정확히 형성되었다는 점입니다. 즉, 추세와 지지 레벨이라는 두 가지 요소가 중첩되었으며, 이러한 요인들은 핀 바 매수 시그널에 아무런 지지 근거가 없을 때보다 훨씬 더 큰 무게감(신뢰도)을 실어줍니다. 프라이스 액션 시그널의 등 뒤에 이처럼 중첩되는 요인이 많으면 많을수록, 더욱 성공 확률이 높은 시그널로 간주됩니다.
 
 > ![](priceaction/padefchart5.webp)
 
 #### Conclusion
 
-- 이번 Price action trading 튜토리얼이 도움이 되셨기를 바랍니다. 이제 여러분은 Price action이 무엇인지, 그리고 이를 활용해 어떻게 매매하는지에 대한 탄탄한 기초 지식을 갖추게 되었습니다.
+- 이번 프라이스 액션 트레이딩 튜토리얼을 흥미롭게 읽으셨기를 바랍니다. 이제 여러분은 프라이스 액션이 무엇인지, 그리고 이를 어떻게 매매에 활용하는지에 대한 탄탄한 기초 지식을 갖추게 되었습니다.
 
-- 여기서 다룬 내용보다 훨씬 더 많은 지식이 존재하므로, 앞으로 Price action trading에 대한 이해와 지식을 더욱 넓혀 나가시기를 바랍니다.
+- 앞으로는 이곳에서 다룬 것보다 훨씬 더 다양한 내용이 존재하므로, 프라이스 액션 매매에 대한 이해와 지식을 더욱 넓혀나가시길 바랍니다.
 
 [원문: What Is Price Action? – Price Action Trading Introduction](what-is-price-action.en)
