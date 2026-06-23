@@ -1,3 +1,10 @@
+---
+layout : default
+title : 선물 매매에 앞서 고려해야 할 몇 가지
+---
+
+> ![](images/AK47.jpg)
+
 <pre>
 <b>선물 매매에 앞서 고려해야 할 몇 가지</b>
 
