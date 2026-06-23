@@ -3,7 +3,7 @@ layout : default
 title : 선물 매매에 앞서 고려해야 할 몇 가지
 ---
 
-> ![](images/훌륭한 예술가는 베끼고, 위대한 예술가는 훔친다 - 피카소.jpg)
+> ![](images/assassin-s-creed-3-connor-free-running-wallpaper-c203cfe403cd11f5262dd4602852901d.jpg)
 
 <pre>
 <b>선물 매매에 앞서 고려해야 할 몇 가지</b>
