@@ -2,14 +2,13 @@
 layout: default
 title: VWAP WAVE 핵심 설정 가이드 (Core Setup Guide)
 ---
-<style>pre, code{white-space:pre-wrap!important;word-break:break-all}</style>
 <pre>
-VWAP WAVE 핵심 설정 가이드 (Core Setup Guide)
+<b>VWAP WAVE 핵심 설정 가이드 (Core Setup Guide)</b>
 제작: Drysdale Trading Group
 </pre>
 ---
 <pre>
-VWAP WAVE 기본 원칙 (Principles)
+<b>VWAP WAVE 기본 원칙 (Principles)</b>
 
 트레이딩은 정밀 과학이 아닙니다:
 완벽한 정확성이 목표가 되어서는 안 됩니다. 우리의 목표는 완벽함이 아니라 합리적인 근거에 기반한 의사결정입니다.
