@@ -1,6 +1,6 @@
 ---
-layout: default
-title: 지나고 나면 모든 게 너무나 명확해 보이는데, 당시에는 왜 불가능해 보일까?
+layout : default
+title : 지나고 나면 모든 게 너무나 명확해 보이는데, 당시에는 왜 불가능해 보일까?
 ---
 
 > ![](images/Getting lost is not a waste of time - 길을 잃는 것은 시간 낭비가 아니다.jpg)
