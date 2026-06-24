@@ -4,6 +4,8 @@ title: What Is Price Action? – Price Action Trading Introduction
 ---
 ### What Is Price Action? – Price Action Trading Introduction
 
+---
+
 #### What is Price Action? – Price Action Trading Explained
 
 Price action trading is a methodology for financial market speculation which consists of the analysis of basic price movement across time. It’s used by many retail traders and often by institutional traders and hedge fund managers to make predictions on the future direction of the price of a security or financial market.
@@ -20,6 +22,8 @@ Price action traders make use of the past history of a market’s price movement
 
 A trader can use a market’s price action to try and describe the human thought process behind a market’s movement. Every participant in a market will leave price action ‘clues’ on a market’s price chart as they trade their markets, these clues can then be interpreted and used to try and predict the next move in a market.
 
+---
+
 #### Price Action Trading – Keeping it Simple
 
 Price action traders often use the phrase “Keep It Simple Stupid” in reference to the fact that trading is something many people over-complicate by clouding their charts with numerous technical indicators and generally over-analyzing a market.
@@ -28,29 +32,39 @@ Price action traders often use the phrase “Keep It Simple Stupid” in referen
 
 The simple stripped-down approach of price action trading, means there are no indicators on a trader’s charts and no economic events or news is used in making one’s trading decisions. The sole focus is on a market’s price action, and the belief amongst price action traders is that this price action reflects all the variables (news events, eco. data etc.) that influence a market and cause it to move. Therefore, the implication is that it’s much simpler to just analyze a market and trade from its price action, rather than trying to decipher and sort the many different variables affecting a market each day.
 
+---
+
 #### Price Action Trading Strategies (Patterns)
 
 Price action patterns, also called price action ‘triggers’, ‘setups’ or ‘signals’, are really the most important aspect of price action trading, because it’s these patterns that provide a trader with strong clues as to what price might do next.
 
 The following diagrams show examples of some simple price action trading strategies that you can use to trade the market.
 
-- Inside bar pattern
+---
+
+#### - Inside bar pattern
 
 An inside bar pattern is a two-bar pattern, consisting of the inside bar and the prior bar which is usually referred to as the “mother bar”. The inside bar is contained completely within the high to low range of the mother bar. This price action strategy is commonly used as a breakout pattern in trending markets, but it can also be traded as a reversal signal if it forms at a key chart level.
 
 > ![](priceaction/insidebarcandlestick.png)
 
-- Pin bar pattern
+---
+
+#### - Pin bar pattern
 
 A pin bar pattern consists of a single candlestick and it shows rejection of price and a reversal in the market. The pin bar signal works great in a trending market, range bound market and can also be traded counter-trend from a key support or resistance level. The pin bar implies that price might move opposite from the direction the tail is pointing; as it’s the tail of the pin bar that shows rejection of price and a reversal.
 
 > ![](priceaction/pinbar1.webp)
 
-- Fakey pattern
+----
+
+#### - Fakey pattern
 
 The fakey pattern consists of a false breakout of an inside bar pattern. In other words, if an inside bar pattern breaks out briefly but then reverses and closes back within the range of the mother bar or inside bar, you have a fakey. It’s called a “fakey” because it fakes you out, the market looks like its breaking one way but then comes back in the opposite direction and sets off a price movement in that direction. Fakey’s are great with trends, against trends from key levels and in trading ranges.
 
 > ![](priceaction/fakey1.webp)
+
+---
 
 #### Trading with Price Action Patterns
 
@@ -72,6 +86,8 @@ The last chart we are looking shows examples of the pin bar pattern. Note the la
 
 > ![](priceaction/padefchart4.webp)
 
+---
+
 #### Trading Price Action Patterns with Confluence
 
 Trading with price action signals is not only about the signal itself, but it’s also about where the signal forms on the chart. Every pin bar, inside bar, etc. is not created equal. Depending on where a particular price action signal forms in a market, you may not want to trade it or you may want to jump on it without hesitation.
@@ -81,6 +97,8 @@ The best price action signals are those that form at ‘confluent’ points in t
 In the chart example below, we can see a good example of a pin bar pattern with confluence. The confluence is that the pin bar has formed in the direction of an up-trending market and that it has formed at a support level in that uptrend. Thus, we have the confluence of the trend and the support level, together these things give the pin bar buy signal more weight than if they weren’t there supporting the signal. The more confluent factors a price action signal has behind it, the higher-probability signal it is considered to be.
 
 > ![](priceaction/padefchart5.webp)
+
+---
 
 #### Conclusion
 
