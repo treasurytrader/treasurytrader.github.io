@@ -14,6 +14,8 @@ title: 프라이스 액션 반전 전략 (Price Action Reversal Strategies)
 
 많은 트레이더들이 '반전 시그널'은 오직 역추세 매매에만 해당한다고 오해하곤 합니다. 하지만 전혀 그렇지 않습니다. 추세는 상승과 하락을 반복하며 특정 레벨까지 되돌림(Retracement)을 줍니다. 시장이 이처럼 되돌림을 줄 때, 우리는 해당 레벨에서 형성되는 프라이스 액션 반전 시그널을 찾아 일봉이나 주봉 차트의 지배적인/전체적인 추세 방향으로 다시 합류하는 매매를 할 수 있습니다.
 
+---
+
 #### How to trade price action reversal signals with the trend
 
 시장 내에 명확한 기존 추세가 존재할 때, 우리는 그 추세 내에서 특정 레벨까지 되돌림(retrace)이 발생한 이후 형성되는 프라이스 액션 반전 시그널을 찾아볼 수 있습니다.
@@ -36,6 +38,8 @@ title: 프라이스 액션 반전 전략 (Price Action Reversal Strategies)
 
 > ![](priceaction/reversal-insidebar.webp)
 
+---
+
 #### How to trade price action reversal signals counter-trend
 
 프라이스 액션 반전 패턴은 역추세(추세 반대) 매매에도 활용할 수 있습니다. 역추세 매매는 다소 상급자용 기술에 속하지만, 몇 가지 단순한 요소들만 잘 체크한다면 추세를 거스르는 거래에서도 승률을 자신에게 유리하게 가져올 수 있습니다.
@@ -51,6 +55,8 @@ title: 프라이스 액션 반전 전략 (Price Action Reversal Strategies)
 그 아래의 다음 차트는 주요 저항 레벨에서 형성된 역추세 페이키 반전 매도 시그널(counter-trend fakey reversal sell signal)의 예시를 보여줍니다. 이 프라이스 액션 반전 시그널과 바로 위에서 보았던 핀 바 반전 시그널 사이의 유사점에 주목하십시오. 두 패턴 모두 주요 일봉 레벨을 명백하게 허위 돌파했으며, 캔들의 꼬리가 레벨 바깥으로 확연하게 튀어나와 강력한 반전과 가격 거부가 일어났음을 증명하고 있습니다.
 
 > ![](priceaction/reversals5.webp)
+
+---
 
 #### Tips on Trading Price Action Reversal Strategies
 

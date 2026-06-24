@@ -5,6 +5,8 @@ title: 인사이드바 매매 전략 (Inside Bar Trading Strategy)
 ### Inside Bar Trading Strategy
 (인사이드 바 매매 전략)
 
+---
+
 #### The Inside Bar Pattern (Break Out or Reversal Pattern)
 (인사이드 바 패턴의 정의: 돌파 또는 반전 패턴)
 
@@ -17,6 +19,8 @@ title: 인사이드바 매매 전략 (Inside Bar Trading Strategy)
 인사이드 바는 시장의 일시적인 수렴(Consolidation, 숨 고르기) 기간을 보여줍니다. 일봉 차트의 인사이드 바를 1시간봉이나 30분봉 같은 하위 타임프레임에서 들여다보면 대개 '삼각형(Triangle)' 수렴 형태를 띠고 있습니다. 이 패턴은 대개 시장이 강력한 움직임을 보인 직후, 다음 움직임을 준비하기 위해 잠시 '멈추어' 에너지를 모으는 과정에서 자주 형성됩니다. 그러나 주요 지지나 저항 레벨에서 발생할 경우, 시장의 변곡점을 나타내는 반전 시그널의 역할을 하기도 합니다.
 
 > ![](priceaction/insidebar1.webp)
+
+---
 
 #### How to Trade with Inside Bars
 (인사이드 바 매매법)
@@ -31,6 +35,8 @@ title: 인사이드바 매매 전략 (Inside Bar Trading Strategy)
 
 인사이드 바 전략을 활용한 실제 매매 사례들을 살펴보겠습니다.
 
+---
+
 #### Trading Inside Bars in a Trending Market
 (추세 시장에서의 인사이드 바 매매)
 
@@ -41,6 +47,8 @@ title: 인사이드바 매매 전략 (Inside Bar Trading Strategy)
 추세 시장에서 인사이드 바를 매매하는 또 다른 예시입니다. 이번에는 시장이 상승 추세를 그리고 있었기 때문에 이 인사이드 바들은 '인사이드 바 매수 시그널(Inside bar buy signals)'로 불립니다. 아래 예시처럼 강력한 추세가 진행될 때는 여러 개의 인사이드 바 패턴이 연속해서 형성되는 경우가 많으며, 이는 트레이더에게 추세에 올라탈 수 있는 높은 확률의 진입 기회를 반복해서 제공합니다.
 
 > ![](priceaction/insidebar3.webp)
+
+---
 
 #### Trading Inside Bars against the Trend, From Key Chart Levels
 (주요 차트 레벨에서의 역추세 인사이드 바 매매)
@@ -54,6 +62,8 @@ title: 인사이드바 매매 전략 (Inside Bar Trading Strategy)
 주요 지지나 저항 레벨에서 형성되는 인사이드 바 매매는 아래 차트에서 보는 것처럼 종종 반대 방향으로의 거대한 가격 움직임으로 이어지기 때문에 매우 높은 수익을 안겨줄 수 있습니다.
 
 > ![](priceaction/insidebar5.webp)
+
+---
 
 #### Tips on Trading the Inside Bar Pattern
 (인사이드 바 패턴 매매 팁)

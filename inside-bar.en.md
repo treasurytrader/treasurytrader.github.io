@@ -4,6 +4,8 @@ title: Inside Bar Trading Strategy
 ---
 ### Inside Bar Trading Strategy
 
+---
+
 #### The Inside Bar Pattern (Break Out or Reversal Pattern)
 
 An “inside bar” pattern is a two-bar price action trading strategy in which the inside bar is smaller and within the high to low range of the prior bar, i.e. the high is lower than the previous bar’s high, and the low is higher than the previous bar’s low. Its relative position can be at the top, the middle or the bottom of the prior bar.
@@ -15,6 +17,8 @@ Some traders use a more lenient definition of an inside bar that allows for the 
 Inside bars show a period of consolidation in a market. A daily chart inside bar will look like a ‘triangle’ on a 1 hour or 30 minute chart time frame. They often form following a strong move in a market, as it ‘pauses’ to consolidate before making its next move. However, they can also form at market turning points and act as reversal signals from key support or resistance levels.
 
 > ![](priceaction/insidebar1.webp)
+
+---
 
 #### How to Trade with Inside Bars
 
@@ -28,6 +32,8 @@ It’s worth noting that these are the ‘classic’ or standard entry and stop 
 
 Let’s take a look at some examples of trading with the inside bar strategy:
 
+---
+
 #### Trading Inside Bars in a Trending Market
 
 In the example below, we can see what it looks like to trade an inside bar pattern in-line with a trending market. In this case, it was a down-trending market, so the inside bar pattern would be called an ‘inside bar sell signal’:
@@ -37,6 +43,8 @@ In the example below, we can see what it looks like to trade an inside bar patte
 Here’s another example of trading an inside bar with a trending market. In this case, the market was trending higher, so the inside bars would be referred to as ‘inside bar buy signals’. Note, often in strong trends like the one in the example below, you will see multiple inside bar patterns forming, providing you with multiple high-probability entries into the trend:
 
 > ![](priceaction/insidebar3.webp)
+
+---
 
 #### Trading Inside Bars against the Trend, From Key Chart Levels
 
@@ -49,6 +57,8 @@ Here’s another example of trading an inside bar against the recent trend / mom
 Trading inside bars from key levels of support or resistance can be very lucrative as they often lead to large moves in the opposite direction, as we can see in the chart below…
 
 > ![](priceaction/insidebar5.webp)
+
+---
 
 #### Tips on Trading the Inside Bar Pattern
 

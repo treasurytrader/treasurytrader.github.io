@@ -4,6 +4,8 @@ title: Support and Resistance Levels Trading Strategy
 ---
 ### Support and Resistance Levels Trading Strategy
 
+---
+
 #### What is support and resistance?
 
 Support and resistance levels are horizontal price levels that typically connect price bar highs to other price bar highs or lows to lows, forming horizontal levels on a price chart.
@@ -28,6 +30,8 @@ Here’s an example of a market testing previous swing points (support) in a dow
 
 > ![](priceaction/SR2-1.png)
 
+---
+
 #### How to trade price action signals from support and resistance levels
 
 Support and resistance levels are a price action trader’s ‘best friend’. When a price action entry signal forms at a key level of support or resistance, it can be a high-probability entry scenario. The key level gives you a ‘barrier’ to place your stop loss beyond and since it has a strong chance of being a turning point in the market, there’s usually a good risk reward ratio formed at key levels of support and resistance in a market.
@@ -51,6 +55,8 @@ In this case, the trend was up and a previous swing high in the uptrend eventual
 Finally, the last chart we are looking at is an interesting one. Note the swing low that occurred in the down trend on the left side of the chart. You can see how this level stayed relevant months later, even after the trend changed from down to up. It first acted as a resistance level after price broke down through it, but once that resistance was broken, we had an uptrend form and then after that, that same level acted as support, and that’s where we see the fakey pin bar combo signal in the chart below:
 
 > ![](priceaction/SR6.png)
+
+---
 
 #### Tips on Support and Resistance
 

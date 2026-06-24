@@ -4,6 +4,8 @@ title: False Breakout Trading Strategy
 ---
 #### False Breakout Trading Strategy
 
+---
+
 #### False Breakout Patterns
 
 False-breakouts are exactly what they sound like: a breakout that failed to continue beyond a level, resulting in a ‘false’ breakout of that level. False breakout patterns are one of the most important price action trading patterns to learn, because a false-break is often a very strong clue that price might be changing direction or that a trend might be resuming soon. A false-break of a level can be thought of as a ‘deception’ by the market, because it looks like price will breakout but then it quickly reverses, deceiving all those who took the ‘bait’ of the breakout. It’s often the case that amateurs will enter what looks like an ‘obvious’ breakout and then the professional’s will push the market back the other way
@@ -19,6 +21,8 @@ A false breakout is essentially a ‘contrarian’ move in the market that ‘fl
 Generally speaking, a false-break is happens because amateur traders or those with ‘weak hands’ in the market will tend to enter the market only when it ‘feels safe’ to do so. This means, they tend to enter when a market is already quite extended in one direction (and it’s about ready to retrace) or they try to ‘predict’ a breakout from a key support or resistance level too early. Professional traders watch for these missteps by the amateurs, and the end result is a very good entry for them with a tight stop loss and huge risk reward potential.
 
 It takes discipline and a bit of ‘gut feel’ to know when a false-break is likely to occur, and you can never really know ‘for sure’ until after one has formed. The important thing, is to know what they look like and how to trade them, which we will discuss next…
+
+---
 
 #### How to trade false breakout patterns
 
@@ -47,6 +51,8 @@ In the chart example below, we can see a key resistance level that held price on
 As we can see in this chart, not only did the false breakout signal a down move, but it kicked off an entire downtrend…
 
 > ![](priceaction/falsebreak4.png)
+
+---
 
 #### False Breakout Pattern Trading Tips
 

@@ -10,6 +10,8 @@ There are three main types of charts: Line charts, Bar charts and Candlestick ch
 
 However, let’s go through a brief overview of each chart type just so you get familiar with them…
 
+---
+
 #### Line Charts
 
 Line charts display the price of a market via a line that typically connects the close of one time period to the close of another. Here’s an example of a line chart:
@@ -17,6 +19,8 @@ Line charts display the price of a market via a line that typically connects the
 > ![](priceaction/linechart.webp)
 
 The main advantage of a line chart lies in providing you with a quick view of the overall market trend and support and resistance levels. They are not practical to make trade entry or exit decision from because they do not display individual price bars. However, as previously stated, if you want to get a quick view of market trend and key levels, a line chart may prove useful occasionally.
+
+---
 
 #### Bar Charts
 
@@ -29,6 +33,8 @@ Each individual price bar gives us four pieces of information that we can use to
 A bar chart will display each period of time as a standard OHLC price bar, as seen here:
 
 > ![](priceaction/barchart.png)
+
+---
 
 #### Candlestick Charts
 
@@ -43,6 +49,8 @@ Typically, if the real body is filled in, or darker in color the currency closed
 Here’s an example of the same chart used in the line and bar chart examples above, as a candlestick charts:
 
 > ![](priceaction/candlestickchart.png)
+
+---
 
 ##### Why Candlestick Charts are best for Price Action Trading
 

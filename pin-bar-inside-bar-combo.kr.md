@@ -5,6 +5,8 @@ title: 핀바 & 인사이드바 콤보 매매 전략 (Pin Bar and Inside Bar Com
 ### Pin Bar and Inside Bar Combo Trading Strategy
 (핀 바 및 인사이드 바 콤보 매매 전략)
 
+---
+
 #### Pin bar and Inside bar Combo Patterns
 (핀 바 및 인사이드 바 콤보 패턴)
 
@@ -17,6 +19,8 @@ title: 핀바 & 인사이드바 콤보 매매 전략 (Pin Bar and Inside Bar Com
 2) **인사이드 핀 바 콤보 (The inside pin bar combo setup)**: 쉽게 말해 핀 바 자체가 동시에 인사이드 바의 역할을 하는 셋업입니다. 즉, 핀 바의 전체 범위가 직전의 외부 봉 또는 마더 바(Mother bar)의 범위 내에 완전히 갇혀 있는 형태입니다.
 
 > ![](priceaction/combopatterns.webp)
+
+---
 
 #### How to Trade the Pin Bar + Inside Bar combo pattern
 (핀 바 + 인사이드 바 콤보 패턴 매매법)
@@ -35,6 +39,8 @@ title: 핀바 & 인사이드바 콤보 매매 전략 (Pin Bar and Inside Bar Com
 
 > ![](priceaction/pinbarinsidebarcombo.png)
 
+---
+
 #### How to Trade the Inside-Pin Bar combo pattern
 (인사이드 핀 바 콤보 패턴 매매법)
 
@@ -47,6 +53,8 @@ title: 핀바 & 인사이드바 콤보 매매 전략 (Pin Bar and Inside Bar Com
 아래 차트는 또 다른 좋은 인사이드 핀 바 콤보 패턴의 예시를 보여줍니다. 이번에는 추세가 하락세(bearish)였으며, 가격이 며칠간 수렴하는 과정에서 차트에 표시된 하락 인사이드 핀 바 매도 시그널을 형성했습니다. 인사이드 핀 바 콤보는 추세 시장에서 '지속 패턴(continuation patterns)'으로 매우 유용하게 쓰입니다. 지속 패턴이란 기존 방향으로 추세가 계속 이어질 것임을 암시하는 패턴을 말합니다. 가격이 이 인사이드 핀 바의 마더 바 저가 밑으로 뚫고 내려가는 순간, 공격적인 폭락이 발생한 점에 주목하십시오.
 
 > ![](priceaction/insidepinbar.png)
+
+---
 
 #### Pin bar and Inside bar Combo Pattern Trading Tips
 (핀 바 및 인사이드 바 콤보 패턴 매매 팁)

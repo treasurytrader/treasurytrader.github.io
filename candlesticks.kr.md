@@ -5,6 +5,8 @@ title: 캔들스틱 패턴의 이해 (Introduction to Japanese Candlestick Patte
 ### Introduction to Japanese Candlestick Patterns
 (일본식 캔들스틱 패턴 입문)
 
+---
+
 #### What is a Japanese candlestick pattern?
 (일본식 캔들스틱 패턴이란 무엇인가?)
 
@@ -21,6 +23,8 @@ title: 캔들스틱 패턴의 이해 (Introduction to Japanese Candlestick Patte
 캔들스틱에서 색상이 채워진 구간을 '몸통(real body)' 또는 바디라고 부릅니다. 참고: 몸통의 색상은 트레이더의 설정이나 개인적 선호도에 따라 다를 수 있습니다. 몸통의 표준 색상 조합은 상승 시 흰색, 하락 시 검은색이며, 저희가 생각하기에 가장 깔끔하고 좋은 옵션입니다.
 
 몸통 위아래로 삐져나온 얇은 선들은 고가와 저가의 범위를 나타내며 '그림자(shadows)', '꼬리(tails)', 또는 '심지(wicks)'라고 부릅니다. 세 가지 명칭 모두 같은 것을 의미합니다. 윗꼬리의 최상단은 '고가(high)'가 되며, 아랫꼬리의 최하단은 '저가(low)'가 됩니다.
+
+---
 
 #### What is a candlestick pattern?
 (캔들스틱 패턴이란 무엇인가?)
@@ -43,6 +47,8 @@ title: 캔들스틱 패턴의 이해 (Introduction to Japanese Candlestick Patte
 
 > ![](priceaction/fakeycandlestick.png)
 
+---
+
 ## What is a candlestick chart?
 (캔들스틱 차트란 무엇인가?)
 
@@ -53,6 +59,8 @@ title: 캔들스틱 패턴의 이해 (Introduction to Japanese Candlestick Patte
 다음은 전형적인 캔들스틱 차트의 예시입니다. 이 차트의 지지 레벨(support)에서 형성된 핀 바 캔들스틱 패턴과, 그 직후에 나타난 거대한 상승 움직임에 주목하십시오.
 
 > ![](priceaction/candlestickchart2.png)
+
+---
 
 #### Advantage of candlestick charts
 (캔들스틱 차트의 장점)

@@ -8,6 +8,8 @@ title: 프라이스 액션 돌파 전략 (Price Action Breakout Strategies)
 
 프라이스 액션 돌파 전략의 여러 가지 실제 예시들을 살펴보겠습니다.
 
+---
+
 #### Trading price action pattern breakouts as continuation plays…
 (추세 지속 플레이로서의 프라이스 액션 패턴 돌파 매매)
 
@@ -29,6 +31,8 @@ title: 프라이스 액션 돌파 전략 (Price Action Breakout Strategies)
 
 > ![](priceaction/pinbarbreakoutintrend.webp)
 
+---
+
 #### Trading price action pattern breakouts from key chart levels
 (주요 차트 레벨에서의 프라이스 액션 패턴 돌파 매매)
 
@@ -41,6 +45,8 @@ title: 프라이스 액션 돌파 전략 (Price Action Breakout Strategies)
 주요 차트 레벨에서 발생하는 프라이스 액션 패턴 돌파 매매의 또 다른 예시입니다. 이번 사례에서는 시장의 주요 지지 레벨에서 형성된 상승 페이키 매수 시그널(bullish fakey buy signal)을 살펴봅니다. 가격이 인사이드 바의 마더 바 고가를 상방 돌파하자마자(페이키는 인사이드 바의 허위 돌파라는 점을 기억하십시오), 상방으로 강력한 추세성 움직임이 이어진 과정에 주목하십시오. 주요 지지나 저항 레벨에서 이와 같은 페이키 패턴을 발견했다면, 강력한 돌파 움직임이 임박했다는 신호이므로 반드시 주목해야 합니다.
 
 > ![](priceaction/fakeoutbreakoutreversal.webp)
+
+---
 
 #### Tips on Trading Price Action Breakout Strategies
 

@@ -4,6 +4,8 @@ title: Introduction to Japanese Candlestick Patterns
 ---
 ### Introduction to Japanese Candlestick Patterns
 
+---
+
 #### What is a Japanese candlestick pattern?
 
 A candlestick shows the open, high, low and close of the market for a particular period of time. If you’re looking at a daily chart time frame for example, each candlestick will reflect the open, high, low and close for that days’ worth of price action.
@@ -19,6 +21,8 @@ Note: the candlestick on the left is a ‘bullish candle’ because its close is
 The colored section of the candlestick is called the “real body” or body. Note: The color of the real body can vary between traders and depends on how they have the colors set / personal preference. The standard color scheme for the real body is white for bullish and black for bearish and is in our opinion, the cleanest and best option.
 
 The thin lines poking above and below the body display the high/low range and are called shadows, tails or wicks…all three names apply to the same thing. The top of the upper shadow is the “high”. The bottom of the lower shadow is the “low”.
+
+---
 
 #### What is a candlestick pattern?
 
@@ -40,6 +44,8 @@ Here are some of our favorite price action trading candlestick strategies:
 
 > ![](priceaction/fakeycandlestick.png)
 
+---
+
 ## What is a candlestick chart?
 
 A candlestick chart is a price chart that is populated by candlesticks, instead of standard price bars as in a bar chart or lines, as in a line chart.
@@ -49,6 +55,8 @@ Each candlestick shows the high, low, open and close for the period of time it r
 Here’s an example of a typical candlestick chart. Note the pin bar candlestick pattern that formed from support on this chart, and the large up move that followed…
 
 > ![](priceaction/candlestickchart2.png)
+
+---
 
 #### Advantage of candlestick charts
 

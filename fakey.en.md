@@ -4,6 +4,8 @@ title: Fakey Trading Strategy (Inside Bar False Break Out)
 ---
 ### Fakey Trading Strategy (Inside Bar False Break Out)
 
+---
+
 #### The Fakey Pattern (Inside Bar False Break Out)
 
 The Fakey pattern can be best be described as a “false-breakout from an inside bar pattern”. The Fakey pattern always starts with an inside bar pattern. When price initially breaks out from the inside bar pattern but then quickly reverses, creating a false-break, and closes back within the range of the mother bar or inside bar, we have a fakey pattern.
@@ -20,6 +22,8 @@ Let’s take a look at some examples of different types of Fakey patterns to cla
 
 Note, in the above diagram of different Fakey patterns, there’s always an inside bar setup first, followed by the false-breakout of the inside bar. Fakey’s can vary slightly from the examples you see above, but the four examples above represent the most common types of Fakey trading strategies that you will encounter on the charts.
 
+---
+
 #### How to trade with Fakey Patterns
 
 Fakey patterns can be traded in trending markets, range-bound markets or even against the trend form key chart levels. There are a lot of false-breakouts in the Forex market, so learning to trade with the Fakey pattern is very important since it can help you take advantage of and profit from these false breakouts, rather than falling victim to them as so many traders do.
@@ -33,6 +37,8 @@ The most common entries for a Fakey signal include the following:
 
 Let’s take a look at several different examples of trading Fakey signals in various market conditions:
 
+---
+
 #### Trading Fakey’s in a Trending Market
 
 The chart below shows us a good example of a Fakey buy signal with a pin bar as the false-break bar, in a trending market. Note in this signal that there were actually three inside bars within the mother bar structure. This is relatively common, and sometimes you will even see four inside bars within a mother bar before the false-break or ‘Fakey’ bar occurs.
@@ -43,6 +49,8 @@ The next chart shows us another good example of trading a Fakey pattern in a tre
 
 > ![](priceaction/fakeywithoutpinbar.png)
 
+---
+
 #### Trading Fakey’s against the Trend from Key Chart Levels
 
 Next, we are looking at an example of a counter-trend Fakey. That means it’s a Fakey that implies price might move against the recent / near-term daily chart momentum / trend. In this case, it was a bullish Fakey buy signal that formed at a key support level, following a move lower. Since this Fakey signal was so nice and obvious (well-defined) and it had the confluence of the key support level under it, it was a counter-trend Fakey worth taking:
@@ -52,6 +60,8 @@ Next, we are looking at an example of a counter-trend Fakey. That means it’s a
 Here’s another example of a counter-trend Fakey pattern. This time it was a bearish Fakey sell signal from a key resistance level. Note the market was clearly pushing higher just prior to the formation of this Fakey. Then, when the Fakey formed, it also false-broke above a key resistance level in the market, adding extra ‘weight’ to the probability of a move lower. We can see the dramatic sell-off that followed this bearish Fakey:
 
 > ![](priceaction/fakeyatkeyresistance.png)
+
+---
 
 #### Tips on Trading the Fakey Pattern:
 

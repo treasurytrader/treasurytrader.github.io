@@ -14,6 +14,8 @@ title: 핀바 매매 전략 (Pin Bar Trading Strategy)
 
 > ![](priceaction/pinbar1.webp)
 
+---
+
 #### How to Trade with Pin Bars
 (핀 바 매매법)
 
@@ -29,6 +31,8 @@ title: 핀바 매매 전략 (Pin Bar Trading Strategy)
 
 > ![](priceaction/pinbar2.webp)
 
+---
+
 #### Trading Pin Bar Signals in a Trending Market
 (추세 시장에서의 핀 바 매매)
 
@@ -38,12 +42,16 @@ title: 핀바 매매 전략 (Pin Bar Trading Strategy)
 
 > ![](priceaction/pinbar3.webp)
 
+---
+
 #### Trading Pin Bars against the Trend, From Key Chart Levels
 (주요 차트 레벨에서의 역추세 핀 바 매매)
 
 지배적인 추세를 거스르는 역추세(추세 반대) 핀 바 매매를 진행할 때는, 차트상의 **주요 지지 또는 저항 레벨(key level)**을 끼고 진입해야 한다는 점이 정설로 받아들여집니다. 역추세 인사이드 바 패턴과 마찬가지로, 주요 레벨은 핀 바 패턴의 신뢰도에 강력한 '무게감'을 더해줍니다. 시장에서 가격이 상방이나 하방으로 의미 있는 거대한 움직임을 시작했던 지점을 발견했다면, 그곳이 바로 핀 바 반전을 유심히 지켜봐야 할 핵심 주요 레벨입니다.
 
 > ![](priceaction/pinbar4.webp)
+
+---
 
 #### Pin bar Combo Patterns
 (핀 바 콤보 패턴)
@@ -56,14 +64,16 @@ title: 핀바 매매 전략 (Pin Bar Trading Strategy)
 
 > ![](priceaction/pinbar5-1.png)
 
+---
+
 #### Double Pin Bar Patterns
 (더블 핀 바 패턴)
 
 시장의 주요 레벨에서 연달아 붙어 나오는 '더블 핀 바 패턴(double pin bar patterns)'을 마주하는 것은 그리 드문 일이 아닙니다. 이 패턴은 일반적인 핀 바와 똑같이 매매하면 되지만, 한 레벨에 대해 두 차례 연속으로 강력한 가격 거부가 일어났음을 반영하므로 트레이더에게 한층 더 확고한 '신뢰도(Confirmation)'를 제공합니다.
 
-<img src="priceaction/pinbar6.png" />
-
 > ![](priceaction/pinbar6.png)
+
+---
 
 #### Pin Bar Trading Tips
 (핀 바 매매 팁)

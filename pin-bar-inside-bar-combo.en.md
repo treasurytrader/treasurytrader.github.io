@@ -4,6 +4,8 @@ title: Pin Bar and Inside Bar Combo Trading Strategy
 ---
 ### Pin Bar and Inside Bar Combo Trading Strategy
 
+---
+
 #### Pin bar and Inside bar Combo Patterns
 
 A pin bar is a price action strategy that shows rejection of price and indicates a potential reversal is imminent. An inside bar is a price action strategy that shows consolidation and that a potential breakout is imminent. These two signals, when combined, result in either a ‘pin bar combo’ pattern or an ‘inside bar – pin bar combo’ pattern.
@@ -15,6 +17,8 @@ Pin bar and inside bar combination patterns are some of the most potent price ac
 2) The inside pin bar combo setup is simply a pin bar that’s also an inside bar. In other words, a pin bar that’s within the range of an outside bar or mother bar.
 
 > ![](priceaction/combopatterns.webp)
+
+---
 
 #### How to Trade the Pin Bar + Inside Bar combo pattern
 
@@ -32,6 +36,8 @@ Here’s another example of the pin bar and inside bar combo pattern. This time,
 
 > ![](priceaction/pinbarinsidebarcombo.png)
 
+---
+
 #### How to Trade the Inside-Pin Bar combo pattern
 
 Inside pin bars are exactly what their name suggests; pin bars that are also inside bars. These setups seem to work best in trending markets and on the daily chart time frames.
@@ -43,6 +49,8 @@ In the example below, we can see a strong uptrend was in place prior to the form
 The chart below shows us another example of a good inside-pin bar combo pattern. This time, the trend was down or ‘bearish’, and as price consolidated for several days it ended up forming the bearish inside-pin bar sell signal that we see in the chart below. Inside pin bar combos work very good as ‘continuation patterns’ in trending markets, a continuation pattern is simply a pattern that implies the trend will continue moving in its existing direction. Note, the aggressive sell-off that took place once price broke down below this inside-pin bar’s mother bar…
 
 > ![](priceaction/insidepinbar.png)
+
+---
 
 #### Pin bar and Inside bar Combo Pattern Trading Tips
 

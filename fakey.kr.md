@@ -5,6 +5,8 @@ title: 페이키 매매 전략 (인사이드바 속임수 돌파) (Fakey Trading
 ### Fakey Trading Strategy (Inside Bar False Break Out)
 (페이키 매매 전략 – 인사이드 바 허위 돌파)
 
+---
+
 #### The Fakey Pattern (Inside Bar False Break Out)
 (페이키 패턴의 정의)
 
@@ -22,6 +24,8 @@ title: 페이키 매매 전략 (인사이드바 속임수 돌파) (Fakey Trading
 
 위 도표에 표시된 다양한 페이키 패턴들을 보면, 언제나 인사이드 바 셋업이 먼저 형성된 후 인사이드 바의 허위 돌파가 뒤따른다는 공통점이 있습니다. 페이키는 위 예시들과 미세하게 다를 수 있지만, 위 네 가지 예시가 차트에서 가장 흔하게 마주치게 될 대표적인 페이키 매매 전략 형태들입니다.
 
+---
+
 #### How to trade with Fakey Patterns
 (페이키 패턴 매매법)
 
@@ -36,6 +40,8 @@ title: 페이키 매매 전략 (인사이드바 속임수 돌파) (Fakey Trading
 
 다양한 시장 조건에서 페이키 시그널을 활용해 매매하는 여러 실제 사례를 살펴보겠습니다.
 
+---
+
 #### Trading Fakey’s in a Trending Market
 (추세 시장에서의 페이키 매매)
 
@@ -47,6 +53,8 @@ title: 페이키 매매 전략 (인사이드바 속임수 돌파) (Fakey Trading
 
 > ![](priceaction/fakeywithoutpinbar.png)
 
+---
+
 #### Trading Fakey’s against the Trend from Key Chart Levels
 (주요 차트 레벨에서의 역추세 페이키 매매)
 
@@ -57,6 +65,8 @@ title: 페이키 매매 전략 (인사이드바 속임수 돌파) (Fakey Trading
 역추세 페이키 패턴의 또 다른 예시입니다. 이번에는 주요 저항 레벨에서 형성된 하락 페이키 매도 시그널입니다. 이 페이키가 형성되기 직전에 시장이 명확하게 상방으로 치고 올라가고 있었던 점에 주목하십시오. 이후 페이키가 만들어질 때 시장의 주요 저항 레벨을 상방으로 허위 돌파하면서, 가격이 하락 전환할 확률에 강력한 '무게감'을 더해주었습니다. 이 하락 페이키 이후에 나타난 극적인 폭락세를 확인할 수 있습니다.
 
 > ![](priceaction/fakeyatkeyresistance.png)
+
+--
 
 #### Tips on Trading the Fakey Pattern
 (페이키 패턴 매매 팁)

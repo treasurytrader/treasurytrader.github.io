@@ -14,6 +14,8 @@ From the above example, it’s clear you can use price action reversal signals a
 
 Many traders make the mistake of assuming that a ‘reversal signal’ is only counter-trend. But that’s not the case at all. Trends ebb and flow, they retrace back to levels, and when they do this we can look for price action reversal signals forming at these levels to trade back in-line with the dominant / overall daily / weekly chart trends.
 
+---
+
 #### How to trade price action reversal signals with the trend
 
 When there’s a clear existing trend in a market, we can look for price action reversal signals following a retrace back to a level within that trend.
@@ -36,6 +38,8 @@ Note, the trend was clearly up and then price retraced back to a short-term supp
 
 > ![](priceaction/reversal-insidebar.webp)
 
+---
+
 #### How to trade price action reversal signals counter-trend
 
 Price action reversal patterns can be used counter-trend as well. Whilst it is a bit more advanced to trade counter-trend, there are some simple things you can look for to put the odds in your favor when trading against a trend…
@@ -51,6 +55,8 @@ The chart below shows us a clear example of a good counter-trend price action re
 The next chart below, shows an example of a counter-trend fakey reversal sell signal that formed at a key chart level of resistance. Note the similarities between this price action reversal signal and the previous pin bar reversal above. Both had obvious false-breaks of a key daily chart level and the tails on the bars were clearly protruding beyond the levels showing a forceful reversal / rejection took place…
 
 > ![](priceaction/reversals5.webp)
+
+---
 
 #### Tips on Trading Price Action Reversal Strategies
 

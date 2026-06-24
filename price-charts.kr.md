@@ -11,6 +11,8 @@ title: 가격 차트의 이해 (Introduction to Price Charts)
 
 하지만 각 차트 형태의 특징을 익히고 익숙해질 수 있도록 각각의 개념을 간단히 살펴보겠습니다.
 
+---
+
 #### Line Charts
 (선 차트)
 
@@ -19,6 +21,8 @@ title: 가격 차트의 이해 (Introduction to Price Charts)
 > ![](priceaction/linechart.webp)
 
 선 차트의 가장 큰 장점은 시장의 전반적인 추세와 지지/저항 레벨을 한눈에 신속하게 파악할 수 있다는 점입니다. 하지만 개별적인 가격 흐름의 세부 데이터(가격 봉)를 보여주지 않기 때문에, 이를 보고 정밀한 진입이나 청산 결정을 내리기에는 실용적이지 못합니다. 그렇지만 앞서 언급했듯이, 시장의 큰 추세와 주요 핵심 레벨을 빠르게 훑어보고 싶을 때는 선 차트가 가끔 유용하게 쓰일 수 있습니다.
+
+---
 
 #### Bar Charts
 (바 차트)
@@ -32,6 +36,8 @@ title: 가격 차트의 이해 (Introduction to Price Charts)
 바 차트는 아래 예시처럼 지정된 각각의 시간 단위를 표준 OHLC 가격 바로 정렬하여 표시합니다.
 
 > ![](priceaction/barchart.png)
+
+---
 
 #### Candlestick Charts
 (캔들스틱 차트)
@@ -47,6 +53,8 @@ title: 가격 차트의 이해 (Introduction to Price Charts)
 앞서 선 차트와 바 차트 예시에서 보았던 것과 동일한 차트를 캔들스틱 차트로 변환하면 다음과 같습니다.
 
 > ![](priceaction/candlestickchart.png)
+
+---
 
 ##### Why Candlestick Charts are best for Price Action Trading
 (프라이스 액션 트레이딩에 캔들스틱 차트가 가장 적합한 이유)

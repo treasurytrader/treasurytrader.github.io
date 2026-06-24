@@ -5,6 +5,8 @@ title: 지지와 저항 구간 매매 전략 (Support and Resistance Levels Trad
 ### Support and Resistance Levels Trading Strategy
 (지지 및 저항 레벨 매매 전략)
 
+---
+
 #### What is support and resistance?
 (지지와 저항이란 무엇인가?)
 
@@ -30,6 +32,8 @@ title: 지지와 저항 구간 매매 전략 (Support and Resistance Levels Trad
 
 > ![](priceaction/SR2-1.png)
 
+---
+
 #### How to trade price action signals from support and resistance levels
 (지지 및 저항 레벨에서의 프라이스 액션 시그널 매매법)
 
@@ -54,6 +58,8 @@ title: 지지와 저항 구간 매매 전략 (Support and Resistance Levels Trad
 마지막으로 살펴볼 차트는 매우 흥미로운 사례입니다. 차트 왼쪽의 하락 추세 중에 발생한 스윙 저점(Swing low)에 주목하십시오. 이 레벨은 추세가 하락에서 상승으로 완전히 바뀐 몇 달 후에도 여전히 유효하게 작용하고 있음을 볼 수 있습니다. 처음에는 가격이 이 레벨을 깨고 내려간 뒤 저항 레벨로 작용했지만, 일단 그 저항이 상방으로 돌파되자 상승 추세가 형성되었습니다. 그 후 가격이 다시 내려왔을 때 동일한 레벨이 이번에는 '지지선' 역할을 해주었고, 바로 그 자리가 아래 차트에서 보는 **페이키 핀 바 콤보(fakey pin bar combo)** 시그널이 만들어진 지점입니다.
 
 > ![](priceaction/SR6.png)
+
+---
 
 #### Tips on Support and Resistance
 (지지와 저항에 관한 팁)

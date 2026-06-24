@@ -8,6 +8,8 @@ Is price action analysis the same as technical analysis? The answer is ‘yes an
 
 Are all of these technical studies, i.e., indicators, various chart patterns, etc. really necessary or worth it? Why do some traders become convinced that these various technical analysis studies are the ‘ticket’ to financial success in the market whilst others rely only on raw price action strategies? We will address these and other questions below…
 
+---
+
 #### Why all Technical Analysis methods are not created equal
 
 Whilst we appreciate and respect technical analysts, as pure price action traders who focus on reading the raw price action on price charts, we do not subscribe to the idea that ‘any technical study is a good study’. Instead, we stick to a handful of simple but effective price-based principles and don’t look at charts and try to curve fit what we see into matching a text book theory example as many popular technical indicator-based trading systems do. There are hundreds of patterns, technical indicator settings and so on, technical trading even if narrowed down into a niche / specific topic can be very haphazard and hindsight is often the way such technical methods are advertised or represented to the beginning trader. Unfortunately, relying heavily on indicators and other technical analysis methods that largely ignore price action, often leads to dramatic long-term failure for retail traders.
@@ -15,6 +17,8 @@ Whilst we appreciate and respect technical analysts, as pure price action trader
 Many technical analysis tools or methods are full of what I call ‘noise’. That means they include numerous unnecessary variables like technical indicators such as RSI, Stochastic, MACD and countless others. The simplest explanation for why these technical indicators are simply a waste of time, is that they are all just derivatives of price action. If you are going to analyse something derived from price action, in order to make a prediction as to where price might move next, why would you not just analyse the raw price action in the first place?
 
 By analysing ‘other’ technical studies, besides price action, you’re simply adding unnecessary variables and cluttering up the trading process, your charts and your mind. It’s simply unnecessary to trade like this. All you need to make market predictions is raw, natural price data that any market supplies you for free. Don’t believe the hype or any website / ‘guru’ telling you that you ‘need’ XYZ trading system, because all you really need is price action
+
+---
 
 #### Why price action analysis is the best technical analysis method
 

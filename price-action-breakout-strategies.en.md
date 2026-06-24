@@ -8,6 +8,8 @@ Price action breakout strategies are powerful trade signals that often lead to s
 
 Let’s take a look at several examples of price action breakout strategies…
 
+---
+
 #### Trading price action pattern breakouts as continuation plays…
 
 In the example chart below, we can see a clear uptrend was in place prior to the formation of a bullish fakey trading strategy. Note that once price broke out above the mother bar high of the fakey pattern, it set off another leg higher in the uptrend. Thus, this is an example of a fakey breakout strategy in a trending market, also called a trend continuation play…
@@ -28,6 +30,8 @@ Sometimes in a strong trend, either up or down, you will see a pin bar, inside b
 
 > ![](priceaction/pinbarbreakoutintrend.webp)
 
+---
+
 #### Trading price action pattern breakouts from key chart levels
 
 You might be wondering how you can trade a ‘breakout’ as a ‘reversal play’. Will it’s simple really. If a price action pattern forms at a key chart level of support or resistance, and then price breaks out from that pattern, reversing away from the key level, then you have a ‘breakout – reversal play’.
@@ -39,6 +43,8 @@ In the chart example below, we see a pin bar inside bar combo pattern that forme
 Here’s another example of trading a price action pattern breakout from a key chart level. In this example, we are looking at a bullish fakey buy signal that formed at a key level of support in the market. Note how once price broke up above the mother bar high of the inside bar (remember a fakey is an inside bar false breakout) it led to a strong directional move to the upside. When you see a fakey pattern like this at a key level of support or resistance, it’s time to take notice as a possible breakout move is coming…
 
 > ![](priceaction/fakeoutbreakoutreversal.webp)
+
+---
 
 #### Tips on Trading Price Action Breakout Strategies
 
