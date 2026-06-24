@@ -65,4 +65,4 @@ title: 프라이스 액션 반전 전략 (Price Action Reversal Strategies)
 - 프라이스 액션 반전 시그널은 시장의 중요한 변곡점을 나타내거나 심지어 추세 자체의 전환을 알리는 신호가 되기도 합니다.
 - 추세 방향으로 프라이스 액션 반전 매매를 진행할 때, 이러한 시그널은 대개 '가치 영역', 즉 지지 및 저항 레벨이나 지지/저항 구간으로의 되돌림이 발생한 직후에 형성됩니다.
 
-[원문: Inside Bar Trading Strategy](price-action-reversal-strategies.en)
+[원문: Price Action Reversal Strategies](price-action-reversal-strategies.en)
