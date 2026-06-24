@@ -90,7 +90,7 @@ pre, code {
 }
 
 table {
-    width: 100%;
+    /* width: 100%; */
     border-collapse: collapse; /* 테두리 겹침 방지 */
     margin-bottom: 20px;
 }
