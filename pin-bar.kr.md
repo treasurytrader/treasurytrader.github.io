@@ -5,6 +5,8 @@ title: 핀바 매매 전략 (Pin Bar Trading Strategy)
 ### Pin Bar Trading Strategy
 (핀 바 매매 전략)
 
+---
+
 #### The Pin Bar Pattern (Reversal or Continuation)
 (핀 바 패턴의 정의: 반전 또는 지속)
 
