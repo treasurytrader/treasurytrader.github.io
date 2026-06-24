@@ -6,6 +6,8 @@ title: Why You Should Trade Price Action Instead of News
 
 Everything that affects a market and makes it move, from news, to economic reports, to big players like hedge funds and banks, is reflected via the raw price action on a price chart. Thus, when you try analyzing all variables external to the price action of a market, you are doing something that is unnecessary, a waste of time and that makes the entire trading process far more complicated than it needs to be.
 
+---
+
 #### Fundamental analysis vs. Technical analysis
 
 The age old debate of Fundamental vs. Technical analysis is one that will probably never end. Fundamental traders trade solely off news and economic data, or “fundamentals”, as they believe they can make the best trading decisions from analyzing this information. Whereas, technical analysis traders make their trading decisions solely off price charts. Price action traders, are a specific type of technical analysis trader who make all their trading decisions solely off a market’s price movement or price action. Other technical analysis traders may use indicators or trading software systems, etc., but the price action trader only uses a market’s price action.
@@ -14,6 +16,8 @@ The primary reason why I trade with and highly recommend price action trading, i
 
 Think of price action trading as getting the purest form of market data, filtered and cleaned up for you to use. As a trader, we are simply trying to take advantage of price movements in the market, so it only makes sense to analyze the actual price action, rather than trying to analyze variables that will eventually lead to price action. I like to think of price action as getting the market data ‘straight from the horses mouth’, as the old saying goes.
 
+---
+
 #### Noise vs. Clarity
 
 Price action filters all market data and provides a clear picture of what is happening in a market. If you try analyzing all the fundamental variables that can influence a market each day, you will drive yourself crazy. It really comes down to noise versus clarity. There’s a lot of ‘noise’ in the financial media about what a market ‘might’ do next if X,Y or Z happens, it all sounds very professional coming from the talking heads on T.V. and the internet, but at the end of the day, nothing they say really matters. This is because, all that really matters is what the charts show us via the price action.
@@ -21,6 +25,8 @@ Price action filters all market data and provides a clear picture of what is hap
 In the chart below, notice how the EURUSD market was in a clear downtrend from early May 2014 through mid-November 2015. Simply reading the raw price action of the chart would have told you that prices were likely to continue to fall because a downtrend was in place during this time. From this information, we could have watched for price action reversal strategies from resistance as well as bearish price action breakout patterns to trade in-line with the downtrend. Meanwhile, there were countless news events and economic reports released during these 7 months that implied price could push higher, while others said price might continue falling. You can avoid all this noise and contradictory data by simply looking at the raw price data on your price charts…
 
 > ![](priceaction/news1.webp)
+
+---
 
 #### Conclusion
 
