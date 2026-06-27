@@ -19,6 +19,11 @@ body {
   }
 }
 */
+details[open] summary {
+  pointer-events: none; /* 클릭하여 닫히는 동작 방지 */
+  cursor: default;      /* 마우스 커서를 기본 화살표로 변경 */
+}
+
 img {
   max-width:100%;
   max-height:auto;
