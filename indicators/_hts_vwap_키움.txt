@@ -1,0 +1,7 @@
+//_키움 VWAP
+
+x  = sum(((h + l + c) / 3) * v);
+z  = valuewhen(1, date != date(1), x(1));
+x1 = sum(v);
+z1 = valuewhen(1, date != date(1), x1(1));
+(x - z) / (x1 - z1)

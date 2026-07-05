@@ -1,0 +1,16 @@
+
+input : InpPeriod(20), InpBBMult(2.0), InpKCMult(1.5);
+
+value1 = std(close, InpPeriod) * InpBBMult;
+value2 = atr(InpPeriod) * InpKCMult;
+value3 = (highest(high, InpPeriod) + lowest(low, InpPeriod)) / 2.0;
+value4 = ma(close, InpPeriod);
+value5 = close - ((value3 + value4) / 2.0);
+value6 = lrl(value5, InpPeriod);
+value7 = iff(value6 > 0,
+            iff(value6[0] > value6[1], rgb(192, 192, 192), rgb(105, 105, 105)),
+            iff(value6[0] < value6[1], rgb(192, 192, 192), rgb(105, 105, 105))
+         );
+
+plot1(value6, "Momentum", value7);
+plot2(0, "Squeeze", iff((value1 < value2), rgb(255, 0, 0), rgb(0, 128, 0)));
