@@ -26,7 +26,7 @@ title: 프라이스 액션 매매 소개 (Price Action Trading Introduction)
 
 #### Price Action Trading – Keeping it Simple
 
-프라이스 액션 트레이더들은 흔히 "단순하게 해, 이 바보야(Keep It Simple, Stupid)"라는 문구를 사용합니다. 이는 수많은 기술적 보조지표로 차트를 흐리게 만들고 시장을 과도하게 분석하여, 트레이딩을 불필요하게 복잡하게 만드는 사람들이 많다는 사실을 꼬집는 말입니다.
+프라이스 액션 트레이더들은 흔히 "멍청할 정도로 단순하게 하라(Keep It Simple, Stupid)"라는 문구를 사용합니다. 이는 수많은 기술적 보조지표로 차트를 흐리게 만들고 시장을 과도하게 분석하여, 트레이딩을 불필요하게 복잡하게 만드는 사람들이 많다는 사실을 꼬집는 말입니다.
 
 - 프라이스 액션 트레이딩은 오직 가격만을 표시한 단순한 차트를 보고 거래한다는 점에서 '클린 차트 트레이딩(clean chart trading)', '네이키드 트레이딩(naked trading)', '생(生)트레이딩 또는 자연 트레이딩(raw or natural trading)'이라고 불리기도 합니다.
 
