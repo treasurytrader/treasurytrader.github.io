@@ -2,9 +2,6 @@
 layout : default
 title : 아무도 말해주지 않는 데이 트레이더에 대한 5가지 진실
 ---
-
-> ![](images/개미.png)
-
 <pre>
 <b>아무도 말해주지 않는 데이 트레이더에 대한 5가지 진실 (5 Coisas sobre Day trader que ninguém vai te contar)</b>
 <!--
